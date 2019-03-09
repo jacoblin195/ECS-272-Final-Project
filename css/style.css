@@ -1,0 +1,34 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	height: 100vh;
+}
+
+#scatterplot {
+	height: 86vh;
+}
+
+#sliderContainer {
+	height: 10vh;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	padding-top: 4vh;
+}
+
+.tooltip {
+	background: #eee;
+	box-shadow: 0 0 5px #999999;
+	color: #333;
+	font-size: 12px;
+	padding: 10px;
+	position: absolute;
+	text-align: left;
+	width: auto;
+	z-index: 10;
+	display: block;
+	opacity: 0;
+	pointer-events: none;
+}

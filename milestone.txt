@@ -1,0 +1,12 @@
+We implement a basic scatterplot for our system. The x-axis is the total number
+of players from each country and the y-axis stands for the number of medals each
+country won in an Olympic game. The size and color of dots indicates the male-
+female ratio.
+
+We also have a slider bar at the bottom for switching from year to year. We plan
+to implement a button that can auto-play the progress to see the long-term
+pattern.
+
+As for the bubble set contour, we haven't start implementing it. We are in the
+process of understanding the algorithm and will implement it on the scatterplot
+later on.  
