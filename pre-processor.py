@@ -1,12 +1,16 @@
 import json
 import csv
+import continent
 
 index_lookup = {}
 cols = ["ID", "Name", "Sex", "Age", "Height", "Weight", "Team", "NOC", "Games", "Year", "Season", "City", "Sport",
         "Event", "Medal"]
 
+noc_lookup = continent.NOC_lookup
+# print(noc_lookup.keys())
 for index, val in enumerate(cols):
     index_lookup[val] = index
+
 
 with open('athlete_events.csv', mode="r") as csvfile:
     records = csv.reader(csvfile, delimiter=',')
@@ -37,10 +41,14 @@ with open('athlete_events.csv', mode="r") as csvfile:
 
     years = []
     for year in summerRecordsByYear:
-        years.append(year)
+        arr = []
+        for NOC in summerRecordsByYear[year]:
+            summerRecordsByYear[year][NOC]["NOC"] = NOC
+            summerRecordsByYear[year][NOC]["country"] = noc_lookup[NOC]["name"]
+            summerRecordsByYear[year][NOC]["continent"] = noc_lookup[NOC]["continent"]
+
+            arr.append(summerRecordsByYear[year][NOC])
         with open(year+'.json', 'w+') as outfile:
-            json.dump(summerRecordsByYear[year], outfile)
-    with open('years.json', 'w+') as outfile:
-        years.sort()
-        json.dump(years, outfile)
+            json.dump(arr, outfile)
+
     print(summerRecordsByYear["2008"]["CHN"])

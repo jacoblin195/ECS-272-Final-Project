@@ -1,3 +1,5 @@
+We have pre-proccessed the dataset and transform it for d3 graph loading.
+
 We implement a basic scatterplot for our system. The x-axis is the total number
 of players from each country and the y-axis stands for the number of medals each
 country won in an Olympic game. The size and color of dots indicates the male-
@@ -9,4 +11,4 @@ pattern.
 
 As for the bubble set contour, we haven't start implementing it. We are in the
 process of understanding the algorithm and will implement it on the scatterplot
-later on.  
+later on.

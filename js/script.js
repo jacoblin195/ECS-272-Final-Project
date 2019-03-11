@@ -16,7 +16,9 @@ function setupSlider() {
 		start: [0],
 		step: 1,
 		tooltips: {
-			to: (idx) => years[idx]
+			to: (idx) => {
+				return years[Math.round(idx)];
+			}
 		},
 		range: {
 			'min': [0],
