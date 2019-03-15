@@ -1,0 +1,2811 @@
+year,country,NOC,continent,participants,male,female,medal
+1896,Greece,GRE,Europe,148,148,0,48
+1896,UK,GBR,Europe,25,25,0,9
+1896,Switzerland,SUI,Europe,8,8,0,3
+1896,USA,USA,North America,27,27,0,20
+1896,Germany,GER,Europe,94,94,0,32
+1896,France,FRA,Europe,26,26,0,11
+1896,Hungary,HUN,Europe,18,18,0,6
+1896,Australia,AUS,Oceania,5,5,0,3
+1896,Austria,AUT,Europe,8,8,0,5
+1896,Denmark,DEN,Europe,15,15,0,6
+1896,Italy,ITA,Europe,1,1,0,0
+1896,Sweden,SWE,Europe,5,5,0,0
+1900,Denmark,DEN,Europe,36,36,0,9
+1900,Germany,GER,Europe,103,103,0,45
+1900,USA,USA,North America,135,126,9,63
+1900,France,FRA,Europe,1071,1055,16,235
+1900,Austria,AUT,Europe,26,26,0,6
+1900,Norway,NOR,Europe,29,29,0,9
+1900,UK,GBR,Europe,146,144,2,108
+1900,Italy,ITA,Europe,36,35,1,5
+1900,Belgium,BEL,Europe,100,100,0,43
+1900,Hungary,HUN,Europe,34,34,0,5
+1900,Switzerland,SUI,Europe,52,49,3,21
+1900,Netherlands,NED,Europe,73,73,0,27
+1900,Sweden,SWE,Europe,27,27,0,4
+1900,Argentina,ARG,South America,1,1,0,0
+1900,Spain,ESP,Europe,12,12,0,2
+1900,Haiti,HAI,North America,4,4,0,1
+1900,Peru,PER,South America,2,2,0,0
+1900,Russia,RUS,Europe,5,5,0,0
+1900,Czech Republic,BOH,Europe,9,7,2,3
+1900,Mexico,MEX,North America,3,3,0,3
+1900,Cuba,CUB,North America,2,2,0,2
+1900,Canada,CAN,North America,7,7,0,2
+1900,Colombia,COL,South America,1,1,0,1
+1900,Brazil,BRA,South America,3,3,0,0
+1900,Australia,AUS,Oceania,6,6,0,6
+1900,New Zealand,NZL,Oceania,1,1,0,1
+1900,Iran,IRI,Asia,1,1,0,0
+1900,Greece,GRE,Europe,4,4,0,0
+1900,Romania,ROU,Europe,1,1,0,0
+1900,India,IND,Asia,5,5,0,2
+1900,Luxembourg,LUX,Europe,1,1,0,1
+1904,USA,USA,North America,1109,1093,16,394
+1904,Canada,CAN,North America,61,61,0,48
+1904,Italy,ITA,Europe,1,1,0,0
+1904,Germany,GER,Europe,55,55,0,16
+1904,Cuba,CUB,North America,6,6,0,5
+1904,France,FRA,Europe,2,2,0,2
+1904,UK,GBR,Europe,6,6,0,2
+1904,Hungary,HUN,Europe,9,9,0,4
+1904,Greece,GRE,Europe,17,17,0,2
+1904,Norway,NOR,Europe,6,6,0,2
+1904,Canada,NFL,North America,1,1,0,0
+1904,Australia,AUS,Oceania,6,6,0,4
+1904,South Africa,RSA,Africa,8,8,0,0
+1904,Switzerland,SUI,Europe,7,7,0,3
+1904,Austria,AUT,Europe,7,7,0,4
+1906,Greece,GRE,Europe,484,475,9,102
+1906,Germany,GER,Europe,157,157,0,30
+1906,UK,GBR,Europe,113,113,0,39
+1906,Finland,FIN,Europe,18,18,0,4
+1906,Italy,ITA,Europe,103,103,0,56
+1906,Denmark,DEN,Europe,68,68,0,34
+1906,Norway,NOR,Europe,55,55,0,25
+1906,Sweden,SWE,Europe,95,95,0,21
+1906,Greece,CRT,Europe,11,11,0,0
+1906,Hungary,HUN,Europe,99,99,0,13
+1906,Canada,CAN,North America,4,4,0,2
+1906,Austria,AUT,Europe,100,100,0,9
+1906,USA,USA,North America,81,81,0,24
+1906,France,FRA,Europe,174,172,2,64
+1906,Australia,AUS,Oceania,10,10,0,3
+1906,Netherlands,NED,Europe,49,49,0,6
+1906,Belgium,BEL,Europe,31,31,0,11
+1906,Egypt,EGY,Africa,5,5,0,0
+1906,Czech Republic,BOH,Europe,29,29,0,3
+1906,Switzerland,SUI,Europe,45,45,0,12
+1906,Turkey,TUR,Asia,2,2,0,0
+1908,Italy,ITA,Europe,97,97,0,8
+1908,Germany,GER,Europe,148,146,2,21
+1908,UK,GBR,Europe,972,930,42,368
+1908,USA,USA,North America,219,219,0,65
+1908,Sweden,SWE,Europe,276,273,3,84
+1908,Denmark,DEN,Europe,107,107,0,17
+1908,Australia,ANZ,Oceania,48,48,0,19
+1908,France,FRA,Europe,319,319,0,40
+1908,Norway,NOR,Europe,103,103,0,42
+1908,Canada,CAN,North America,148,148,0,52
+1908,Belgium,BEL,Europe,99,99,0,33
+1908,Hungary,HUN,Europe,107,107,0,20
+1908,Finland,FIN,Europe,94,94,0,30
+1908,Greece,GRE,Europe,49,49,0,4
+1908,Czech Republic,BOH,Europe,41,41,0,6
+1908,Netherlands,NED,Europe,218,218,0,16
+1908,South Africa,RSA,Africa,33,33,0,2
+1908,Russia,RUS,Europe,7,7,0,3
+1908,Austria,AUT,Europe,13,13,0,1
+1908,Iceland,ISL,Europe,1,1,0,0
+1908,Argentina,ARG,South America,1,1,0,0
+1908,Switzerland,SUI,Europe,1,1,0,0
+1912,Finland,FIN,Europe,233,231,2,71
+1912,Norway,NOR,Europe,263,260,3,80
+1912,Sweden,SWE,Europe,714,676,38,190
+1912,Germany,GER,Europe,312,302,10,53
+1912,UK,GBR,Europe,461,444,17,170
+1912,Luxembourg,LUX,Europe,44,44,0,0
+1912,France,FRA,Europe,232,230,2,26
+1912,Hungary,HUN,Europe,207,207,0,30
+1912,USA,USA,North America,364,364,0,107
+1912,Austria,AUT,Europe,132,122,10,14
+1912,Russia,RUS,Europe,266,266,0,14
+1912,Belgium,BEL,Europe,72,71,1,19
+1912,Italy,ITA,Europe,96,96,0,25
+1912,Chile,CHI,South America,28,28,0,0
+1912,Denmark,DEN,Europe,233,231,2,87
+1912,Greece,GRE,Europe,77,77,0,2
+1912,Czech Republic,BOH,Europe,74,74,0,0
+1912,Canada,CAN,North America,60,60,0,8
+1912,Netherlands,NED,Europe,45,45,0,26
+1912,Australia,ANZ,Oceania,38,36,2,10
+1912,South Africa,RSA,Africa,56,56,0,7
+1912,Portugal,POR,Europe,8,8,0,0
+1912,Switzerland,SUI,Europe,7,7,0,2
+1912,Unknown,UNK,NA,2,2,0,0
+1912,Iceland,ISL,Europe,2,2,0,0
+1912,Japan,JPN,Asia,4,4,0,0
+1912,Serbia,SRB,Europe,2,2,0,0
+1912,Turkey,TUR,Asia,7,7,0,0
+1912,Poland,POL,Europe,1,1,0,0
+1920,Denmark,DEN,Europe,246,239,7,71
+1920,Finland,FIN,Europe,136,135,1,52
+1920,Norway,NOR,Europe,267,261,6,137
+1920,Egypt,EGY,Africa,22,22,0,0
+1920,UK,GBR,Europe,345,314,31,111
+1920,Sweden,SWE,Europe,404,381,23,154
+1920,Spain,ESP,Europe,111,111,0,23
+1920,USA,USA,North America,473,451,22,194
+1920,Switzerland,SUI,Europe,126,126,0,29
+1920,Belgium,BEL,Europe,518,500,18,188
+1920,France,FRA,Europe,452,437,15,141
+1920,Italy,ITA,Europe,291,289,2,84
+1920,Luxembourg,LUX,Europe,35,35,0,1
+1920,Brazil,BRA,South America,38,38,0,7
+1920,Greece,GRE,Europe,98,98,0,5
+1920,Czech Republic,TCH,Europe,182,181,1,10
+1920,India,IND,Asia,7,7,0,0
+1920,Monaco,MON,Europe,7,7,0,0
+1920,Chile,CHI,South America,2,2,0,0
+1920,Canada,CAN,North America,85,85,0,16
+1920,Australia,AUS,Oceania,29,26,3,7
+1920,Netherlands,NED,Europe,213,212,1,50
+1920,South Africa,RSA,Africa,97,95,2,21
+1920,Portugal,POR,Europe,40,40,0,0
+1920,Serbia,YUG,Europe,15,15,0,0
+1920,New Zealand,NZL,Oceania,6,4,2,1
+1920,Japan,JPN,Asia,26,26,0,3
+1920,Estonia,EST,Europe,20,20,0,3
+1920,Argentina,ARG,South America,1,1,0,0
+1924,Finland,FIN,Europe,253,253,0,52
+1924,Norway,NOR,Europe,105,101,4,22
+1924,Bulgaria,BUL,Europe,31,31,0,0
+1924,Chile,CHI,South America,18,18,0,0
+1924,Switzerland,SUI,Europe,262,257,5,60
+1924,Monaco,MON,Europe,9,9,0,1
+1924,UK,GBR,Europe,428,389,39,64
+1924,France,FRA,Europe,636,586,50,110
+1924,Belgium,BEL,Europe,234,224,10,39
+1924,Hungary,HUN,Europe,140,136,4,22
+1924,Poland,POL,Europe,100,99,1,5
+1924,Austria,AUT,Europe,56,53,3,4
+1924,Sweden,SWE,Europe,256,230,26,72
+1924,Netherlands,NED,Europe,246,231,15,27
+1924,Egypt,EGY,Africa,30,30,0,0
+1924,Mexico,MEX,North America,28,28,0,0
+1924,Argentina,ARG,South America,109,109,0,10
+1924,Turkey,TUR,Asia,23,23,0,0
+1924,Italy,ITA,Europe,333,326,7,51
+1924,USA,USA,North America,459,424,35,182
+1924,Cuba,CUB,North America,13,13,0,0
+1924,Spain,ESP,Europe,151,145,6,0
+1924,Luxembourg,LUX,Europe,122,120,2,2
+1924,Greece,GRE,Europe,79,77,2,1
+1924,Denmark,DEN,Europe,158,139,19,14
+1924,Uruguay,URU,South America,40,40,0,14
+1924,Australia,AUS,Oceania,60,59,1,10
+1924,Czech Republic,TCH,Europe,242,238,4,10
+1924,Lithuania,LTU,Europe,13,13,0,0
+1924,Estonia,EST,Europe,47,47,0,6
+1924,Latvia,LAT,Europe,47,47,0,0
+1924,Serbia,YUG,Europe,116,116,0,2
+1924,Haiti,HAI,North America,16,16,0,5
+1924,Romania,ROU,Europe,45,45,0,16
+1924,Canada,CAN,North America,83,83,0,20
+1924,South Africa,RSA,Africa,44,44,0,3
+1924,Ireland,IRL,Europe,60,54,6,2
+1924,Portugal,POR,Europe,47,47,0,4
+1924,Brazil,BRA,South America,18,18,0,0
+1924,Japan,JPN,Asia,37,37,0,1
+1924,India,IND,Asia,24,22,2,0
+1924,New Zealand,NZL,Oceania,6,4,2,1
+1924,Ecuador,ECU,South America,4,4,0,0
+1924,Philippines,PHI,Asia,2,2,0,0
+1924,Russia,RUS,Europe,3,2,1,0
+1928,Norway,NOR,Europe,79,79,0,9
+1928,Egypt,EGY,Africa,43,43,0,4
+1928,USA,USA,North America,426,372,54,88
+1928,India,IND,Asia,24,24,0,14
+1928,Switzerland,SUI,Europe,236,235,1,30
+1928,Germany,GER,Europe,399,355,44,77
+1928,UK,GBR,Europe,354,316,38,58
+1928,Canada,CAN,North America,113,101,12,33
+1928,Sweden,SWE,Europe,139,121,18,37
+1928,Belgium,BEL,Europe,260,244,16,5
+1928,France,FRA,Europe,422,368,54,50
+1928,Netherlands,NED,Europe,384,329,55,57
+1928,Italy,ITA,Europe,273,252,21,72
+1928,Mexico,MEX,North America,55,55,0,0
+1928,Finland,FIN,Europe,132,130,2,25
+1928,Denmark,DEN,Europe,122,110,12,15
+1928,Japan,JPN,Asia,56,54,2,9
+1928,Lithuania,LTU,Europe,13,12,1,0
+1928,Argentina,ARG,South America,98,98,0,26
+1928,Romania,ROU,Europe,33,31,2,0
+1928,Spain,ESP,Europe,106,106,0,3
+1928,Chile,CHI,South America,46,46,0,1
+1928,Luxembourg,LUX,Europe,107,105,2,1
+1928,Portugal,POR,Europe,39,39,0,6
+1928,Greece,GRE,Europe,47,47,0,0
+1928,Uruguay,URU,South America,17,17,0,17
+1928,Austria,AUT,Europe,113,107,6,5
+1928,Ireland,IRL,Europe,44,37,7,1
+1928,Poland,POL,Europe,146,132,14,20
+1928,Serbia,YUG,Europe,86,86,0,12
+1928,Czech Republic,TCH,Europe,147,146,1,16
+1928,Turkey,TUR,Asia,40,40,0,0
+1928,South Africa,RSA,Africa,40,28,12,6
+1928,Hungary,HUN,Europe,219,203,16,21
+1928,Monaco,MON,Europe,12,12,0,0
+1928,Cuba,CUB,North America,1,1,0,0
+1928,Latvia,LAT,Europe,24,22,2,0
+1928,Zimbabwe,ZIM,Africa,2,2,0,0
+1928,Australia,AUS,Oceania,29,22,7,4
+1928,Malta,MLT,Europe,9,9,0,0
+1928,Haiti,HAI,North America,3,3,0,1
+1928,New Zealand,NZL,Oceania,13,8,5,1
+1928,Estonia,EST,Europe,23,23,0,9
+1928,Philippines,PHI,Asia,6,6,0,1
+1928,Panama,PAN,North America,2,2,0,0
+1928,Bulgaria,BUL,Europe,10,10,0,0
+1932,Netherlands,NED,Europe,80,55,25,13
+1932,USA,USA,North America,743,619,124,189
+1932,Belgium,BEL,Europe,69,44,25,1
+1932,France,FRA,Europe,159,148,11,40
+1932,Philippines,PHI,Asia,8,8,0,3
+1932,Italy,ITA,Europe,154,154,0,77
+1932,Finland,FIN,Europe,66,66,0,29
+1932,Sweden,SWE,Europe,128,123,5,32
+1932,UK,GBR,Europe,170,144,26,35
+1932,Mexico,MEX,North America,100,98,2,2
+1932,Germany,GER,Europe,202,184,18,43
+1932,India,IND,Asia,26,26,0,15
+1932,Spain,ESP,Europe,8,8,0,1
+1932,Brazil,BRA,South America,67,64,3,0
+1932,Denmark,DEN,Europe,94,72,22,11
+1932,Japan,JPN,Asia,203,176,27,31
+1932,Canada,CAN,North America,191,165,26,39
+1932,Argentina,ARG,South America,47,47,0,4
+1932,Hungary,HUN,Europe,118,116,2,33
+1932,Czech Republic,TCH,Europe,44,44,0,6
+1932,South Africa,RSA,Africa,20,15,5,5
+1932,Poland,POL,Europe,71,59,12,21
+1932,Australia,AUS,Oceania,20,15,5,5
+1932,Latvia,LAT,Europe,13,13,0,1
+1932,Peru,PER,South America,3,3,0,0
+1932,New Zealand,NZL,Oceania,29,28,1,2
+1932,Austria,AUT,Europe,33,30,3,5
+1932,Haiti,HAI,North America,3,3,0,0
+1932,Greece,GRE,Europe,16,16,0,0
+1932,Ireland,IRL,Europe,18,15,3,2
+1932,Romania,ROU,Europe,2,2,0,0
+1932,Cuba,CUB,North America,3,3,0,0
+1932,Norway,NOR,Europe,8,7,1,0
+1932,Switzerland,SUI,Europe,9,9,0,1
+1932,Portugal,POR,Europe,8,8,0,0
+1932,Colombia,COL,South America,2,2,0,0
+1932,El Salvador,ESA,North America,4,4,0,0
+1932,Uruguay,URU,South America,6,6,0,1
+1932,Venezuela,VEN,South America,1,1,0,0
+1932,Luxembourg,LUX,Europe,11,11,0,0
+1932,Estonia,EST,Europe,3,3,0,0
+1932,Bulgaria,BUL,Europe,2,2,0,0
+1932,China,CHN,Asia,2,2,0,0
+1932,Guatemala,GUA,North America,1,0,1,0
+1932,Serbia,YUG,Europe,1,1,0,0
+1932,Turkey,TUR,Asia,2,2,0,0
+1932,Monaco,MON,Europe,1,1,0,0
+1936,Estonia,EST,Europe,36,36,0,7
+1936,Norway,NOR,Europe,84,81,3,28
+1936,Hungary,HUN,Europe,335,311,24,41
+1936,Italy,ITA,Europe,349,329,20,76
+1936,Egypt,EGY,Africa,66,66,0,5
+1936,Japan,JPN,Asia,325,299,26,23
+1936,Monaco,MON,Europe,11,11,0,0
+1936,UK,GBR,Europe,250,207,43,36
+1936,Romania,ROU,Europe,118,116,2,1
+1936,Mexico,MEX,North America,32,32,0,16
+1936,Chile,CHI,South America,56,55,1,0
+1936,USA,USA,North America,487,429,58,96
+1936,Germany,GER,Europe,581,529,52,224
+1936,Canada,CAN,North America,167,140,27,22
+1936,Turkey,TUR,Asia,62,60,2,2
+1936,Belgium,BEL,Europe,205,200,5,14
+1936,Uruguay,URU,South America,40,40,0,0
+1936,Philippines,PHI,Asia,40,40,0,1
+1936,Sweden,SWE,Europe,231,217,14,35
+1936,Switzerland,SUI,Europe,328,322,6,52
+1936,Afghanistan,AFG,Asia,16,16,0,0
+1936,Argentina,ARG,South America,68,67,1,11
+1936,Finland,FIN,Europe,186,176,10,27
+1936,Brazil,BRA,South America,94,86,8,0
+1936,Poland,POL,Europe,177,158,19,12
+1936,Peru,PER,South America,46,46,0,0
+1936,France,FRA,Europe,303,290,13,44
+1936,India,IND,Asia,30,30,0,19
+1936,Austria,AUT,Europe,363,338,25,55
+1936,Denmark,DEN,Europe,173,152,21,6
+1936,Latvia,LAT,Europe,33,33,0,2
+1936,Portugal,POR,Europe,26,26,0,3
+1936,Bulgaria,BUL,Europe,85,85,0,0
+1936,Greece,GRE,Europe,64,62,2,0
+1936,New Zealand,NZL,Oceania,9,9,0,1
+1936,Czech Republic,TCH,Europe,293,276,17,18
+1936,Australia,AUS,Oceania,39,33,6,1
+1936,Netherlands,NED,Europe,227,195,32,37
+1936,Serbia,YUG,Europe,173,158,15,1
+1936,China,CHN,Asia,65,62,3,0
+1936,Bermuda,BER,North America,9,9,0,0
+1936,Malta,MLT,Europe,11,11,0,0
+1936,South Africa,RSA,Africa,54,42,12,1
+1936,Luxembourg,LUX,Europe,129,128,1,0
+1936,Bolivia,BOL,South America,2,2,0,0
+1936,Costa Rica,CRC,North America,1,1,0,0
+1936,Colombia,COL,South America,6,6,0,0
+1936,Liechtenstein,LIE,Europe,8,8,0,0
+1936,Iceland,ISL,Europe,13,13,0,0
+1948,Finland,FIN,Europe,215,208,7,33
+1948,Norway,NOR,Europe,97,91,6,18
+1948,Iran,IRI,Asia,39,39,0,1
+1948,Egypt,EGY,Africa,166,166,0,5
+1948,Pakistan,PAK,Asia,44,44,0,0
+1948,Monaco,MON,Europe,4,4,0,0
+1948,Uruguay,URU,South America,79,78,1,3
+1948,Sweden,SWE,Europe,223,198,25,75
+1948,Turkey,TUR,Asia,87,86,1,12
+1948,Italy,ITA,Europe,310,285,25,67
+1948,Chile,CHI,South America,72,64,8,0
+1948,Denmark,DEN,Europe,253,224,29,51
+1948,Mexico,MEX,North America,149,140,9,9
+1948,France,FRA,Europe,433,383,50,72
+1948,Poland,POL,Europe,52,45,7,2
+1948,Spain,ESP,Europe,84,84,0,3
+1948,Belgium,BEL,Europe,182,159,23,15
+1948,UK,GBR,Europe,590,488,102,61
+1948,Philippines,PHI,Asia,31,31,0,0
+1948,Switzerland,SUI,Europe,287,277,10,36
+1948,Afghanistan,AFG,Asia,25,25,0,0
+1948,Australia,AUS,Oceania,103,85,18,16
+1948,Cuba,CUB,North America,112,112,0,2
+1948,Argentina,ARG,South America,295,275,20,11
+1948,Ireland,IRL,Europe,83,77,6,1
+1948,India,IND,Asia,89,89,0,20
+1948,USA,USA,North America,424,366,58,152
+1948,Iraq,IRQ,Asia,13,13,0,0
+1948,Peru,PER,South America,49,49,0,1
+1948,Colombia,COL,South America,11,11,0,0
+1948,Brazil,BRA,South America,105,83,22,10
+1948,Serbia,YUG,Europe,162,150,12,16
+1948,Austria,AUT,Europe,239,197,42,8
+1948,South Korea,KOR,Asia,48,47,1,2
+1948,Hungary,HUN,Europe,222,195,27,62
+1948,Netherlands,NED,Europe,187,141,46,42
+1948,Luxembourg,LUX,Europe,115,111,4,0
+1948,Greece,GRE,Europe,97,96,1,0
+1948,Iceland,ISL,Europe,27,24,3,0
+1948,South Africa,RSA,Africa,43,41,2,6
+1948,Canada,CAN,North America,188,156,32,7
+1948,Czech Republic,TCH,Europe,153,138,15,20
+1948,Puerto Rico,PUR,North America,9,9,0,1
+1948,Bermuda,BER,North America,28,23,5,0
+1948,Portugal,POR,Europe,65,65,0,5
+1948,Lebanon,LIB,Asia,9,9,0,0
+1948,Jamaica,JAM,North America,26,17,9,3
+1948,Liechtenstein,LIE,Europe,2,2,0,0
+1948,New Zealand,NZL,Oceania,8,7,1,0
+1948,China,CHN,Asia,33,32,1,0
+1948,Guyana,GUY,South America,7,7,0,0
+1948,Sri Lanka,SRI,Asia,10,10,0,1
+1948,Trinidad and Tobago,TTO,Asia,9,9,0,1
+1948,Malta,MLT,Europe,1,1,0,0
+1948,Panama,PAN,North America,2,2,0,2
+1948,Venezuela,VEN,South America,2,2,0,0
+1948,Myanmar,MYA,Asia,5,5,0,0
+1948,Syria,SYR,Asia,1,1,0,0
+1948,Singapore,SGP,Asia,1,1,0,0
+1952,Finland,FIN,Europe,412,324,88,40
+1952,Norway,NOR,Europe,190,171,19,13
+1952,Egypt,EGY,Africa,196,196,0,1
+1952,France,FRA,Europe,408,318,90,40
+1952,Pakistan,PAK,Asia,51,51,0,0
+1952,Monaco,MON,Europe,10,10,0,0
+1952,Spain,ESP,Europe,42,42,0,1
+1952,Sweden,SWE,Europe,355,275,80,70
+1952,Romania,ROU,Europe,241,180,61,4
+1952,Turkey,TUR,Asia,58,58,0,3
+1952,Argentina,ARG,South America,174,156,18,6
+1952,Uruguay,URU,South America,42,41,1,14
+1952,Ghana,GHA,Africa,9,9,0,0
+1952,Denmark,DEN,Europe,201,181,20,9
+1952,Hungary,HUN,Europe,345,258,87,102
+1952,Canada,CAN,North America,154,128,26,4
+1952,Poland,POL,Europe,248,174,74,4
+1952,Germany,GER,Europe,365,274,91,40
+1952,Brazil,BRA,South America,119,111,8,3
+1952,USA,USA,North America,451,352,99,134
+1952,Chile,CHI,South America,82,77,5,4
+1952,Iran,IRI,Asia,23,23,0,7
+1952,Australia,AUS,Oceania,140,122,18,20
+1952,Italy,ITA,Europe,376,299,77,54
+1952,Cuba,CUB,North America,57,57,0,0
+1952,Nigeria,NGR,Africa,15,15,0,0
+1952,Austria,AUT,Europe,238,168,70,3
+1952,Netherlands,NED,Europe,180,93,87,18
+1952,Switzerland,SUI,Europe,251,239,12,33
+1952,Bahamas,BAH,North America,7,7,0,0
+1952,Russia,URS,Europe,451,354,97,117
+1952,Belgium,BEL,Europe,184,176,8,8
+1952,UK,GBR,Europe,401,300,101,31
+1952,Mexico,MEX,North America,85,82,3,1
+1952,Portugal,POR,Europe,155,140,15,2
+1952,Venezuela,VEN,South America,63,61,2,1
+1952,Israel,ISR,Asia,31,27,4,0
+1952,South Africa,RSA,Africa,109,100,9,14
+1952,Luxembourg,LUX,Europe,101,101,0,1
+1952,Bulgaria,BUL,Europe,179,121,58,1
+1952,Puerto Rico,PUR,North America,23,23,0,0
+1952,Germany,SAA,Europe,93,86,7,0
+1952,India,IND,Asia,94,87,7,15
+1952,Japan,JPN,Asia,133,116,17,12
+1952,Greece,GRE,Europe,54,54,0,0
+1952,New Zealand,NZL,Oceania,20,16,4,3
+1952,Philippines,PHI,Asia,28,28,0,0
+1952,Czech Republic,TCH,Europe,218,157,61,25
+1952,Serbia,YUG,Europe,194,136,58,24
+1952,Bermuda,BER,North America,12,8,4,0
+1952,Guatemala,GUA,North America,35,33,2,0
+1952,Singapore,SGP,Asia,7,5,2,0
+1952,Iceland,ISL,Europe,18,18,0,0
+1952,Curacao,AHO,South America,11,11,0,0
+1952,Ireland,IRL,Europe,25,25,0,1
+1952,Vietnam,VNM,Asia,13,13,0,0
+1952,Panama,PAN,North America,1,1,0,0
+1952,China,HKG,Asia,9,6,3,0
+1952,Lebanon,LIB,Asia,9,9,0,2
+1952,South Korea,KOR,Asia,22,21,1,2
+1952,Sri Lanka,SRI,Asia,7,7,0,0
+1952,Jamaica,JAM,North America,16,13,3,8
+1952,Liechtenstein,LIE,Europe,2,2,0,0
+1952,Trinidad and Tobago,TTO,Asia,2,2,0,2
+1952,Thailand,THA,Asia,15,15,0,0
+1952,Myanmar,MYA,Asia,5,5,0,0
+1952,Guyana,GUY,South America,1,1,0,0
+1952,Indonesia,INA,Asia,3,3,0,0
+1952,China,CHN,Asia,1,1,0,0
+1956,Norway,NOR,Europe,29,23,6,3
+1956,France,FRA,Europe,227,191,36,33
+1956,Bulgaria,BUL,Europe,82,67,15,18
+1956,South Africa,RSA,Africa,90,77,13,7
+1956,Afghanistan,AFG,Asia,12,12,0,0
+1956,New Zealand,NZL,Oceania,57,46,11,3
+1956,Belgium,BEL,Europe,82,77,5,2
+1956,Australia,AUS,Oceania,412,341,71,67
+1956,Philippines,PHI,Asia,48,43,5,0
+1956,Russia,URS,Europe,411,333,78,169
+1956,Trinidad and Tobago,TTO,Asia,10,10,0,0
+1956,Sweden,SWE,Europe,186,130,56,34
+1956,India,IND,Asia,79,78,1,17
+1956,Chile,CHI,South America,43,41,2,4
+1956,Mexico,MEX,North America,36,33,3,2
+1956,Japan,JPN,Asia,222,164,58,24
+1956,Thailand,THA,Asia,40,40,0,0
+1956,Nigeria,NGR,Africa,14,14,0,0
+1956,Turkey,TUR,Asia,28,28,0,7
+1956,Pakistan,PAK,Asia,79,79,0,14
+1956,Bahamas,BAH,North America,5,5,0,2
+1956,Brazil,BRA,South America,63,62,1,1
+1956,Malaysia,MAL,Asia,34,33,1,0
+1956,UK,GBR,Europe,283,235,48,46
+1956,USA,USA,North America,443,345,98,123
+1956,Italy,ITA,Europe,207,150,57,47
+1956,Denmark,DEN,Europe,51,43,8,6
+1956,South Korea,KOR,Asia,36,36,0,2
+1956,Romania,ROU,Europe,103,56,47,19
+1956,Kenya,KEN,Africa,31,30,1,0
+1956,Serbia,YUG,Europe,37,33,4,23
+1956,Czech Republic,TCH,Europe,161,112,49,7
+1956,Finland,FIN,Europe,147,146,1,26
+1956,Colombia,COL,South America,47,47,0,0
+1956,Cuba,CUB,North America,24,23,1,0
+1956,Indonesia,INA,Asia,24,22,2,0
+1956,Germany,GER,Europe,261,218,43,52
+1956,Canada,CAN,North America,150,116,34,19
+1956,Hungary,HUN,Europe,197,136,61,64
+1956,Argentina,ARG,South America,44,43,1,2
+1956,Myanmar,MYA,Asia,12,12,0,0
+1956,Portugal,POR,Europe,18,18,0,0
+1956,Iran,IRI,Asia,17,17,0,5
+1956,Ethiopia,ETH,Africa,30,30,0,0
+1956,Peru,PER,South America,10,10,0,0
+1956,Poland,POL,Europe,118,60,58,19
+1956,Ireland,IRL,Europe,25,23,2,5
+1956,Luxembourg,LUX,Europe,27,22,5,0
+1956,Fiji,FIJ,Oceania,5,5,0,0
+1956,Venezuela,VEN,South America,38,38,0,0
+1956,Malaysia,NBO,Asia,2,2,0,0
+1956,Uruguay,URU,South America,29,29,0,12
+1956,Greece,GRE,Europe,16,16,0,1
+1956,Austria,AUT,Europe,57,52,5,4
+1956,Switzerland,SUI,Europe,18,18,0,3
+1956,Singapore,SGP,Asia,52,49,3,0
+1956,Taiwan,TPE,Asia,23,23,0,0
+1956,China,HKG,Asia,4,4,0,0
+1956,Puerto Rico,PUR,North America,14,14,0,0
+1956,Spain,ESP,Europe,12,12,0,0
+1956,Iceland,ISL,Europe,2,2,0,1
+1956,Egypt,EGY,Africa,6,6,0,0
+1956,Jamaica,JAM,North America,13,13,0,0
+1956,Sri Lanka,SRI,Asia,3,3,0,0
+1956,Uganda,UGA,Africa,5,5,0,0
+1956,Bermuda,BER,North America,3,3,0,0
+1956,Cambodia,CAM,Asia,2,2,0,0
+1956,Guyana,GUY,South America,6,4,2,0
+1956,Liberia,LBR,Africa,11,11,0,0
+1956,Israel,ISR,Asia,3,2,1,0
+1956,Vietnam,VNM,Asia,10,10,0,0
+1956,Netherlands,NED,Europe,1,1,0,0
+1960,Norway,NOR,Europe,50,49,1,2
+1960,Bulgaria,BUL,Europe,183,143,40,7
+1960,Syria,UAR,Asia,123,123,0,2
+1960,Sudan,SUD,Africa,13,13,0,0
+1960,Iraq,IRQ,Asia,28,28,0,1
+1960,Pakistan,PAK,Asia,53,53,0,14
+1960,Japan,JPN,Asia,278,218,60,31
+1960,Israel,ISR,Asia,46,27,19,0
+1960,Sweden,SWE,Europe,258,203,55,7
+1960,Russia,URS,Europe,414,315,99,169
+1960,New Zealand,NZL,Oceania,47,41,6,3
+1960,Chile,CHI,South America,9,8,1,0
+1960,Philippines,PHI,Asia,49,44,5,0
+1960,Belgium,BEL,Europe,150,130,20,4
+1960,Argentina,ARG,South America,116,115,1,4
+1960,Mexico,MEX,North America,110,97,13,1
+1960,Canada,CAN,North America,140,108,32,9
+1960,Poland,POL,Europe,307,238,69,30
+1960,France,FRA,Europe,363,291,72,12
+1960,UK,GBR,Europe,389,292,97,28
+1960,Ghana,GHA,Africa,15,15,0,1
+1960,Germany,GER,Europe,425,323,102,89
+1960,Ethiopia,ETH,Africa,15,15,0,1
+1960,Morocco,MAR,Africa,111,111,0,1
+1960,Uganda,UGA,Africa,16,16,0,0
+1960,Curacao,AHO,South America,5,5,0,0
+1960,Kenya,KEN,Africa,30,30,0,0
+1960,Uruguay,URU,South America,42,42,0,0
+1960,Cuba,CUB,North America,21,10,11,0
+1960,Finland,FIN,Europe,219,179,40,6
+1960,Turkey,TUR,Asia,58,54,4,9
+1960,Nigeria,NGR,Africa,15,15,0,0
+1960,Tunisia,TUN,Africa,56,56,0,0
+1960,Spain,ESP,Europe,238,197,41,14
+1960,Hungary,HUN,Europe,312,241,71,66
+1960,Peru,PER,South America,33,33,0,0
+1960,Switzerland,SUI,Europe,221,219,2,12
+1960,Portugal,POR,Europe,109,92,17,2
+1960,Bahamas,BAH,North America,14,14,0,0
+1960,Italy,ITA,Europe,402,323,79,88
+1960,Netherlands,NED,Europe,160,91,69,3
+1960,Brazil,BRA,South America,86,85,1,13
+1960,Malaysia,MAL,Asia,11,11,0,0
+1960,Iran,IRI,Asia,24,24,0,4
+1960,USA,USA,North America,428,326,102,125
+1960,Australia,AUS,Oceania,280,224,56,46
+1960,Venezuela,VEN,South America,54,45,9,1
+1960,Lebanon,LIB,Asia,22,22,0,0
+1960,South Korea,KOR,Asia,49,43,6,0
+1960,Romania,ROU,Europe,156,107,49,15
+1960,Denmark,DEN,Europe,109,96,13,23
+1960,Colombia,COL,South America,23,23,0,0
+1960,Luxembourg,LUX,Europe,117,104,13,0
+1960,Serbia,YUG,Europe,185,163,22,17
+1960,India,IND,Asia,49,49,0,13
+1960,Greece,GRE,Europe,59,59,0,3
+1960,Guyana,GUY,South America,6,5,1,0
+1960,Thailand,THA,Asia,24,24,0,0
+1960,Ireland,IRL,Europe,63,60,3,0
+1960,South Africa,RSA,Africa,72,66,6,3
+1960,Austria,AUT,Europe,198,144,54,3
+1960,Zimbabwe,RHO,Africa,12,11,1,0
+1960,Puerto Rico,PUR,North America,29,28,1,0
+1960,Monaco,MON,Europe,13,13,0,0
+1960,Czech Republic,TCH,Europe,202,153,49,22
+1960,Trinidad,WIF,Asia,20,20,0,5
+1960,Indonesia,INA,Asia,27,25,2,0
+1960,Malta,MLT,Europe,13,13,0,0
+1960,Liechtenstein,LIE,Europe,8,8,0,0
+1960,Panama,PAN,North America,8,2,6,0
+1960,San Marino,SMR,Europe,13,13,0,0
+1960,Taiwan,TPE,Asia,31,27,4,1
+1960,China,HKG,Asia,4,4,0,0
+1960,Myanmar,MYA,Asia,10,10,0,0
+1960,Singapore,SGP,Asia,5,5,0,1
+1960,Sri Lanka,SRI,Asia,5,5,0,0
+1960,Zimbabwe,ZIM,Africa,10,0,10,0
+1960,Bermuda,BER,North America,9,9,0,0
+1960,Afghanistan,AFG,Asia,16,16,0,0
+1960,Iceland,ISL,Europe,11,10,1,0
+1960,Liberia,LBR,Africa,6,6,0,0
+1960,Haiti,HAI,North America,1,1,0,0
+1960,Fiji,FIJ,Oceania,3,3,0,0
+1960,Vietnam,VNM,Asia,5,5,0,0
+1964,Russia,URS,Europe,463,350,113,174
+1964,Iraq,IRQ,Asia,19,19,0,0
+1964,Egypt,EGY,Africa,83,83,0,0
+1964,Tanzania,TAN,Africa,4,4,0,0
+1964,Pakistan,PAK,Asia,47,47,0,16
+1964,Sweden,SWE,Europe,175,122,53,15
+1964,Peru,PER,South America,40,39,1,0
+1964,Japan,JPN,Asia,456,354,102,62
+1964,Ghana,GHA,Africa,40,36,4,1
+1964,Ivory Coast,CIV,Africa,10,10,0,0
+1964,Argentina,ARG,South America,148,137,11,1
+1964,Bulgaria,BUL,Europe,116,101,15,10
+1964,UK,GBR,Europe,301,228,73,28
+1964,Brazil,BRA,South America,65,64,1,12
+1964,Germany,GER,Europe,478,366,112,116
+1964,Morocco,MAR,Africa,21,21,0,0
+1964,Puerto Rico,PUR,North America,45,37,8,0
+1964,Kenya,KEN,Africa,41,41,0,1
+1964,Iran,IRI,Asia,96,86,10,2
+1964,Italy,ITA,Europe,256,238,18,51
+1964,Hungary,HUN,Europe,319,239,80,56
+1964,Spain,ESP,Europe,67,62,5,0
+1964,Mexico,MEX,North America,128,122,6,1
+1964,Australia,AUS,Oceania,392,301,91,44
+1964,Nigeria,NGR,Africa,19,17,2,1
+1964,Norway,NOR,Europe,43,40,3,0
+1964,Austria,AUT,Europe,82,61,21,0
+1964,France,FRA,Europe,214,174,40,31
+1964,Turkey,TUR,Asia,25,25,0,6
+1964,India,IND,Asia,111,110,1,15
+1964,Malaysia,MAS,Asia,81,75,6,0
+1964,Finland,FIN,Europe,151,138,13,5
+1964,Switzerland,SUI,Europe,129,127,2,6
+1964,Portugal,POR,Europe,25,20,5,0
+1964,Canada,CAN,North America,194,150,44,5
+1964,Ethiopia,ETH,Africa,19,19,0,1
+1964,Philippines,PHI,Asia,70,56,14,1
+1964,USA,USA,North America,492,356,136,169
+1964,Belgium,BEL,Europe,74,69,5,3
+1964,Uruguay,URU,South America,29,29,0,1
+1964,Netherlands,NED,Europe,158,127,31,31
+1964,Uganda,UGA,Africa,19,16,3,0
+1964,South Korea,KOR,Asia,240,196,44,3
+1964,Cambodia,CAM,Asia,15,15,0,0
+1964,Denmark,DEN,Europe,71,61,10,12
+1964,Ireland,IRL,Europe,35,33,2,1
+1964,Romania,ROU,Europe,232,168,64,16
+1964,Czech Republic,TCH,Europe,187,147,40,54
+1964,Poland,POL,Europe,240,178,62,46
+1964,Luxembourg,LUX,Europe,27,25,2,0
+1964,New Zealand,NZL,Oceania,88,65,23,6
+1964,Afghanistan,AFG,Asia,8,8,0,0
+1964,Lebanon,LIB,Asia,8,8,0,0
+1964,Colombia,COL,South America,40,40,0,0
+1964,Thailand,THA,Asia,67,57,10,0
+1964,Israel,ISR,Asia,13,10,3,0
+1964,Tunisia,TUN,Africa,12,12,0,2
+1964,Zambia,ZAM,Africa,15,14,1,0
+1964,Trinidad and Tobago,TTO,Asia,18,18,0,6
+1964,Serbia,YUG,Europe,123,119,4,15
+1964,Mongolia,MGL,Asia,40,27,13,0
+1964,Zimbabwe,ZIM,Africa,33,27,6,0
+1964,Costa Rica,CRC,North America,2,2,0,0
+1964,Monaco,MON,Europe,1,1,0,0
+1964,Myanmar,MYA,Asia,12,12,0,0
+1964,Cuba,CUB,North America,76,73,3,1
+1964,Curacao,AHO,South America,4,4,0,0
+1964,Venezuela,VEN,South America,23,21,2,0
+1964,Jamaica,JAM,North America,32,23,9,0
+1964,Liechtenstein,LIE,Europe,3,3,0,0
+1964,Sri Lanka,SRI,Asia,7,7,0,0
+1964,Mali,MLI,Africa,2,2,0,0
+1964,Panama,PAN,North America,15,6,9,0
+1964,China,HKG,Asia,50,49,1,0
+1964,Taiwan,TPE,Asia,96,86,10,0
+1964,Bahamas,BAH,North America,12,12,0,2
+1964,Bermuda,BER,North America,4,4,0,0
+1964,Niger,NIG,Africa,1,1,0,0
+1964,Senegal,SEN,Africa,14,14,0,0
+1964,Guyana,GUY,South America,1,1,0,0
+1964,Republic of Congo,CGO,Africa,2,2,0,0
+1964,Greece,GRE,Europe,19,19,0,0
+1964,Chile,CHI,South America,16,16,0,0
+1964,Iceland,ISL,Europe,5,4,1,0
+1964,Nepal,NEP,Asia,6,6,0,0
+1964,Vietnam,VNM,Asia,23,23,0,0
+1964,Chad,CHA,Africa,2,2,0,0
+1964,Bolivia,BOL,South America,1,1,0,0
+1964,Liberia,LBR,Africa,2,2,0,0
+1964,Algeria,ALG,Africa,7,7,0,0
+1964,Cameroon,CMR,Africa,2,2,0,0
+1964,Madagascar,MAD,Africa,4,4,0,0
+1964,Dominican Republic,DOM,North America,1,1,0,0
+1968,Norway,NOR,Europe,86,47,39,6
+1968,Cameroon,CMR,Africa,5,5,0,1
+1968,Mexico,MEX,North America,446,343,103,9
+1968,Sudan,SUD,Africa,7,7,0,0
+1968,Malaysia,MAS,Asia,35,35,0,0
+1968,Nigeria,NGR,Africa,46,37,9,0
+1968,Philippines,PHI,Asia,89,79,10,0
+1968,Japan,JPN,Asia,289,223,66,63
+1968,Argentina,ARG,South America,132,123,9,2
+1968,Lebanon,LIB,Asia,15,15,0,0
+1968,Egypt,EGY,Africa,35,35,0,0
+1968,France,FRA,Europe,311,229,82,27
+1968,Portugal,POR,Europe,33,28,5,0
+1968,Peru,PER,South America,33,17,16,0
+1968,Turkey,TUR,Asia,30,30,0,2
+1968,El Salvador,ESA,North America,104,78,26,0
+1968,UK,GBR,Europe,328,235,93,19
+1968,Netherlands,NED,Europe,140,97,43,14
+1968,Ghana,GHA,Africa,36,34,2,0
+1968,Bulgaria,BUL,Europe,189,151,38,26
+1968,Germany,FRG,Europe,432,334,98,51
+1968,Puerto Rico,PUR,North America,99,81,18,0
+1968,Russia,URS,Europe,471,348,123,192
+1968,Panama,PAN,North America,16,16,0,0
+1968,Costa Rica,CRC,North America,27,24,3,0
+1968,Morocco,MAR,Africa,25,25,0,0
+1968,Uruguay,URU,South America,50,22,28,0
+1968,Pakistan,PAK,Asia,15,15,0,13
+1968,Finland,FIN,Europe,126,114,12,4
+1968,Austria,AUT,Europe,59,48,11,5
+1968,Sweden,SWE,Europe,186,150,36,9
+1968,Iraq,IRQ,Asia,4,4,0,0
+1968,Spain,ESP,Europe,137,134,3,0
+1968,Italy,ITA,Europe,268,235,33,33
+1968,Bahamas,BAH,North America,22,22,0,0
+1968,Guatemala,GUA,North America,67,63,4,0
+1968,Cuba,CUB,North America,227,177,50,10
+1968,Ethiopia,ETH,Africa,26,26,0,2
+1968,Brazil,BRA,South America,89,85,4,4
+1968,Czech Republic,TCH,Europe,203,143,60,29
+1968,Romania,ROU,Europe,100,79,21,23
+1968,Greece,GRE,Europe,44,44,0,1
+1968,Hungary,HUN,Europe,303,220,83,81
+1968,USA,USA,North America,529,377,152,166
+1968,Switzerland,SUI,Europe,155,147,8,13
+1968,Poland,POL,Europe,296,219,77,37
+1968,Guyana,GUY,South America,6,6,0,0
+1968,Germany,GDR,Europe,346,263,83,52
+1968,South Korea,KOR,Asia,66,51,15,2
+1968,Ecuador,ECU,South America,41,39,2,0
+1968,Denmark,DEN,Europe,93,83,10,17
+1968,Belize,BIZ,North America,7,7,0,0
+1968,Australia,AUS,Oceania,224,163,61,51
+1968,Canada,CAN,North America,291,212,79,10
+1968,Serbia,YUG,Europe,130,106,24,29
+1968,Curacao,AHO,South America,5,3,2,0
+1968,New Zealand,NZL,Oceania,65,51,14,7
+1968,Iran,IRI,Asia,14,14,0,5
+1968,Colombia,COL,South America,70,56,14,0
+1968,Trinidad and Tobago,TTO,Asia,25,25,0,0
+1968,Nicaragua,NCA,North America,16,16,0,0
+1968,Kenya,KEN,Africa,50,47,3,12
+1968,Bolivia,BOL,South America,4,4,0,0
+1968,Thailand,THA,Asia,46,46,0,0
+1968,Chile,CHI,South America,25,23,2,0
+1968,Tunisia,TUN,Africa,8,8,0,2
+1968,Afghanistan,AFG,Asia,5,5,0,0
+1968,Belgium,BEL,Europe,106,90,16,3
+1968,Mali,MLI,Africa,2,2,0,0
+1968,Syria,SYR,Asia,2,2,0,0
+1968,Ireland,IRL,Europe,57,46,11,0
+1968,Guinea,GUI,Africa,15,15,0,0
+1968,Israel,ISR,Asia,39,32,7,0
+1968,Honduras,HON,North America,6,6,0,0
+1968,Democratic Republic of the Congo,COD,Africa,8,8,0,0
+1968,Monaco,MON,Europe,2,2,0,0
+1968,Mongolia,MGL,Asia,38,22,16,4
+1968,Bermuda,BER,North America,6,6,0,0
+1968,Liechtenstein,LIE,Europe,3,3,0,0
+1968,"Virgin Islands, US",ISV,North America,6,6,0,0
+1968,Venezuela,VEN,South America,30,30,0,1
+1968,Jamaica,JAM,North America,35,24,11,1
+1968,Vietnam,VNM,Asia,9,7,2,0
+1968,Barbados,BAR,North America,13,13,0,0
+1968,Senegal,SEN,Africa,24,24,0,0
+1968,Dominican Republic,DOM,North America,24,24,0,0
+1968,Taiwan,TPE,Asia,93,62,31,1
+1968,India,IND,Asia,27,27,0,16
+1968,Tanzania,TAN,Africa,5,5,0,0
+1968,Singapore,SGP,Asia,6,6,0,0
+1968,Sierra Leone,SLE,Africa,4,4,0,0
+1968,China,HKG,Asia,25,25,0,0
+1968,Paraguay,PAR,South America,1,1,0,0
+1968,Niger,NIG,Africa,2,2,0,0
+1968,Kuwait,KUW,Asia,2,2,0,0
+1968,Indonesia,INA,Asia,6,6,0,0
+1968,Ivory Coast,CIV,Africa,11,11,0,0
+1968,Uganda,UGA,Africa,14,14,0,2
+1968,Luxembourg,LUX,Europe,7,4,3,0
+1968,San Marino,SMR,Europe,4,4,0,0
+1968,Iceland,ISL,Europe,16,10,6,0
+1968,Malta,MLT,Europe,1,1,0,0
+1968,Myanmar,MYA,Asia,4,4,0,0
+1968,Chad,CHA,Africa,4,4,0,0
+1968,Zambia,ZAM,Africa,7,7,0,0
+1968,Sri Lanka,SRI,Asia,3,3,0,0
+1968,Libya,LBA,Africa,1,1,0,0
+1968,Algeria,ALG,Africa,9,9,0,0
+1968,Fiji,FIJ,Oceania,1,1,0,0
+1968,Central African Republic,CAF,Africa,1,1,0,0
+1968,Suriname,SUR,South America,1,1,0,0
+1968,Madagascar,MAD,Africa,6,6,0,0
+1972,Norway,NOR,Europe,161,119,42,8
+1972,Sudan,SUD,Africa,31,31,0,0
+1972,Nigeria,NGR,Africa,36,25,11,1
+1972,Chad,CHA,Africa,5,5,0,0
+1972,Tanzania,TAN,Africa,22,22,0,0
+1972,Kuwait,KUW,Asia,4,4,0,0
+1972,Egypt,EGY,Africa,26,26,0,0
+1972,Ethiopia,ETH,Africa,40,40,0,2
+1972,Russia,URS,Europe,531,397,134,214
+1972,Japan,JPN,Asia,293,214,79,56
+1972,Brazil,BRA,South America,104,97,7,2
+1972,Germany,GDR,Europe,454,326,128,151
+1972,Argentina,ARG,South America,123,113,10,1
+1972,Italy,ITA,Europe,345,274,71,25
+1972,Somalia,SOM,Africa,4,4,0,0
+1972,Lebanon,LIB,Asia,36,34,2,1
+1972,USA,USA,North America,578,423,155,171
+1972,France,FRA,Europe,356,282,74,22
+1972,Colombia,COL,South America,75,63,12,3
+1972,Peru,PER,South America,31,27,4,0
+1972,UK,GBR,Europe,433,289,144,29
+1972,Cuba,CUB,North America,201,166,35,22
+1972,Ghana,GHA,Africa,41,37,4,1
+1972,Uruguay,URU,South America,20,13,7,0
+1972,Poland,POL,Europe,418,340,78,46
+1972,Iran,IRI,Asia,56,56,0,3
+1972,Canada,CAN,North America,344,236,108,11
+1972,Germany,FRG,Europe,587,439,148,102
+1972,Cameroon,CMR,Africa,18,18,0,0
+1972,Uganda,UGA,Africa,35,33,2,2
+1972,Hungary,HUN,Europe,367,270,97,81
+1972,Philippines,PHI,Asia,79,70,9,0
+1972,Togo,TOG,Africa,7,7,0,0
+1972,Curacao,AHO,South America,2,2,0,0
+1972,Austria,AUT,Europe,143,122,21,3
+1972,Switzerland,SUI,Europe,265,189,76,8
+1972,Benin,BEN,Africa,3,3,0,0
+1972,Romania,ROU,Europe,258,194,64,40
+1972,Mexico,MEX,North America,281,210,71,1
+1972,Denmark,DEN,Europe,155,137,18,1
+1972,Netherlands,NED,Europe,199,114,85,6
+1972,Pakistan,PAK,Asia,26,26,0,15
+1972,Finland,FIN,Europe,133,115,18,10
+1972,Turkey,TUR,Asia,50,49,1,1
+1972,Australia,AUS,Oceania,266,193,73,20
+1972,Morocco,MAR,Africa,39,36,3,0
+1972,Saudi Arabia,KSA,Asia,14,14,0,0
+1972,Sweden,SWE,Europe,186,136,50,22
+1972,Portugal,POR,Europe,41,41,0,0
+1972,Serbia,YUG,Europe,212,167,45,18
+1972,Puerto Rico,PUR,North America,60,60,0,0
+1972,Czech Republic,TCH,Europe,274,203,71,29
+1972,Algeria,ALG,Africa,7,7,0,0
+1972,Indonesia,INA,Asia,7,3,4,0
+1972,Jamaica,JAM,North America,51,32,19,1
+1972,Israel,ISR,Asia,17,13,4,0
+1972,Spain,ESP,Europe,162,153,9,1
+1972,"Virgin Islands, US",ISV,North America,16,16,0,0
+1972,El Salvador,ESA,North America,18,18,0,0
+1972,Malaysia,MAS,Asia,57,52,5,0
+1972,Bermuda,BER,North America,9,9,0,0
+1972,Kenya,KEN,Africa,69,66,3,12
+1972,Bulgaria,BUL,Europe,226,167,59,22
+1972,South Korea,KOR,Asia,43,33,10,1
+1972,Senegal,SEN,Africa,40,40,0,0
+1972,Madagascar,MAD,Africa,13,13,0,0
+1972,Luxembourg,LUX,Europe,15,14,1,0
+1972,New Zealand,NZL,Oceania,112,95,17,14
+1972,Thailand,THA,Asia,37,37,0,0
+1972,Trinidad and Tobago,TTO,Asia,36,35,1,0
+1972,Afghanistan,AFG,Asia,8,8,0,0
+1972,Bolivia,BOL,South America,14,14,0,0
+1972,Panama,PAN,North America,8,8,0,0
+1972,Guyana,GUY,South America,4,4,0,0
+1972,Greece,GRE,Europe,66,60,6,2
+1972,Iceland,ISL,Europe,30,29,1,0
+1972,Myanmar,MYA,Asia,19,19,0,0
+1972,Ivory Coast,CIV,Africa,13,13,0,0
+1972,India,IND,Asia,43,42,1,14
+1972,Belgium,BEL,Europe,106,98,8,2
+1972,Mongolia,MGL,Asia,44,42,2,1
+1972,Ireland,IRL,Europe,84,64,20,0
+1972,Liechtenstein,LIE,Europe,12,12,0,0
+1972,Venezuela,VEN,South America,33,25,8,0
+1972,Chile,CHI,South America,13,11,2,0
+1972,Monaco,MON,Europe,5,5,0,0
+1972,Bahamas,BAH,North America,25,24,1,0
+1972,Republic of Congo,CGO,Africa,8,8,0,0
+1972,Barbados,BAR,North America,20,12,8,0
+1972,Tunisia,TUN,Africa,37,37,0,1
+1972,Dominican Republic,DOM,North America,5,5,0,0
+1972,Malta,MLT,Europe,5,5,0,0
+1972,Burkina Faso,BUR,Africa,1,1,0,0
+1972,Suriname,SUR,South America,3,3,0,0
+1972,Guatemala,GUA,North America,11,11,0,0
+1972,Mali,MLI,Africa,3,3,0,0
+1972,Nicaragua,NCA,North America,10,8,2,0
+1972,San Marino,SMR,Europe,7,7,0,0
+1972,Costa Rica,CRC,North America,4,4,0,0
+1972,China,HKG,Asia,18,18,0,0
+1972,Singapore,SGP,Asia,12,9,3,0
+1972,Taiwan,TPE,Asia,44,29,15,0
+1972,Haiti,HAI,North America,7,6,1,0
+1972,Cambodia,CAM,Asia,17,15,2,0
+1972,Zambia,ZAM,Africa,12,8,4,0
+1972,Malawi,MAW,Africa,18,14,4,0
+1972,Niger,NIG,Africa,4,4,0,1
+1972,Ecuador,ECU,South America,4,4,0,0
+1972,Syria,SYR,Asia,5,4,1,0
+1972,Paraguay,PAR,South America,3,3,0,0
+1972,Sri Lanka,SRI,Asia,6,6,0,0
+1972,North Korea,PRK,Asia,83,69,14,15
+1972,Vietnam,VNM,Asia,2,2,0,0
+1972,Liberia,LBR,Africa,5,5,0,0
+1972,Nepal,NEP,Asia,2,2,0,0
+1972,Albania,ALB,Europe,5,4,1,0
+1972,Swaziland,SWZ,Africa,4,4,0,0
+1972,Gabon,GAB,Africa,1,1,0,0
+1972,Lesotho,LES,Africa,2,2,0,0
+1972,Belize,BIZ,North America,2,2,0,0
+1972,Fiji,FIJ,Oceania,4,4,0,0
+1976,France,FRA,Europe,302,249,53,20
+1976,Spain,ESP,Europe,160,134,26,6
+1976,Nicaragua,NCA,North America,25,25,0,0
+1976,Kuwait,KUW,Asia,21,21,0,0
+1976,Canada,CAN,North America,531,330,201,23
+1976,Egypt,EGY,Africa,26,26,0,0
+1976,Tunisia,TUN,Africa,16,14,2,0
+1976,Iran,IRI,Asia,104,97,7,2
+1976,Japan,JPN,Asia,328,223,105,41
+1976,Brazil,BRA,South America,89,79,10,3
+1976,Argentina,ARG,South America,106,88,18,0
+1976,Bulgaria,BUL,Europe,254,166,88,39
+1976,Netherlands,NED,Europe,175,89,86,14
+1976,UK,GBR,Europe,353,242,111,32
+1976,Panama,PAN,North America,13,10,3,0
+1976,USA,USA,North America,554,372,182,164
+1976,Cuba,CUB,North America,194,164,30,24
+1976,Paraguay,PAR,South America,6,6,0,0
+1976,Portugal,POR,Europe,36,36,0,2
+1976,Russia,URS,Europe,574,385,189,286
+1976,New Zealand,NZL,Oceania,98,79,19,25
+1976,Czech Republic,TCH,Europe,251,182,69,15
+1976,Germany,GDR,Europe,407,224,183,195
+1976,Poland,POL,Europe,286,255,31,73
+1976,Trinidad and Tobago,TTO,Asia,20,20,0,1
+1976,Australia,AUS,Oceania,274,203,71,23
+1976,Switzerland,SUI,Europe,101,96,5,10
+1976,Romania,ROU,Europe,255,162,93,55
+1976,Germany,FRG,Europe,452,333,119,78
+1976,Greece,GRE,Europe,40,38,2,0
+1976,Mexico,MEX,North America,137,122,15,2
+1976,Malaysia,MAS,Asia,25,25,0,0
+1976,Finland,FIN,Europe,108,97,11,6
+1976,Turkey,TUR,Asia,28,27,1,0
+1976,Saudi Arabia,KSA,Asia,19,19,0,0
+1976,Belgium,BEL,Europe,149,96,53,9
+1976,Italy,ITA,Europe,312,244,68,31
+1976,Sweden,SWE,Europe,163,131,32,10
+1976,Uruguay,URU,South America,15,12,3,0
+1976,Serbia,YUG,Europe,95,90,5,19
+1976,Colombia,COL,South America,44,38,6,0
+1976,Iceland,ISL,Europe,22,14,8,0
+1976,India,IND,Asia,26,26,0,0
+1976,Pakistan,PAK,Asia,24,24,0,16
+1976,Jamaica,JAM,North America,36,17,19,2
+1976,Philippines,PHI,Asia,22,19,3,0
+1976,Costa Rica,CRC,North America,10,5,5,0
+1976,Puerto Rico,PUR,North America,112,92,20,1
+1976,Hungary,HUN,Europe,288,196,92,55
+1976,Dominican Republic,DOM,North America,11,9,2,0
+1976,Norway,NOR,Europe,79,73,6,6
+1976,North Korea,PRK,Asia,40,38,2,2
+1976,South Korea,KOR,Asia,51,39,12,17
+1976,Denmark,DEN,Europe,81,68,13,8
+1976,Guatemala,GUA,North America,28,26,2,0
+1976,"Virgin Islands, US",ISV,North America,26,22,4,0
+1976,Venezuela,VEN,South America,56,34,22,1
+1976,Thailand,THA,Asia,62,55,7,1
+1976,Austria,AUT,Europe,73,67,6,1
+1976,Ivory Coast,CIV,Africa,11,9,2,0
+1976,Senegal,SEN,Africa,33,30,3,0
+1976,Morocco,MAR,Africa,9,9,0,0
+1976,Mongolia,MGL,Asia,33,31,2,1
+1976,Israel,ISR,Asia,34,32,2,0
+1976,Monaco,MON,Europe,10,10,0,0
+1976,Bermuda,BER,North America,20,19,1,1
+1976,Luxembourg,LUX,Europe,9,9,0,0
+1976,Suriname,SUR,South America,4,4,0,0
+1976,Liechtenstein,LIE,Europe,9,6,3,0
+1976,Ireland,IRL,Europe,59,54,5,0
+1976,Bahamas,BAH,North America,19,17,2,0
+1976,Peru,PER,South America,14,0,14,0
+1976,San Marino,SMR,Europe,10,8,2,0
+1976,China,HKG,Asia,50,46,4,0
+1976,Haiti,HAI,North America,14,11,3,0
+1976,Singapore,SGP,Asia,4,3,1,0
+1976,Antigua,ANT,North America,17,17,0,0
+1976,Barbados,BAR,North America,17,14,3,0
+1976,Papua New Guinea,PNG,Oceania,9,9,0,0
+1976,Ecuador,ECU,South America,8,8,0,0
+1976,Andorra,AND,Europe,3,3,0,0
+1976,Chile,CHI,South America,9,9,0,0
+1976,Lebanon,LIB,Asia,4,4,0,0
+1976,Curacao,AHO,South America,4,4,0,0
+1976,Honduras,HON,North America,3,3,0,0
+1976,Bolivia,BOL,South America,5,5,0,0
+1976,Indonesia,INA,Asia,11,8,3,0
+1976,Cayman Islands,CAY,North America,2,2,0,0
+1976,Cameroon,CMR,Africa,4,4,0,0
+1976,Nepal,NEP,Asia,1,1,0,0
+1976,Fiji,FIJ,Oceania,5,3,2,0
+1976,Belize,BIZ,North America,4,4,0,0
+1980,Spain,ESP,Europe,211,187,24,24
+1980,Russia,URS,Europe,660,443,217,442
+1980,Italy,ITA,Europe,203,146,57,37
+1980,Kuwait,KUW,Asia,67,67,0,0
+1980,Algeria,ALG,Africa,63,63,0,0
+1980,Iraq,IRQ,Asia,44,44,0,0
+1980,Syria,SYR,Asia,71,68,3,0
+1980,Libya,LBA,Africa,38,33,5,0
+1980,Republic of Congo,CGO,Africa,25,11,14,0
+1980,Bulgaria,BUL,Europe,397,261,136,90
+1980,Benin,BEN,Africa,17,16,1,0
+1980,UK,GBR,Europe,328,218,110,47
+1980,Poland,POL,Europe,418,295,123,50
+1980,Cuba,CUB,North America,288,252,36,20
+1980,Portugal,POR,Europe,18,13,5,0
+1980,Venezuela,VEN,South America,43,43,0,1
+1980,Czech Republic,TCH,Europe,317,237,80,51
+1980,Trinidad and Tobago,TTO,Asia,15,15,0,0
+1980,Sweden,SWE,Europe,201,156,45,20
+1980,Netherlands,NED,Europe,112,83,29,6
+1980,Nigeria,NGR,Africa,56,46,10,0
+1980,Brazil,BRA,South America,149,130,19,9
+1980,Mongolia,MGL,Asia,57,45,12,4
+1980,Switzerland,SUI,Europe,86,77,9,2
+1980,Seychelles,SEY,Africa,21,17,4,0
+1980,France,FRA,Europe,200,168,32,29
+1980,Malta,MLT,Europe,12,11,1,0
+1980,Guinea,GUI,Africa,10,10,0,0
+1980,Costa Rica,CRC,North America,37,33,4,0
+1980,Cameroon,CMR,Africa,29,25,4,0
+1980,India,IND,Asia,78,61,17,16
+1980,Finland,FIN,Europe,125,119,6,9
+1980,Sierra Leone,SLE,Africa,32,25,7,0
+1980,Uganda,UGA,Africa,16,16,0,1
+1980,Afghanistan,AFG,Asia,11,11,0,0
+1980,Lebanon,LIB,Asia,19,19,0,1
+1980,Belgium,BEL,Europe,84,54,30,1
+1980,Jamaica,JAM,North America,32,18,14,3
+1980,Serbia,YUG,Europe,180,152,28,57
+1980,Ethiopia,ETH,Africa,48,46,2,4
+1980,Greece,GRE,Europe,45,40,5,5
+1980,Romania,ROU,Europe,339,220,119,68
+1980,Mozambique,MOZ,Africa,16,13,3,0
+1980,Colombia,COL,South America,28,28,0,0
+1980,Nicaragua,NCA,North America,6,3,3,0
+1980,Australia,AUS,Oceania,190,131,59,13
+1980,Tanzania,TAN,Africa,48,40,8,2
+1980,Hungary,HUN,Europe,392,270,122,61
+1980,Mexico,MEX,North America,74,50,24,10
+1980,Germany,GDR,Europe,495,306,189,264
+1980,Madagascar,MAD,Africa,18,12,6,0
+1980,Guyana,GUY,South America,10,8,2,1
+1980,Cyprus,CYP,Asia,15,13,2,0
+1980,Ecuador,ECU,South America,16,15,1,0
+1980,Austria,AUT,Europe,92,72,20,5
+1980,Peru,PER,South America,38,18,20,0
+1980,Senegal,SEN,Africa,39,35,4,0
+1980,Zambia,ZAM,Africa,43,43,0,0
+1980,Denmark,DEN,Europe,60,56,4,8
+1980,Nepal,NEP,Asia,10,10,0,0
+1980,Ireland,IRL,Europe,57,52,5,3
+1980,Iceland,ISL,Europe,12,12,0,0
+1980,Laos,LAO,Asia,19,17,2,0
+1980,Luxembourg,LUX,Europe,4,4,0,0
+1980,Angola,ANG,Africa,17,15,2,0
+1980,Zimbabwe,ZIM,Africa,52,30,22,15
+1980,San Marino,SMR,Europe,16,16,0,0
+1980,Dominican Republic,DOM,North America,7,6,1,0
+1980,North Korea,PRK,Asia,121,83,38,5
+1980,Botswana,BOT,Africa,8,8,0,0
+1980,Vietnam,VIE,Asia,38,28,10,0
+1980,Guatemala,GUA,North America,10,10,0,0
+1980,Sri Lanka,SRI,Asia,4,4,0,0
+1980,Mali,MLI,Africa,7,6,1,0
+1980,New Zealand,NZL,Oceania,7,7,0,0
+1980,Andorra,AND,Europe,2,2,0,0
+1980,Lesotho,LES,Africa,7,7,0,0
+1980,Jordan,JOR,Asia,6,6,0,0
+1980,Puerto Rico,PUR,North America,3,3,0,0
+1980,Myanmar,MYA,Asia,2,2,0,0
+1984,Netherlands,NED,Europe,185,100,85,41
+1984,Spain,ESP,Europe,257,208,49,19
+1984,Chile,CHI,South America,64,60,4,0
+1984,Italy,ITA,Europe,368,292,76,63
+1984,Malaysia,MAS,Asia,27,23,4,0
+1984,Jordan,JOR,Asia,15,14,1,0
+1984,Egypt,EGY,Africa,148,137,11,1
+1984,Canada,CAN,North America,572,349,223,87
+1984,Saudi Arabia,KSA,Asia,42,42,0,0
+1984,Bahrain,BRN,Asia,14,14,0,0
+1984,United Arab Emirates,UAE,Asia,11,11,0,0
+1984,Japan,JPN,Asia,365,260,105,49
+1984,Cameroon,CMR,Africa,56,50,6,1
+1984,France,FRA,Europe,354,278,76,67
+1984,Benin,BEN,Africa,3,3,0,0
+1984,Algeria,ALG,Africa,33,33,0,2
+1984,Iraq,IRQ,Asia,25,25,0,0
+1984,India,IND,Asia,53,43,10,0
+1984,Costa Rica,CRC,North America,32,31,1,0
+1984,USA,USA,North America,693,437,256,352
+1984,Brazil,BRA,South America,197,167,30,36
+1984,Kuwait,KUW,Asia,31,31,0,0
+1984,Mexico,MEX,North America,155,114,41,6
+1984,Switzerland,SUI,Europe,245,176,69,13
+1984,Uganda,UGA,Africa,30,28,2,0
+1984,Ecuador,ECU,South America,15,14,1,0
+1984,New Zealand,NZL,Oceania,162,121,41,23
+1984,Kenya,KEN,Africa,67,61,6,3
+1984,Dominican Republic,DOM,North America,24,17,7,1
+1984,UK,GBR,Europe,509,331,178,71
+1984,Australia,AUS,Oceania,337,227,110,52
+1984,Jamaica,JAM,North America,75,51,24,7
+1984,Ghana,GHA,Africa,27,16,11,0
+1984,Nigeria,NGR,Africa,36,33,3,5
+1984,Somalia,SOM,Africa,9,9,0,0
+1984,Ivory Coast,CIV,Africa,18,17,1,1
+1984,Sweden,SWE,Europe,254,185,69,34
+1984,Monaco,MON,Europe,8,8,0,0
+1984,Indonesia,INA,Asia,23,19,4,0
+1984,Iceland,ISL,Europe,35,31,4,1
+1984,Morocco,MAR,Africa,35,34,1,2
+1984,Romania,ROU,Europe,193,96,97,106
+1984,Malta,MLT,Europe,7,5,2,0
+1984,Luxembourg,LUX,Europe,5,4,1,0
+1984,Germany,FRG,Europe,571,374,197,158
+1984,Puerto Rico,PUR,North America,58,48,10,2
+1984,Cyprus,CYP,Asia,12,12,0,0
+1984,Argentina,ARG,South America,115,98,17,0
+1984,Panama,PAN,North America,10,9,1,0
+1984,Norway,NOR,Europe,132,105,27,4
+1984,Qatar,QAT,Asia,26,26,0,0
+1984,Pakistan,PAK,Asia,33,33,0,16
+1984,Syria,SYR,Asia,9,9,0,1
+1984,Turkey,TUR,Asia,62,59,3,3
+1984,Sudan,SUD,Africa,9,9,0,0
+1984,Finland,FIN,Europe,107,90,17,12
+1984,Oman,OMA,Asia,22,22,0,0
+1984,Yemen,YAR,Asia,3,3,0,0
+1984,Greece,GRE,Europe,73,67,6,2
+1984,Niger,NIG,Africa,4,4,0,0
+1984,Guatemala,GUA,North America,53,39,14,0
+1984,Tunisia,TUN,Africa,28,24,4,0
+1984,Peru,PER,South America,44,25,19,1
+1984,Thailand,THA,Asia,40,29,11,1
+1984,Central African Republic,CAF,Africa,3,3,0,0
+1984,Venezuela,VEN,South America,44,43,1,3
+1984,Israel,ISR,Asia,65,46,19,0
+1984,Tanzania,TAN,Africa,21,18,3,0
+1984,South Korea,KOR,Asia,240,171,69,41
+1984,Serbia,YUG,Europe,154,119,35,87
+1984,Denmark,DEN,Europe,74,61,13,13
+1984,Mauritius,MRI,Africa,7,6,1,0
+1984,Singapore,SGP,Asia,14,14,0,0
+1984,Portugal,POR,Europe,48,37,11,3
+1984,Belgium,BEL,Europe,86,64,22,5
+1984,Colombia,COL,South America,48,45,3,1
+1984,Trinidad and Tobago,TTO,Asia,23,15,8,0
+1984,Lebanon,LIB,Asia,30,29,1,0
+1984,Bolivia,BOL,South America,13,12,1,0
+1984,Fiji,FIJ,Oceania,26,18,8,0
+1984,Philippines,PHI,Asia,32,24,8,0
+1984,Solomon Islands,SOL,Oceania,3,3,0,0
+1984,Austria,AUT,Europe,130,89,41,3
+1984,Samoa,SAM,Oceania,9,9,0,0
+1984,Honduras,HON,North America,26,21,5,0
+1984,Malawi,MAW,Africa,23,23,0,0
+1984,China,CHN,Asia,323,200,123,74
+1984,Senegal,SEN,Africa,29,28,1,0
+1984,Democratic Republic of the Congo,COD,Africa,9,8,1,0
+1984,Botswana,BOT,Africa,8,8,0,0
+1984,"Virgin Islands, British",IVB,North America,13,13,0,0
+1984,Guyana,GUY,South America,12,10,2,0
+1984,Grenada,GRN,North America,6,5,1,0
+1984,Barbados,BAR,North America,25,22,3,0
+1984,Curacao,AHO,South America,13,6,7,0
+1984,Republic of Congo,CGO,Africa,13,11,2,0
+1984,Sierra Leone,SLE,Africa,10,9,1,0
+1984,Antigua,ANT,North America,27,19,8,0
+1984,Paraguay,PAR,South America,18,18,0,0
+1984,"Virgin Islands, US",ISV,North America,52,46,6,0
+1984,Madagascar,MAD,Africa,5,5,0,0
+1984,Cayman Islands,CAY,North America,14,13,1,0
+1984,Togo,TOG,Africa,6,6,0,0
+1984,Sri Lanka,SRI,Asia,6,6,0,0
+1984,San Marino,SMR,Europe,31,28,3,0
+1984,Seychelles,SEY,Africa,15,12,3,0
+1984,Equatorial Guinea,GEQ,Africa,5,5,0,0
+1984,Papua New Guinea,PNG,Oceania,12,7,5,0
+1984,Liechtenstein,LIE,Europe,8,6,2,0
+1984,Bermuda,BER,North America,13,12,1,0
+1984,Rwanda,RWA,Africa,6,4,2,0
+1984,El Salvador,ESA,North America,15,13,2,0
+1984,Ireland,IRL,Europe,55,35,20,1
+1984,Gambia,GAM,Africa,16,10,6,0
+1984,Nicaragua,NCA,North America,5,5,0,0
+1984,Taiwan,TPE,Asia,52,39,13,1
+1984,Djibouti,DJI,Africa,3,3,0,0
+1984,Belize,BIZ,North America,13,13,0,0
+1984,China,HKG,Asia,87,60,27,0
+1984,Bhutan,BHU,Asia,6,3,3,0
+1984,Zambia,ZAM,Africa,18,18,0,1
+1984,Zimbabwe,ZIM,Africa,20,17,3,0
+1984,Mozambique,MOZ,Africa,14,12,2,0
+1984,Bahamas,BAH,North America,31,23,8,0
+1984,Suriname,SUR,South America,7,7,0,0
+1984,Liberia,LBR,Africa,10,9,1,0
+1984,Bangladesh,BAN,Asia,2,2,0,0
+1984,Guinea,GUI,Africa,1,1,0,0
+1984,Mauritania,MTN,Africa,2,2,0,0
+1984,Mali,MLI,Africa,5,5,0,0
+1984,Chad,CHA,Africa,3,3,0,0
+1984,Swaziland,SWZ,Africa,11,11,0,0
+1984,Uruguay,URU,South America,23,21,2,0
+1984,Haiti,HAI,North America,3,1,2,0
+1984,Andorra,AND,Europe,2,2,0,0
+1984,Nepal,NEP,Asia,10,10,0,0
+1984,Tonga,TGA,Oceania,7,7,0,0
+1984,Myanmar,MYA,Asia,1,1,0,0
+1984,Gabon,GAB,Africa,4,2,2,0
+1984,Lesotho,LES,Africa,5,5,0,0
+1988,Netherlands,NED,Europe,202,117,85,45
+1988,Bulgaria,BUL,Europe,281,159,122,41
+1988,Italy,ITA,Europe,374,302,72,29
+1988,Lebanon,LIB,Asia,31,28,3,0
+1988,Egypt,EGY,Africa,59,58,1,0
+1988,Algeria,ALG,Africa,45,42,3,0
+1988,Djibouti,DJI,Africa,6,6,0,1
+1988,Maldives,MDV,Asia,9,9,0,0
+1988,Yemen,YAR,Asia,8,8,0,0
+1988,United Arab Emirates,UAE,Asia,36,36,0,0
+1988,Nigeria,NGR,Africa,86,71,15,0
+1988,Kuwait,KUW,Asia,34,34,0,0
+1988,Russia,URS,Europe,647,416,231,300
+1988,Japan,JPN,Asia,412,279,133,20
+1988,Spain,ESP,Europe,317,252,65,5
+1988,Sweden,SWE,Europe,251,193,58,16
+1988,Germany,GDR,Europe,402,233,169,181
+1988,Tunisia,TUN,Africa,45,40,5,0
+1988,Iraq,IRQ,Asia,28,28,0,0
+1988,Niger,NIG,Africa,6,6,0,0
+1988,Libya,LBA,Africa,7,7,0,0
+1988,Hungary,HUN,Europe,315,235,80,44
+1988,India,IND,Asia,55,45,10,0
+1988,Guyana,GUY,South America,8,7,1,0
+1988,Portugal,POR,Europe,91,76,15,1
+1988,France,FRA,Europe,413,291,122,29
+1988,USA,USA,North America,715,431,284,207
+1988,Germany,FRG,Europe,516,354,162,115
+1988,Kenya,KEN,Africa,88,82,6,9
+1988,Jordan,JOR,Asia,9,7,2,0
+1988,Uruguay,URU,South America,18,16,2,0
+1988,Morocco,MAR,Africa,29,25,4,3
+1988,Cameroon,CMR,Africa,21,17,4,0
+1988,Uganda,UGA,Africa,30,22,8,0
+1988,Brazil,BRA,South America,233,181,52,23
+1988,Mexico,MEX,North America,144,115,29,2
+1988,Mauritania,MTN,Africa,7,7,0,0
+1988,Czech Republic,TCH,Europe,226,135,91,10
+1988,Saint Vincent,VIN,North America,6,5,1,0
+1988,UK,GBR,Europe,472,292,180,54
+1988,Puerto Rico,PUR,North America,56,49,7,0
+1988,Australia,AUS,Oceania,339,234,105,35
+1988,Jamaica,JAM,North America,49,30,19,7
+1988,Philippines,PHI,Asia,42,35,7,1
+1988,Somalia,SOM,Africa,5,5,0,0
+1988,Ghana,GHA,Africa,21,13,8,0
+1988,Indonesia,INA,Asia,43,33,10,3
+1988,Switzerland,SUI,Europe,151,114,37,8
+1988,Iran,IRI,Asia,26,26,0,1
+1988,Pakistan,PAK,Asia,33,33,0,1
+1988,Haiti,HAI,North America,5,4,1,0
+1988,Malta,MLT,Europe,6,5,1,0
+1988,Argentina,ARG,South America,134,102,32,13
+1988,Togo,TOG,Africa,6,6,0,0
+1988,Costa Rica,CRC,North America,33,13,20,1
+1988,Chile,CHI,South America,23,22,1,1
+1988,Yemen,YMD,Asia,5,5,0,0
+1988,Finland,FIN,Europe,101,73,28,4
+1988,Turkey,TUR,Asia,51,43,8,2
+1988,Tanzania,TAN,Africa,10,10,0,0
+1988,Saudi Arabia,KSA,Asia,13,13,0,0
+1988,Syria,SYR,Asia,13,13,0,0
+1988,Oman,OMA,Asia,13,13,0,0
+1988,Bahrain,BRN,Asia,16,16,0,0
+1988,Qatar,QAT,Asia,13,13,0,0
+1988,Bangladesh,BAN,Asia,11,11,0,0
+1988,Benin,BEN,Africa,10,8,2,0
+1988,Colombia,COL,South America,57,42,15,1
+1988,Canada,CAN,North America,503,322,181,23
+1988,Dominican Republic,DOM,North America,18,17,1,0
+1988,Greece,GRE,Europe,72,53,19,1
+1988,Bermuda,BER,North America,14,13,1,0
+1988,Samoa,SAM,Oceania,11,11,0,0
+1988,Norway,NOR,Europe,79,50,29,22
+1988,Peru,PER,South America,26,11,15,12
+1988,Malaysia,MAS,Asia,17,9,8,0
+1988,Central African Republic,CAF,Africa,15,15,0,0
+1988,Serbia,YUG,Europe,183,138,45,63
+1988,Israel,ISR,Asia,29,21,8,0
+1988,Democratic Republic of the Congo,COD,Africa,21,18,3,0
+1988,South Korea,KOR,Asia,551,352,199,77
+1988,Guam,GUM,Oceania,26,20,6,0
+1988,New Zealand,NZL,Oceania,112,92,20,24
+1988,Romania,ROU,Europe,172,83,89,58
+1988,Singapore,SGP,Asia,27,26,1,0
+1988,Honduras,HON,North America,18,13,5,0
+1988,Sudan,SUD,Africa,8,8,0,0
+1988,Austria,AUT,Europe,96,87,9,1
+1988,Belgium,BEL,Europe,85,50,35,2
+1988,Guatemala,GUA,North America,37,29,8,0
+1988,Iceland,ISL,Europe,42,34,8,0
+1988,Mozambique,MOZ,Africa,12,8,4,0
+1988,Luxembourg,LUX,Europe,11,7,4,0
+1988,"Virgin Islands, British",IVB,North America,4,4,0,0
+1988,Fiji,FIJ,Oceania,41,26,15,0
+1988,Suriname,SUR,South America,10,6,4,1
+1988,Barbados,BAR,North America,26,24,2,0
+1988,Senegal,SEN,Africa,35,34,1,1
+1988,China,HKG,Asia,91,67,24,0
+1988,Papua New Guinea,PNG,Oceania,15,12,3,0
+1988,El Salvador,ESA,North America,7,6,1,0
+1988,Mongolia,MGL,Asia,32,25,7,1
+1988,Cyprus,CYP,Asia,11,8,3,0
+1988,Ivory Coast,CIV,Africa,29,12,17,0
+1988,Malawi,MAW,Africa,22,22,0,0
+1988,Guinea,GUI,Africa,7,7,0,0
+1988,Cayman Islands,CAY,North America,12,11,1,0
+1988,"Virgin Islands, US",ISV,North America,46,41,5,1
+1988,Zimbabwe,ZIM,Africa,47,38,9,0
+1988,Poland,POL,Europe,192,144,48,21
+1988,Denmark,DEN,Europe,130,90,40,7
+1988,Angola,ANG,Africa,33,22,11,0
+1988,Nepal,NEP,Asia,20,17,3,0
+1988,Liechtenstein,LIE,Europe,16,13,3,0
+1988,Monaco,MON,Europe,9,8,1,0
+1988,Solomon Islands,SOL,Oceania,5,5,0,0
+1988,Bolivia,BOL,South America,12,8,4,0
+1988,Belize,BIZ,North America,13,13,0,0
+1988,Republic of Congo,CGO,Africa,10,7,3,0
+1988,San Marino,SMR,Europe,15,15,0,0
+1988,Liberia,LBR,Africa,11,8,3,0
+1988,Curacao,AHO,South America,4,3,1,1
+1988,Paraguay,PAR,South America,13,13,0,0
+1988,Venezuela,VEN,South America,17,15,2,0
+1988,Sri Lanka,SRI,Asia,9,5,4,0
+1988,Equatorial Guinea,GEQ,Africa,7,5,2,0
+1988,Gabon,GAB,Africa,2,1,1,0
+1988,Antigua,ANT,North America,25,21,4,0
+1988,Ireland,IRL,Europe,78,65,13,0
+1988,Zambia,ZAM,Africa,33,33,0,0
+1988,China,CHN,Asia,427,233,194,52
+1988,Mali,MLI,Africa,8,6,2,0
+1988,Ecuador,ECU,South America,15,11,4,0
+1988,Taiwan,TPE,Asia,123,73,50,0
+1988,Thailand,THA,Asia,15,13,2,1
+1988,Trinidad and Tobago,TTO,Asia,10,5,5,0
+1988,Mauritius,MRI,Africa,11,9,2,0
+1988,Grenada,GRN,North America,7,4,3,0
+1988,Bahamas,BAH,North America,18,13,5,0
+1988,Afghanistan,AFG,Asia,5,5,0,0
+1988,Gambia,GAM,Africa,6,5,1,0
+1988,Vanuatu,VAN,Oceania,6,4,2,0
+1988,Vietnam,VIE,Asia,12,10,2,0
+1988,Panama,PAN,North America,9,9,0,0
+1988,Swaziland,SWZ,Africa,15,15,0,0
+1988,Sierra Leone,SLE,Africa,20,19,1,0
+1988,Bhutan,BHU,Asia,6,6,0,0
+1988,Rwanda,RWA,Africa,8,4,4,0
+1988,American Samoa,ASA,Oceania,6,6,0,0
+1988,Tonga,TGA,Oceania,7,5,2,0
+1988,Aruba,ARU,North America,12,5,7,0
+1988,Chad,CHA,Africa,6,6,0,0
+1988,Botswana,BOT,Africa,11,11,0,0
+1988,Andorra,AND,Europe,4,4,0,0
+1988,Burkina Faso,BUR,Africa,9,7,2,0
+1988,Cook Islands,COK,Oceania,8,6,2,0
+1988,Lesotho,LES,Africa,6,6,0,0
+1988,Myanmar,MYA,Asia,3,0,3,0
+1988,Laos,LAO,Asia,3,2,1,0
+1992,China,CHN,Asia,394,189,205,82
+1992,Finland,FIN,Europe,130,90,40,7
+1992,Norway,NOR,Europe,114,72,42,23
+1992,Estonia,EST,Europe,46,40,6,3
+1992,Chad,CHA,Africa,7,5,2,0
+1992,Cuba,CUB,North America,196,139,57,69
+1992,Chile,CHI,South America,15,12,3,0
+1992,Hungary,HUN,Europe,351,240,111,45
+1992,Italy,ITA,Europe,431,324,107,45
+1992,Pakistan,PAK,Asia,28,28,0,16
+1992,Egypt,EGY,Africa,83,77,6,0
+1992,Algeria,ALG,Africa,36,34,2,2
+1992,Qatar,QAT,Asia,30,30,0,1
+1992,Djibouti,DJI,Africa,8,8,0,0
+1992,Malaysia,MAS,Asia,30,30,0,2
+1992,Iraq,IRQ,Asia,8,8,0,0
+1992,Kuwait,KUW,Asia,37,37,0,0
+1992,Singapore,SGP,Asia,37,23,14,0
+1992,Russia,EUN,Europe,650,405,245,220
+1992,Japan,JPN,Asia,392,266,126,47
+1992,Ethiopia,ETH,Africa,24,18,6,3
+1992,Spain,ESP,Europe,537,360,177,69
+1992,Ivory Coast,CIV,Africa,18,10,8,0
+1992,India,IND,Asia,61,54,7,0
+1992,Morocco,MAR,Africa,45,44,1,3
+1992,Portugal,POR,Europe,115,86,29,0
+1992,Puerto Rico,PUR,North America,101,92,9,1
+1992,Colombia,COL,South America,61,58,3,1
+1992,Ghana,GHA,Africa,41,37,4,20
+1992,Mexico,MEX,North America,140,102,38,1
+1992,Seychelles,SEY,Africa,21,18,3,0
+1992,UK,GBR,Europe,512,326,186,50
+1992,Kenya,KEN,Africa,55,46,9,8
+1992,Poland,POL,Europe,263,191,72,46
+1992,Czech Republic,TCH,Europe,269,179,90,8
+1992,Germany,GER,Europe,653,406,247,198
+1992,Australia,AUS,Oceania,390,229,161,57
+1992,USA,USA,North America,734,454,280,224
+1992,France,FRA,Europe,486,321,165,57
+1992,South Africa,RSA,Africa,141,96,45,3
+1992,Nigeria,NGR,Africa,72,42,30,11
+1992,Brazil,BRA,South America,233,173,60,14
+1992,Sweden,SWE,Europe,252,184,68,35
+1992,Switzerland,SUI,Europe,171,128,43,1
+1992,Iran,IRI,Asia,44,44,0,3
+1992,Benin,BEN,Africa,7,5,2,0
+1992,Panama,PAN,North America,7,7,0,0
+1992,Argentina,ARG,South America,111,82,29,2
+1992,Nicaragua,NCA,North America,9,7,2,0
+1992,Togo,TOG,Africa,9,9,0,0
+1992,Libya,LBA,Africa,5,5,0,0
+1992,Mauritania,MTN,Africa,6,6,0,0
+1992,United Arab Emirates,UAE,Asia,36,36,0,0
+1992,Bahrain,BRN,Asia,15,15,0,0
+1992,Oman,OMA,Asia,5,5,0,0
+1992,Syria,SYR,Asia,9,8,1,0
+1992,Saudi Arabia,KSA,Asia,17,17,0,0
+1992,Yemen,YEM,Asia,8,8,0,0
+1992,Jordan,JOR,Asia,5,4,1,0
+1992,Croatia,CRO,Europe,46,40,6,15
+1992,Individual Olympic Athletes,IOA,IOA,76,50,26,3
+1992,Canada,CAN,North America,445,251,194,44
+1992,Bulgaria,BUL,Europe,236,146,90,17
+1992,"Virgin Islands, US",ISV,North America,34,26,8,0
+1992,Samoa,SAM,Oceania,5,5,0,0
+1992,Barbados,BAR,North America,22,20,2,0
+1992,Guam,GUM,Oceania,45,36,9,0
+1992,Philippines,PHI,Asia,38,33,5,1
+1992,Paraguay,PAR,South America,31,28,3,0
+1992,Costa Rica,CRC,North America,20,12,8,0
+1992,Peru,PER,South America,21,15,6,1
+1992,Central African Republic,CAF,Africa,21,18,3,0
+1992,Sierra Leone,SLE,Africa,15,10,5,0
+1992,Bangladesh,BAN,Asia,9,8,1,0
+1992,Sri Lanka,SRI,Asia,16,8,8,0
+1992,San Marino,SMR,Europe,20,19,1,0
+1992,Israel,ISR,Asia,44,35,9,2
+1992,Maldives,MDV,Asia,10,9,1,0
+1992,Democratic Republic of the Congo,COD,Africa,19,17,2,0
+1992,Austria,AUT,Europe,127,88,39,6
+1992,South Korea,KOR,Asia,322,228,94,49
+1992,North Korea,PRK,Asia,123,59,64,10
+1992,Denmark,DEN,Europe,144,90,54,14
+1992,New Zealand,NZL,Oceania,175,127,48,15
+1992,Iceland,ISL,Europe,31,26,5,0
+1992,Romania,ROU,Europe,306,169,137,53
+1992,Indonesia,INA,Asia,51,30,21,6
+1992,Equatorial Guinea,GEQ,Africa,8,5,3,0
+1992,Bolivia,BOL,South America,21,12,9,0
+1992,Belgium,BEL,Europe,103,64,39,3
+1992,Antigua,ANT,North America,18,13,5,0
+1992,Dominican Republic,DOM,North America,32,30,2,0
+1992,Netherlands,NED,Europe,257,135,122,33
+1992,Greece,GRE,Europe,76,60,16,2
+1992,Lebanon,LIB,Asia,18,18,0,0
+1992,Suriname,SUR,South America,9,7,2,1
+1992,Turkey,TUR,Asia,54,46,8,6
+1992,Solomon Islands,SOL,Oceania,1,1,0,0
+1992,Senegal,SEN,Africa,25,23,2,0
+1992,China,HKG,Asia,66,51,15,0
+1992,Guatemala,GUA,North America,41,34,7,0
+1992,Cyprus,CYP,Asia,19,15,4,0
+1992,Papua New Guinea,PNG,Oceania,19,16,3,0
+1992,Mongolia,MGL,Asia,38,30,8,2
+1992,Lithuania,LTU,Europe,54,42,12,13
+1992,Guinea,GUI,Africa,11,9,2,0
+1992,Cayman Islands,CAY,North America,13,13,0,0
+1992,Honduras,HON,North America,27,14,13,0
+1992,Tunisia,TUN,Africa,15,11,4,0
+1992,Latvia,LAT,Europe,40,29,11,3
+1992,Ireland,IRL,Europe,77,62,15,2
+1992,Andorra,AND,Europe,8,7,1,0
+1992,Slovenia,SLO,Europe,47,40,7,6
+1992,Republic of Congo,CGO,Africa,10,9,1,0
+1992,Albania,ALB,Europe,9,7,2,0
+1992,Jamaica,JAM,North America,51,27,24,4
+1992,Liechtenstein,LIE,Europe,8,5,3,0
+1992,Fiji,FIJ,Oceania,36,27,9,0
+1992,Trinidad and Tobago,TTO,Asia,13,13,0,0
+1992,Thailand,THA,Asia,64,29,35,1
+1992,Gabon,GAB,Africa,5,4,1,0
+1992,Bermuda,BER,North America,29,20,9,0
+1992,American Samoa,ASA,Oceania,3,3,0,0
+1992,Bosnia and Herzegovina,BIH,Europe,13,7,6,0
+1992,Tanzania,TAN,Africa,9,9,0,0
+1992,Zambia,ZAM,Africa,11,8,3,0
+1992,Ecuador,ECU,South America,15,7,8,0
+1992,Angola,ANG,Africa,33,27,6,0
+1992,Guyana,GUY,South America,7,6,1,0
+1992,Malta,MLT,Europe,8,3,5,0
+1992,Taiwan,TPE,Asia,38,26,12,20
+1992,Belize,BIZ,North America,18,17,1,0
+1992,Uruguay,URU,South America,18,18,0,0
+1992,Zimbabwe,ZIM,Africa,28,16,12,0
+1992,Mauritius,MRI,Africa,22,10,12,0
+1992,Luxembourg,LUX,Europe,8,7,1,0
+1992,Saint Vincent,VIN,North America,8,6,2,0
+1992,Mali,MLI,Africa,6,4,2,0
+1992,Namibia,NAM,Africa,10,7,3,2
+1992,Curacao,AHO,South America,4,3,1,0
+1992,Bahamas,BAH,North America,18,15,3,1
+1992,Vietnam,VIE,Asia,10,2,8,0
+1992,Venezuela,VEN,South America,27,23,4,0
+1992,Monaco,MON,Europe,4,3,1,0
+1992,Aruba,ARU,North America,5,4,1,0
+1992,Botswana,BOT,Africa,6,6,0,0
+1992,Swaziland,SWZ,Africa,10,10,0,0
+1992,Sudan,SUD,Africa,7,7,0,0
+1992,Mozambique,MOZ,Africa,7,3,4,0
+1992,Grenada,GRN,North America,5,4,1,0
+1992,Vanuatu,VAN,Oceania,8,5,3,0
+1992,Burkina Faso,BUR,Africa,4,4,0,0
+1992,"Virgin Islands, British",IVB,North America,4,4,0,0
+1992,Haiti,HAI,North America,8,8,0,0
+1992,El Salvador,ESA,North America,6,3,3,0
+1992,Niger,NIG,Africa,3,3,0,0
+1992,Gambia,GAM,Africa,8,8,0,0
+1992,Bhutan,BHU,Asia,12,6,6,0
+1992,Cameroon,CMR,Africa,12,4,8,0
+1992,Laos,LAO,Asia,7,7,0,0
+1992,Myanmar,MYA,Asia,5,1,4,0
+1992,Tonga,TGA,Oceania,5,5,0,0
+1992,Uganda,UGA,Africa,9,7,2,0
+1992,Lesotho,LES,Africa,8,6,2,0
+1992,Rwanda,RWA,Africa,10,7,3,0
+1992,Malawi,MAW,Africa,4,3,1,0
+1992,Cook Islands,COK,Oceania,2,2,0,0
+1992,Madagascar,MAD,Africa,17,8,9,0
+1992,Nepal,NEP,Asia,2,1,1,0
+1996,Finland,FIN,Europe,105,60,45,4
+1996,Netherlands,NED,Europe,290,162,128,73
+1996,Norway,NOR,Europe,116,54,62,23
+1996,Estonia,EST,Europe,52,40,12,0
+1996,Turkey,TUR,Asia,61,48,13,6
+1996,Spain,ESP,Europe,384,236,148,66
+1996,Italy,ITA,Europe,460,324,136,71
+1996,Pakistan,PAK,Asia,24,23,1,0
+1996,Canada,CAN,North America,408,206,202,50
+1996,Egypt,EGY,Africa,33,29,4,0
+1996,Libya,LBA,Africa,5,5,0,0
+1996,Qatar,QAT,Asia,13,13,0,0
+1996,Comoros,COM,Africa,4,3,1,0
+1996,Chad,CHA,Africa,4,3,1,0
+1996,Malaysia,MAS,Asia,43,40,3,3
+1996,Brunei,BRU,Asia,1,1,0,0
+1996,United Arab Emirates,UAE,Asia,4,4,0,0
+1996,Singapore,SGP,Asia,35,25,10,0
+1996,Azerbaijan,AZE,Asia,24,20,4,1
+1996,Uzbekistan,UZB,Asia,95,75,20,2
+1996,Japan,JPN,Asia,448,231,217,42
+1996,Cameroon,CMR,Africa,19,13,6,0
+1996,Algeria,ALG,Africa,47,41,6,3
+1996,Ivory Coast,CIV,Africa,13,12,1,0
+1996,Ghana,GHA,Africa,40,38,2,0
+1996,USA,USA,North America,839,478,361,259
+1996,India,IND,Asia,54,45,9,1
+1996,Georgia,GEO,Asia,42,33,9,2
+1996,Slovenia,SLO,Europe,47,33,14,2
+1996,Portugal,POR,Europe,131,92,39,3
+1996,France,FRA,Europe,453,283,170,51
+1996,Venezuela,VEN,South America,53,47,6,0
+1996,Palestine,PLE,Asia,1,1,0,0
+1996,Kazakhstan,KAZ,Asia,142,106,36,11
+1996,Mexico,MEX,North America,111,80,31,1
+1996,Morocco,MAR,Africa,38,32,6,2
+1996,Uganda,UGA,Africa,12,7,5,1
+1996,Germany,GER,Europe,626,381,245,124
+1996,Sudan,SUD,Africa,4,4,0,0
+1996,Greece,GRE,Europe,180,101,79,8
+1996,Australia,AUS,Oceania,550,307,243,132
+1996,Somalia,SOM,Africa,4,4,0,0
+1996,Nigeria,NGR,Africa,84,57,27,24
+1996,Suriname,SUR,South America,11,6,5,0
+1996,Ethiopia,ETH,Africa,19,10,9,3
+1996,Syria,SYR,Asia,8,7,1,1
+1996,Puerto Rico,PUR,North America,91,63,28,1
+1996,Brazil,BRA,South America,251,182,69,63
+1996,Hungary,HUN,Europe,315,194,121,43
+1996,Ukraine,UKR,Europe,351,218,133,34
+1996,Russia,RUS,Europe,552,319,233,115
+1996,Croatia,CRO,Europe,117,101,16,28
+1996,Dominica,DMA,North America,6,4,2,0
+1996,Haiti,HAI,North America,7,7,0,0
+1996,Tunisia,TUN,Africa,52,45,7,1
+1996,Benin,BEN,Africa,7,6,1,0
+1996,Cuba,CUB,North America,178,118,60,55
+1996,Nicaragua,NCA,North America,28,27,1,0
+1996,Kenya,KEN,Africa,54,44,10,8
+1996,UK,GBR,Europe,391,232,159,26
+1996,Iraq,IRQ,Asia,3,3,0,0
+1996,Argentina,ARG,South America,221,152,69,20
+1996,Mauritania,MTN,Africa,4,4,0,0
+1996,South Africa,RSA,Africa,111,74,37,5
+1996,Belarus,BLR,Europe,259,145,114,23
+1996,Papua New Guinea,PNG,Oceania,17,17,0,0
+1996,Togo,TOG,Africa,7,7,0,0
+1996,Denmark,DEN,Europe,145,65,80,23
+1996,Kuwait,KUW,Asia,27,27,0,0
+1996,Saudi Arabia,KSA,Asia,34,34,0,0
+1996,Bahrain,BRN,Asia,5,5,0,0
+1996,Oman,OMA,Asia,5,5,0,0
+1996,Yemen,YEM,Asia,4,4,0,0
+1996,Jordan,JOR,Asia,5,3,2,0
+1996,Bangladesh,BAN,Asia,4,3,1,0
+1996,Sweden,SWE,Europe,233,140,93,31
+1996,Dominican Republic,DOM,North America,16,12,4,0
+1996,Lithuania,LTU,Europe,81,59,22,11
+1996,Kyrgyzstan,KGZ,Asia,53,43,10,0
+1996,Israel,ISR,Asia,38,28,10,1
+1996,Iceland,ISL,Europe,15,11,4,0
+1996,Djibouti,DJI,Africa,5,5,0,0
+1996,Moldova,MDA,Europe,50,45,5,3
+1996,Ireland,IRL,Europe,99,77,22,4
+1996,Trinidad and Tobago,TTO,Asia,16,10,6,2
+1996,Guinea-Bissau,GBS,Africa,3,3,0,0
+1996,Romania,ROU,Europe,284,161,123,38
+1996,Sierra Leone,SLE,Africa,19,12,7,0
+1996,Democratic Republic of the Congo,COD,Africa,14,2,12,0
+1996,San Marino,SMR,Europe,7,6,1,0
+1996,Maldives,MDV,Asia,9,8,1,0
+1996,Laos,LAO,Asia,5,4,1,0
+1996,South Korea,KOR,Asia,417,272,145,66
+1996,China,CHN,Asia,438,179,259,106
+1996,Solomon Islands,SOL,Oceania,4,3,1,0
+1996,New Zealand,NZL,Oceania,129,84,45,9
+1996,Cape Verde,CPV,Africa,3,2,1,0
+1996,Cyprus,CYP,Asia,24,20,4,0
+1996,Bulgaria,BUL,Europe,181,128,53,21
+1996,Honduras,HON,North America,7,4,3,0
+1996,Switzerland,SUI,Europe,172,102,70,11
+1996,Jamaica,JAM,North America,69,37,32,16
+1996,Belgium,BEL,Europe,81,53,28,6
+1996,Colombia,COL,South America,62,47,15,0
+1996,Chile,CHI,South America,24,18,6,0
+1996,Indonesia,INA,Asia,45,24,21,6
+1996,Peru,PER,South America,33,16,17,0
+1996,Equatorial Guinea,GEQ,Africa,8,7,1,0
+1996,Turkmenistan,TKM,Asia,7,4,3,0
+1996,"Virgin Islands, British",IVB,North America,11,11,0,0
+1996,Armenia,ARM,Asia,38,36,2,2
+1996,Seychelles,SEY,Africa,9,8,1,0
+1996,Taiwan,TPE,Asia,107,41,66,1
+1996,Sao Tome and Principe,STP,Africa,2,1,1,0
+1996,Republic of Congo,CGO,Africa,5,3,2,0
+1996,Czech Republic,CZE,Europe,169,101,68,13
+1996,Slovakia,SVK,Europe,98,71,27,3
+1996,Saint Vincent,VIN,North America,12,11,1,0
+1996,Botswana,BOT,Africa,7,7,0,0
+1996,Saint Lucia,LCA,North America,8,7,1,0
+1996,Poland,POL,Europe,207,154,53,22
+1996,Cayman Islands,CAY,North America,9,8,1,0
+1996,Andorra,AND,Europe,8,6,2,0
+1996,Uruguay,URU,South America,15,13,2,0
+1996,Antigua,ANT,North America,19,8,11,0
+1996,Saint Kitts,SKN,North America,14,5,9,0
+1996,Serbia,SCG,Europe,79,65,14,26
+1996,Panama,PAN,North America,9,7,2,0
+1996,Austria,AUT,Europe,92,71,21,3
+1996,Paraguay,PAR,South America,7,6,1,0
+1996,Mongolia,MGL,Asia,18,12,6,1
+1996,Bermuda,BER,North America,10,8,2,0
+1996,Mauritius,MRI,Africa,36,27,9,0
+1996,"Virgin Islands, US",ISV,North America,14,6,8,0
+1996,Namibia,NAM,Africa,10,7,3,2
+1996,El Salvador,ESA,North America,10,7,3,0
+1996,Guam,GUM,Oceania,9,7,2,0
+1996,Latvia,LAT,Europe,55,38,17,1
+1996,Central African Republic,CAF,Africa,5,3,2,0
+1996,Albania,ALB,Europe,9,3,6,0
+1996,Sri Lanka,SRI,Asia,11,5,6,0
+1996,Angola,ANG,Africa,30,13,17,0
+1996,Zimbabwe,ZIM,Africa,21,18,3,0
+1996,Liechtenstein,LIE,Europe,2,0,2,0
+1996,Guatemala,GUA,North America,28,27,1,0
+1996,Nepal,NEP,Asia,6,3,3,0
+1996,Fiji,FIJ,Oceania,21,18,3,0
+1996,Malta,MLT,Europe,10,5,5,0
+1996,Tajikistan,TJK,Asia,8,6,2,0
+1996,Macedonia,MKD,Europe,16,10,6,0
+1996,Gabon,GAB,Africa,9,8,1,0
+1996,Costa Rica,CRC,North America,13,6,7,1
+1996,Philippines,PHI,Asia,18,11,7,1
+1996,Grenada,GRN,North America,5,5,0,0
+1996,American Samoa,ASA,Oceania,7,6,1,0
+1996,Ecuador,ECU,South America,28,26,2,1
+1996,Bolivia,BOL,South America,9,7,2,0
+1996,Mali,MLI,Africa,4,2,2,0
+1996,Vietnam,VIE,Asia,6,3,3,0
+1996,China,HKG,Asia,32,21,11,1
+1996,Thailand,THA,Asia,58,38,20,2
+1996,North Korea,PRK,Asia,36,23,13,5
+1996,Zambia,ZAM,Africa,8,7,1,1
+1996,Lebanon,LIB,Asia,1,0,1,0
+1996,Bahamas,BAH,North America,36,23,13,5
+1996,Liberia,LBR,Africa,7,6,1,0
+1996,Barbados,BAR,North America,22,19,3,0
+1996,Curacao,AHO,South America,7,7,0,0
+1996,Bosnia and Herzegovina,BIH,Europe,12,10,2,0
+1996,Nauru,NRU,Oceania,3,3,0,0
+1996,Senegal,SEN,Africa,12,12,0,0
+1996,Guinea,GUI,Africa,5,4,1,0
+1996,Monaco,MON,Europe,4,3,1,0
+1996,Aruba,ARU,North America,3,3,0,0
+1996,Guyana,GUY,South America,9,8,1,0
+1996,Luxembourg,LUX,Europe,7,3,4,0
+1996,Gambia,GAM,Africa,12,11,1,0
+1996,Iran,IRI,Asia,18,17,1,3
+1996,Belize,BIZ,North America,5,2,3,0
+1996,Burundi,BDI,Africa,7,6,1,1
+1996,Samoa,SAM,Oceania,5,4,1,0
+1996,Afghanistan,AFG,Asia,2,2,0,0
+1996,Tonga,TGA,Oceania,5,4,1,1
+1996,Cambodia,CAM,Asia,5,3,2,0
+1996,Tanzania,TAN,Africa,7,6,1,0
+1996,Myanmar,MYA,Asia,3,2,1,0
+1996,Rwanda,RWA,Africa,4,4,0,0
+1996,Vanuatu,VAN,Oceania,4,3,1,0
+1996,Mozambique,MOZ,Africa,3,2,1,1
+1996,Bhutan,BHU,Asia,2,1,1,0
+1996,Burkina Faso,BUR,Africa,5,3,2,0
+1996,Niger,NIG,Africa,3,2,1,0
+1996,Lesotho,LES,Africa,11,6,5,0
+1996,Swaziland,SWZ,Africa,6,5,1,0
+1996,Malawi,MAW,Africa,2,2,0,0
+1996,Cook Islands,COK,Oceania,3,2,1,0
+1996,Madagascar,MAD,Africa,14,4,10,0
+2000,Finland,FIN,Europe,88,51,37,5
+2000,Norway,NOR,Europe,115,61,54,43
+2000,Netherlands,NED,Europe,285,176,109,79
+2000,Egypt,EGY,Africa,103,85,18,0
+2000,Argentina,ARG,South America,165,113,52,20
+2000,Cuba,CUB,North America,271,179,92,65
+2000,Cameroon,CMR,Africa,39,28,11,18
+2000,Mexico,MEX,North America,98,64,34,6
+2000,Italy,ITA,Europe,457,297,160,65
+2000,Pakistan,PAK,Asia,27,26,1,0
+2000,Azerbaijan,AZE,Asia,32,25,7,3
+2000,Canada,CAN,North America,422,198,224,31
+2000,USA,USA,North America,764,424,340,242
+2000,Australia,AUS,Oceania,788,420,368,183
+2000,Kuwait,KUW,Asia,30,30,0,1
+2000,Malaysia,MAS,Asia,55,42,13,0
+2000,Brunei,BRU,Asia,2,2,0,0
+2000,Sudan,SUD,Africa,3,2,1,0
+2000,Bahrain,BRN,Asia,4,2,2,0
+2000,Uzbekistan,UZB,Asia,85,58,27,4
+2000,Japan,JPN,Asia,363,226,137,44
+2000,Spain,ESP,Europe,431,283,148,42
+2000,Ethiopia,ETH,Africa,27,15,12,8
+2000,Sri Lanka,SRI,Asia,24,11,13,1
+2000,Syria,SYR,Asia,8,6,2,0
+2000,Morocco,MAR,Africa,55,46,9,5
+2000,Sweden,SWE,Europe,198,123,75,32
+2000,Russia,RUS,Europe,602,333,269,187
+2000,Jordan,JOR,Asia,8,4,4,0
+2000,China,CHN,Asia,414,159,255,79
+2000,Germany,GER,Europe,567,329,238,118
+2000,UK,GBR,Europe,415,232,183,54
+2000,Uganda,UGA,Africa,13,9,4,0
+2000,Slovenia,SLO,Europe,90,64,26,3
+2000,Turkey,TUR,Asia,67,47,20,5
+2000,South Africa,RSA,Africa,161,112,49,5
+2000,Ghana,GHA,Africa,28,19,9,0
+2000,Algeria,ALG,Africa,51,41,10,5
+2000,Suriname,SUR,South America,5,2,3,0
+2000,Somalia,SOM,Africa,2,1,1,0
+2000,Libya,LBA,Africa,3,3,0,0
+2000,France,FRA,Europe,470,296,174,66
+2000,Palau,PLW,Oceania,5,2,3,0
+2000,Lithuania,LTU,Europe,77,47,30,17
+2000,Brazil,BRA,South America,236,133,103,48
+2000,Ukraine,UKR,Europe,368,216,152,35
+2000,Iran,IRI,Asia,34,33,1,4
+2000,Nigeria,NGR,Africa,100,51,49,8
+2000,Greece,GRE,Europe,175,102,73,18
+2000,Croatia,CRO,Europe,108,76,32,10
+2000,Dominica,DMA,North America,4,2,2,0
+2000,Denmark,DEN,Europe,124,68,56,25
+2000,Angola,ANG,Africa,30,15,15,0
+2000,Iraq,IRQ,Asia,4,2,2,0
+2000,Maldives,MDV,Asia,4,2,2,0
+2000,New Zealand,NZL,Oceania,177,93,84,4
+2000,Peru,PER,South America,22,9,13,0
+2000,Serbia,SCG,Europe,125,99,26,25
+2000,Hungary,HUN,Europe,238,144,94,53
+2000,Ivory Coast,CIV,Africa,18,9,9,0
+2000,Cyprus,CYP,Asia,24,19,5,0
+2000,Kazakhstan,KAZ,Asia,158,105,53,7
+2000,Kyrgyzstan,KGZ,Asia,71,51,20,1
+2000,Bangladesh,BAN,Asia,6,2,4,0
+2000,Saudi Arabia,KSA,Asia,23,23,0,2
+2000,Qatar,QAT,Asia,19,19,0,1
+2000,Lebanon,LIB,Asia,6,4,2,0
+2000,Oman,OMA,Asia,8,8,0,0
+2000,Palestine,PLE,Asia,2,1,1,0
+2000,Yemen,YEM,Asia,2,1,1,0
+2000,United Arab Emirates,UAE,Asia,5,5,0,0
+2000,Romania,ROU,Europe,252,124,128,46
+2000,Belarus,BLR,Europe,231,128,103,22
+2000,Trinidad and Tobago,TTO,Asia,29,22,7,2
+2000,Iceland,ISL,Europe,29,17,12,1
+2000,Niger,NIG,Africa,4,2,2,0
+2000,Djibouti,DJI,Africa,2,1,1,0
+2000,Slovakia,SVK,Europe,132,96,36,6
+2000,Guyana,GUY,South America,4,3,1,0
+2000,Jamaica,JAM,North America,65,29,36,23
+2000,Barbados,BAR,North America,28,18,10,1
+2000,Venezuela,VEN,South America,65,43,22,0
+2000,Chile,CHI,South America,58,50,8,17
+2000,Individual Olympic Athletes,IOA,IOA,4,3,1,0
+2000,Austria,AUT,Europe,114,69,45,4
+2000,Indonesia,INA,Asia,54,33,21,8
+2000,Bahamas,BAH,North America,39,24,15,11
+2000,San Marino,SMR,Europe,4,3,1,0
+2000,Mozambique,MOZ,Africa,4,2,2,1
+2000,Portugal,POR,Europe,64,51,13,2
+2000,Czech Republic,CZE,Europe,162,111,51,9
+2000,India,IND,Asia,70,47,23,1
+2000,Bulgaria,BUL,Europe,150,103,47,13
+2000,Switzerland,SUI,Europe,138,83,55,14
+2000,Belgium,BEL,Europe,94,40,54,7
+2000,Malta,MLT,Europe,7,4,3,0
+2000,Luxembourg,LUX,Europe,9,2,7,0
+2000,Guinea-Bissau,GBS,Africa,3,2,1,0
+2000,Tunisia,TUN,Africa,47,40,7,0
+2000,Georgia,GEO,Asia,47,33,14,6
+2000,Eritrea,ERI,Africa,3,2,1,0
+2000,Turkmenistan,TKM,Asia,8,4,4,0
+2000,Madagascar,MAD,Africa,13,5,8,0
+2000,Mauritius,MRI,Africa,26,20,6,0
+2000,Estonia,EST,Europe,41,38,3,3
+2000,Israel,ISR,Asia,58,45,13,1
+2000,Armenia,ARM,Asia,26,24,2,1
+2000,Kenya,KEN,Africa,59,36,23,7
+2000,Mongolia,MGL,Asia,23,12,11,0
+2000,South Korea,KOR,Asia,359,232,127,73
+2000,Guinea,GUI,Africa,6,3,3,0
+2000,Republic of Congo,CGO,Africa,5,3,2,0
+2000,Poland,POL,Europe,240,161,79,24
+2000,Saint Vincent,VIN,North America,4,2,2,0
+2000,Togo,TOG,Africa,3,2,1,0
+2000,Ecuador,ECU,South America,11,8,3,0
+2000,Seychelles,SEY,Africa,9,6,3,0
+2000,Uruguay,URU,South America,17,14,3,1
+2000,Equatorial Guinea,GEQ,Africa,4,2,2,0
+2000,Antigua,ANT,North America,4,2,2,0
+2000,Botswana,BOT,Africa,9,9,0,0
+2000,Saint Kitts,SKN,North America,4,2,2,0
+2000,Panama,PAN,North America,7,4,3,0
+2000,Comoros,COM,Africa,2,1,1,0
+2000,Tanzania,TAN,Africa,4,3,1,0
+2000,Colombia,COL,South America,54,30,24,1
+2000,"Virgin Islands, US",ISV,North America,12,9,3,0
+2000,Sierra Leone,SLE,Africa,3,2,1,0
+2000,Latvia,LAT,Europe,60,43,17,3
+2000,Andorra,AND,Europe,5,3,2,0
+2000,Monaco,MON,Europe,4,3,1,0
+2000,Swaziland,SWZ,Africa,6,4,2,0
+2000,Aruba,ARU,North America,5,3,2,0
+2000,Moldova,MDA,Europe,35,30,5,2
+2000,Zimbabwe,ZIM,Africa,26,18,8,0
+2000,Costa Rica,CRC,North America,9,6,3,2
+2000,Guatemala,GUA,North America,18,17,1,0
+2000,Nepal,NEP,Asia,5,2,3,0
+2000,Papua New Guinea,PNG,Oceania,5,2,3,0
+2000,Macedonia,MKD,Europe,15,7,8,1
+2000,Gabon,GAB,Africa,6,4,2,0
+2000,Singapore,SGP,Asia,23,10,13,0
+2000,Ireland,IRL,Europe,76,45,31,1
+2000,Philippines,PHI,Asia,22,12,10,0
+2000,Bermuda,BER,North America,7,5,2,0
+2000,Puerto Rico,PUR,North America,38,31,7,0
+2000,Zambia,ZAM,Africa,8,6,2,0
+2000,Dominican Republic,DOM,North America,13,11,2,0
+2000,Bolivia,BOL,South America,5,3,2,0
+2000,Mali,MLI,Africa,5,3,2,0
+2000,Paraguay,PAR,South America,5,2,3,0
+2000,Honduras,HON,North America,20,18,2,0
+2000,North Korea,PRK,Asia,47,21,26,4
+2000,China,HKG,Asia,46,27,19,0
+2000,Taiwan,TPE,Asia,75,33,42,5
+2000,Myanmar,MYA,Asia,7,1,6,0
+2000,Malawi,MAW,Africa,2,1,1,0
+2000,Guam,GUM,Oceania,7,5,2,0
+2000,Bhutan,BHU,Asia,2,1,1,0
+2000,Thailand,THA,Asia,68,42,26,3
+2000,Senegal,SEN,Africa,32,9,23,0
+2000,Haiti,HAI,North America,5,3,2,0
+2000,"Virgin Islands, British",IVB,North America,1,1,0,0
+2000,Central African Republic,CAF,Africa,3,1,2,0
+2000,Liberia,LBR,Africa,10,8,2,0
+2000,Nicaragua,NCA,North America,6,4,2,0
+2000,Benin,BEN,Africa,4,3,1,0
+2000,Curacao,AHO,South America,8,7,1,0
+2000,Mauritania,MTN,Africa,2,1,1,0
+2000,El Salvador,ESA,North America,10,5,5,0
+2000,Cape Verde,CPV,Africa,2,1,1,0
+2000,Tajikistan,TJK,Asia,4,2,2,0
+2000,Bosnia and Herzegovina,BIH,Europe,11,9,2,0
+2000,Gambia,GAM,Africa,2,1,1,0
+2000,Liechtenstein,LIE,Europe,2,1,1,0
+2000,Namibia,NAM,Africa,16,10,6,0
+2000,Rwanda,RWA,Africa,5,3,2,0
+2000,Sao Tome and Principe,STP,Africa,2,1,1,0
+2000,Burundi,BDI,Africa,6,5,1,0
+2000,Cambodia,CAM,Asia,4,2,2,0
+2000,Saint Lucia,LCA,North America,5,3,2,0
+2000,Solomon Islands,SOL,Oceania,2,1,1,0
+2000,Grenada,GRN,North America,3,2,1,0
+2000,Samoa,SAM,Oceania,5,4,1,0
+2000,Belize,BIZ,North America,2,1,1,0
+2000,Democratic Republic of the Congo,COD,Africa,3,1,2,0
+2000,Vanuatu,VAN,Oceania,3,2,1,0
+2000,Lesotho,LES,Africa,6,4,2,0
+2000,Laos,LAO,Asia,3,2,1,0
+2000,Tonga,TGA,Oceania,3,2,1,0
+2000,Albania,ALB,Europe,5,2,3,0
+2000,Vietnam,VIE,Asia,7,3,4,1
+2000,Cayman Islands,CAY,North America,4,1,3,0
+2000,Micronesia,FSM,Oceania,5,3,2,0
+2000,American Samoa,ASA,Oceania,4,3,1,0
+2000,Chad,CHA,Africa,3,1,2,0
+2000,Fiji,FIJ,Oceania,9,5,4,0
+2000,Burkina Faso,BUR,Africa,4,3,1,0
+2000,Nauru,NRU,Oceania,2,1,1,0
+2000,Cook Islands,COK,Oceania,2,1,1,0
+2004,Norway,NOR,Europe,60,42,18,7
+2004,Estonia,EST,Europe,45,33,12,3
+2004,Belarus,BLR,Europe,192,105,87,15
+2004,Greece,GRE,Europe,499,253,246,31
+2004,USA,USA,North America,726,386,340,263
+2004,Russia,RUS,Europe,593,328,265,189
+2004,France,FRA,Europe,461,286,175,53
+2004,Nicaragua,NCA,North America,6,2,4,0
+2004,Iraq,IRQ,Asia,24,23,1,0
+2004,Qatar,QAT,Asia,15,15,0,0
+2004,Pakistan,PAK,Asia,26,24,2,0
+2004,Egypt,EGY,Africa,104,88,16,5
+2004,Australia,AUS,Oceania,601,327,274,157
+2004,Indonesia,INA,Asia,39,22,17,5
+2004,Azerbaijan,AZE,Asia,37,30,7,5
+2004,Uzbekistan,UZB,Asia,79,57,22,5
+2004,Tajikistan,TJK,Asia,9,5,4,0
+2004,Kyrgyzstan,KGZ,Asia,32,25,7,0
+2004,Japan,JPN,Asia,414,210,204,93
+2004,Spain,ESP,Europe,423,239,184,30
+2004,Turkey,TUR,Asia,74,47,27,11
+2004,Mali,MLI,Africa,21,19,2,0
+2004,Sweden,SWE,Europe,157,82,75,12
+2004,Brazil,BRA,South America,318,158,160,40
+2004,Jordan,JOR,Asia,8,4,4,0
+2004,Sudan,SUD,Africa,4,3,1,0
+2004,Palestine,PLE,Asia,3,2,1,0
+2004,Libya,LBA,Africa,8,6,2,0
+2004,Somalia,SOM,Africa,2,1,1,0
+2004,Mexico,MEX,North America,137,70,67,4
+2004,India,IND,Asia,81,51,30,1
+2004,UK,GBR,Europe,360,196,164,57
+2004,Germany,GER,Europe,592,349,243,149
+2004,New Zealand,NZL,Oceania,184,102,82,6
+2004,Lithuania,LTU,Europe,70,55,15,3
+2004,Netherlands,NED,Europe,264,159,105,77
+2004,Ukraine,UKR,Europe,357,195,162,47
+2004,Ethiopia,ETH,Africa,27,15,12,7
+2004,Italy,ITA,Europe,474,304,170,104
+2004,Algeria,ALG,Africa,71,54,17,0
+2004,Armenia,ARM,Asia,19,17,2,0
+2004,Malta,MLT,Europe,7,4,3,0
+2004,Cuba,CUB,North America,177,116,61,62
+2004,Belize,BIZ,North America,2,1,1,0
+2004,Puerto Rico,PUR,North America,52,39,13,0
+2004,Morocco,MAR,Africa,57,48,9,3
+2004,Finland,FIN,Europe,67,44,23,2
+2004,China,CHN,Asia,518,201,317,94
+2004,Argentina,ARG,South America,179,124,55,49
+2004,Bermuda,BER,North America,10,5,5,0
+2004,Kazakhstan,KAZ,Asia,130,83,47,8
+2004,Uganda,UGA,Africa,11,9,2,0
+2004,Hungary,HUN,Europe,258,145,113,40
+2004,Samoa,SAM,Oceania,3,2,1,0
+2004,Cyprus,CYP,Asia,21,14,7,0
+2004,Iran,IRI,Asia,37,36,1,6
+2004,Bangladesh,BAN,Asia,4,3,1,0
+2004,Nigeria,NGR,Africa,79,29,50,8
+2004,Syria,SYR,Asia,6,5,1,1
+2004,Yemen,YEM,Asia,3,3,0,0
+2004,Saudi Arabia,KSA,Asia,16,16,0,0
+2004,Lebanon,LIB,Asia,5,3,2,0
+2004,Kuwait,KUW,Asia,11,10,1,0
+2004,United Arab Emirates,UAE,Asia,5,5,0,1
+2004,Bahrain,BRN,Asia,10,7,3,0
+2004,Oman,OMA,Asia,2,2,0,0
+2004,Benin,BEN,Africa,4,2,2,0
+2004,Niger,NIG,Africa,4,3,1,0
+2004,Bulgaria,BUL,Europe,119,67,52,17
+2004,Trinidad and Tobago,TTO,Asia,26,16,10,1
+2004,Canada,CAN,North America,391,200,191,17
+2004,Iceland,ISL,Europe,34,28,6,0
+2004,Central African Republic,CAF,Africa,4,2,2,0
+2004,Maldives,MDV,Asia,4,2,2,0
+2004,Switzerland,SUI,Europe,138,80,58,7
+2004,Austria,AUT,Europe,92,66,26,8
+2004,Jamaica,JAM,North America,62,27,35,13
+2004,Barbados,BAR,North America,15,14,1,0
+2004,Ivory Coast,CIV,Africa,5,2,3,0
+2004,Angola,ANG,Africa,30,14,16,0
+2004,Portugal,POR,Europe,93,75,18,3
+2004,Venezuela,VEN,South America,53,35,18,2
+2004,Timor-Leste,TLS,Asia,2,1,1,0
+2004,Namibia,NAM,Africa,10,9,1,0
+2004,Bahamas,BAH,North America,28,16,12,2
+2004,San Marino,SMR,Europe,5,4,1,0
+2004,South Korea,KOR,Asia,344,203,141,52
+2004,Brunei,BRU,Asia,1,1,0,0
+2004,Croatia,CRO,Europe,100,76,24,21
+2004,Denmark,DEN,Europe,115,59,56,29
+2004,Colombia,COL,South America,71,43,28,2
+2004,Madagascar,MAD,Africa,8,3,5,0
+2004,Czech Republic,CZE,Europe,171,95,76,13
+2004,Mongolia,MGL,Asia,21,13,8,1
+2004,Ghana,GHA,Africa,29,26,3,0
+2004,Romania,ROU,Europe,193,95,98,39
+2004,Laos,LAO,Asia,5,3,2,0
+2004,Ireland,IRL,Europe,55,37,18,0
+2004,Guatemala,GUA,North America,19,11,8,0
+2004,Dominican Republic,DOM,North America,33,17,16,1
+2004,Chile,CHI,South America,29,21,8,4
+2004,Costa Rica,CRC,North America,21,17,4,0
+2004,Israel,ISR,Asia,46,27,19,2
+2004,Georgia,GEO,Asia,39,32,7,4
+2004,Zimbabwe,ZIM,Africa,14,9,5,3
+2004,Grenada,GRN,North America,5,3,2,0
+2004,Cameroon,CMR,Africa,19,10,9,1
+2004,Seychelles,SEY,Africa,10,8,2,0
+2004,Serbia,SCG,Europe,96,87,9,13
+2004,Tunisia,TUN,Africa,64,52,12,0
+2004,Afghanistan,AFG,Asia,5,3,2,0
+2004,Slovakia,SVK,Europe,84,58,26,10
+2004,Slovenia,SLO,Europe,102,67,35,5
+2004,Democratic Republic of the Congo,COD,Africa,6,5,1,0
+2004,Senegal,SEN,Africa,21,8,13,0
+2004,Malaysia,MAS,Asia,38,27,11,0
+2004,Nepal,NEP,Asia,6,3,3,0
+2004,Antigua,ANT,North America,5,3,2,0
+2004,Republic of Congo,CGO,Africa,5,2,3,0
+2004,Poland,POL,Europe,224,152,72,12
+2004,Sierra Leone,SLE,Africa,2,1,1,0
+2004,Honduras,HON,North America,5,3,2,0
+2004,Kenya,KEN,Africa,46,22,24,7
+2004,Paraguay,PAR,South America,22,20,2,17
+2004,South Africa,RSA,Africa,128,79,49,10
+2004,Botswana,BOT,Africa,12,11,1,0
+2004,Turkmenistan,TKM,Asia,10,7,3,0
+2004,Tanzania,TAN,Africa,9,7,2,0
+2004,Belgium,BEL,Europe,70,44,26,3
+2004,Andorra,AND,Europe,6,4,2,0
+2004,Haiti,HAI,North America,8,7,1,0
+2004,Gabon,GAB,Africa,5,3,2,0
+2004,Aruba,ARU,North America,4,3,1,0
+2004,Moldova,MDA,Europe,33,26,7,0
+2004,Peru,PER,South America,14,9,5,0
+2004,Papua New Guinea,PNG,Oceania,6,4,2,0
+2004,Micronesia,FSM,Oceania,5,3,2,0
+2004,Thailand,THA,Asia,51,30,21,8
+2004,Togo,TOG,Africa,3,2,1,0
+2004,Singapore,SGP,Asia,22,7,15,0
+2004,Philippines,PHI,Asia,21,16,5,0
+2004,Mauritius,MRI,Africa,9,6,3,0
+2004,Fiji,FIJ,Oceania,9,5,4,0
+2004,Guyana,GUY,South America,4,2,2,0
+2004,Ecuador,ECU,South America,18,12,6,0
+2004,Guinea-Bissau,GBS,Africa,3,1,2,0
+2004,Equatorial Guinea,GEQ,Africa,2,1,1,0
+2004,Latvia,LAT,Europe,45,34,11,4
+2004,China,HKG,Asia,42,19,23,2
+2004,Taiwan,TPE,Asia,104,57,47,9
+2004,Zambia,ZAM,Africa,6,4,2,0
+2004,Malawi,MAW,Africa,4,2,2,0
+2004,Bhutan,BHU,Asia,2,1,1,0
+2004,North Korea,PRK,Asia,71,20,51,5
+2004,Guam,GUM,Oceania,4,3,1,0
+2004,Albania,ALB,Europe,7,5,2,0
+2004,Uruguay,URU,South America,18,16,2,0
+2004,Saint Kitts,SKN,North America,2,1,1,0
+2004,Sri Lanka,SRI,Asia,8,4,4,0
+2004,Panama,PAN,North America,5,3,2,0
+2004,Mozambique,MOZ,Africa,4,2,2,0
+2004,"Virgin Islands, British",IVB,North America,1,1,0,0
+2004,Sao Tome and Principe,STP,Africa,2,1,1,0
+2004,Suriname,SUR,South America,4,2,2,0
+2004,Bolivia,BOL,South America,11,4,7,0
+2004,Luxembourg,LUX,Europe,14,7,7,0
+2004,Saint Vincent,VIN,North America,3,2,1,0
+2004,Nauru,NRU,Oceania,3,2,1,0
+2004,Monaco,MON,Europe,3,2,1,0
+2004,Guinea,GUI,Africa,4,3,1,0
+2004,El Salvador,ESA,North America,9,2,7,0
+2004,Rwanda,RWA,Africa,5,3,2,0
+2004,Comoros,COM,Africa,3,2,1,0
+2004,Swaziland,SWZ,Africa,3,2,1,0
+2004,Vietnam,VIE,Asia,11,6,5,0
+2004,"Virgin Islands, US",ISV,North America,9,7,2,0
+2004,Bosnia and Herzegovina,BIH,Europe,11,9,2,0
+2004,Palau,PLW,Oceania,4,2,2,0
+2004,Cayman Islands,CAY,North America,8,5,3,0
+2004,Cape Verde,CPV,Africa,3,2,1,0
+2004,Burundi,BDI,Africa,7,5,2,0
+2004,Liechtenstein,LIE,Europe,1,1,0,0
+2004,Saint Lucia,LCA,North America,2,1,1,0
+2004,Curacao,AHO,South America,3,3,0,0
+2004,Eritrea,ERI,Africa,5,4,1,1
+2004,Cook Islands,COK,Oceania,3,2,1,0
+2004,Tonga,TGA,Oceania,5,4,1,0
+2004,Cambodia,CAM,Asia,4,2,2,0
+2004,Macedonia,MKD,Europe,14,8,6,0
+2004,Dominica,DMA,North America,2,1,1,0
+2004,Mauritania,MTN,Africa,2,1,1,0
+2004,Vanuatu,VAN,Oceania,2,1,1,0
+2004,Solomon Islands,SOL,Oceania,2,1,1,0
+2004,American Samoa,ASA,Oceania,3,2,1,0
+2004,Lesotho,LES,Africa,3,1,2,0
+2004,Kiribati,KIR,Oceania,3,2,1,0
+2004,Chad,CHA,Africa,1,0,1,0
+2004,Myanmar,MYA,Asia,2,0,2,0
+2004,Gambia,GAM,Africa,3,2,1,0
+2004,Burkina Faso,BUR,Africa,5,3,2,0
+2004,Liberia,LBR,Africa,2,1,1,0
+2008,Norway,NOR,Europe,102,43,59,22
+2008,Estonia,EST,Europe,53,36,17,3
+2008,Spain,ESP,Europe,355,209,146,70
+2008,Russia,RUS,Europe,600,315,285,142
+2008,Belarus,BLR,Europe,237,141,96,29
+2008,France,FRA,Europe,448,266,182,77
+2008,Italy,ITA,Europe,459,276,183,42
+2008,Pakistan,PAK,Asia,22,20,2,0
+2008,Azerbaijan,AZE,Asia,44,30,14,7
+2008,Australia,AUS,Oceania,570,299,271,149
+2008,South Africa,RSA,Africa,179,99,80,1
+2008,Canada,CAN,North America,449,261,188,35
+2008,USA,USA,North America,763,397,366,317
+2008,Morocco,MAR,Africa,49,37,12,2
+2008,Egypt,EGY,Africa,116,82,34,1
+2008,Eritrea,ERI,Africa,11,9,2,0
+2008,Sudan,SUD,Africa,9,5,4,1
+2008,Algeria,ALG,Africa,57,35,22,2
+2008,Palestine,PLE,Asia,4,2,2,0
+2008,Iraq,IRQ,Asia,4,3,1,0
+2008,Qatar,QAT,Asia,20,20,0,0
+2008,Kyrgyzstan,KGZ,Asia,22,18,4,2
+2008,Tajikistan,TJK,Asia,16,13,3,2
+2008,Japan,JPN,Asia,457,233,224,51
+2008,Germany,GER,Europe,558,313,245,99
+2008,Turkey,TUR,Asia,71,50,21,7
+2008,Ivory Coast,CIV,Africa,22,20,2,0
+2008,Kazakhstan,KAZ,Asia,146,72,74,13
+2008,Sweden,SWE,Europe,169,72,97,7
+2008,Portugal,POR,Europe,87,58,29,2
+2008,Angola,ANG,Africa,33,18,15,0
+2008,Iran,IRI,Asia,55,52,3,2
+2008,Bangladesh,BAN,Asia,5,3,2,0
+2008,Nigeria,NGR,Africa,89,42,47,23
+2008,Romania,ROU,Europe,172,84,88,22
+2008,Venezuela,VEN,South America,126,68,58,1
+2008,India,IND,Asia,67,38,29,3
+2008,UK,GBR,Europe,420,211,209,81
+2008,Tunisia,TUN,Africa,29,17,12,1
+2008,Argentina,ARG,South America,145,89,56,51
+2008,Mexico,MEX,North America,103,52,51,4
+2008,Cuba,CUB,North America,171,110,61,47
+2008,Mauritius,MRI,Africa,11,6,5,1
+2008,Poland,POL,Europe,316,181,135,20
+2008,New Zealand,NZL,Oceania,201,112,89,15
+2008,Liberia,LBR,Africa,4,2,2,0
+2008,Ethiopia,ETH,Africa,29,15,14,7
+2008,Nepal,NEP,Asia,8,4,4,0
+2008,Armenia,ARM,Asia,26,24,2,6
+2008,Netherlands,NED,Europe,283,160,123,61
+2008,Brazil,BRA,South America,338,172,166,78
+2008,Ukraine,UKR,Europe,327,161,166,31
+2008,American Samoa,ASA,Oceania,4,2,2,0
+2008,Belgium,BEL,Europe,112,90,22,5
+2008,Greece,GRE,Europe,176,97,79,7
+2008,Austria,AUT,Europe,93,55,38,3
+2008,Seychelles,SEY,Africa,10,7,3,0
+2008,Dominican Republic,DOM,North America,27,19,8,2
+2008,Nicaragua,NCA,North America,7,4,3,0
+2008,Paraguay,PAR,South America,7,3,4,0
+2008,Comoros,COM,Africa,3,2,1,0
+2008,Namibia,NAM,Africa,11,6,5,0
+2008,Bermuda,BER,North America,6,2,4,0
+2008,Samoa,SAM,Oceania,7,5,2,0
+2008,Cyprus,CYP,Asia,18,7,11,0
+2008,Kenya,KEN,Africa,47,29,18,15
+2008,Saudi Arabia,KSA,Asia,18,18,0,0
+2008,Kuwait,KUW,Asia,8,8,0,0
+2008,Bahrain,BRN,Asia,15,12,3,0
+2008,Syria,SYR,Asia,7,6,1,0
+2008,Oman,OMA,Asia,4,3,1,0
+2008,Yemen,YEM,Asia,8,7,1,0
+2008,Jordan,JOR,Asia,7,3,4,0
+2008,United Arab Emirates,UAE,Asia,9,7,2,0
+2008,Finland,FIN,Europe,70,38,32,5
+2008,Jamaica,JAM,North America,66,30,36,14
+2008,Lithuania,LTU,Europe,78,45,33,5
+2008,Bulgaria,BUL,Europe,87,52,35,5
+2008,Saint Vincent,VIN,North America,2,1,1,0
+2008,Niger,NIG,Africa,4,2,2,0
+2008,Libya,LBA,Africa,6,4,2,0
+2008,Cameroon,CMR,Africa,32,25,7,1
+2008,Djibouti,DJI,Africa,2,1,1,0
+2008,Bosnia and Herzegovina,BIH,Europe,7,6,1,0
+2008,Guam,GUM,Oceania,7,5,2,0
+2008,Croatia,CRO,Europe,125,95,30,5
+2008,Barbados,BAR,North America,10,8,2,0
+2008,Chile,CHI,South America,29,22,7,1
+2008,Honduras,HON,North America,26,24,2,0
+2008,Colombia,COL,South America,90,57,33,2
+2008,Uzbekistan,UZB,Asia,69,49,20,6
+2008,Bahamas,BAH,North America,33,22,11,7
+2008,Malaysia,MAS,Asia,42,26,16,1
+2008,Ghana,GHA,Africa,9,8,1,0
+2008,South Korea,KOR,Asia,329,208,121,78
+2008,North Korea,PRK,Asia,66,22,44,6
+2008,Denmark,DEN,Europe,108,76,32,19
+2008,Madagascar,MAD,Africa,6,4,2,0
+2008,Philippines,PHI,Asia,17,11,6,0
+2008,Czech Republic,CZE,Europe,158,87,71,7
+2008,China,CHN,Asia,730,376,354,184
+2008,Turkmenistan,TKM,Asia,10,6,4,0
+2008,Latvia,LAT,Europe,53,35,18,3
+2008,Ireland,IRL,Europe,63,44,19,3
+2008,Thailand,THA,Asia,53,23,30,4
+2008,Guatemala,GUA,North America,13,9,4,0
+2008,El Salvador,ESA,North America,14,4,10,0
+2008,Trinidad and Tobago,TTO,Asia,35,22,13,6
+2008,Hungary,HUN,Europe,216,113,103,27
+2008,Iceland,ISL,Europe,31,22,9,14
+2008,Puerto Rico,PUR,North America,31,24,7,0
+2008,Switzerland,SUI,Europe,116,68,48,11
+2008,Malta,MLT,Europe,6,3,3,0
+2008,China,HKG,Asia,47,22,25,0
+2008,Haiti,HAI,North America,7,3,4,0
+2008,Israel,ISR,Asia,60,35,25,1
+2008,Afghanistan,AFG,Asia,4,3,1,1
+2008,Senegal,SEN,Africa,17,10,7,0
+2008,Mongolia,MGL,Asia,31,14,17,4
+2008,Mali,MLI,Africa,17,3,14,0
+2008,Gabon,GAB,Africa,4,2,2,0
+2008,Ecuador,ECU,South America,26,18,8,1
+2008,Antigua,ANT,North America,5,4,1,0
+2008,Republic of Congo,CGO,Africa,5,3,2,0
+2008,Botswana,BOT,Africa,11,9,2,0
+2008,Zimbabwe,ZIM,Africa,16,8,8,4
+2008,Peru,PER,South America,13,7,6,0
+2008,"Virgin Islands, US",ISV,North America,8,6,2,0
+2008,Guinea,GUI,Africa,5,2,3,0
+2008,Slovakia,SVK,Europe,67,39,28,10
+2008,Grenada,GRN,North America,9,4,5,0
+2008,Uganda,UGA,Africa,11,9,2,0
+2008,Tanzania,TAN,Africa,9,7,2,0
+2008,Saint Lucia,LCA,North America,4,1,3,0
+2008,Georgia,GEO,Asia,38,29,9,6
+2008,Albania,ALB,Europe,12,7,5,0
+2008,Andorra,AND,Europe,5,3,2,0
+2008,Serbia,SRB,Europe,97,70,27,15
+2008,Sierra Leone,SLE,Africa,3,2,1,0
+2008,Luxembourg,LUX,Europe,19,15,4,0
+2008,Panama,PAN,North America,5,3,2,1
+2008,Papua New Guinea,PNG,Oceania,9,5,4,0
+2008,Sao Tome and Principe,STP,Africa,4,3,1,0
+2008,Central African Republic,CAF,Africa,3,2,1,0
+2008,Togo,TOG,Africa,4,3,1,1
+2008,Slovenia,SLO,Europe,73,46,27,5
+2008,Moldova,MDA,Europe,30,22,8,1
+2008,Costa Rica,CRC,North America,8,6,2,0
+2008,Montenegro,MNE,Europe,20,18,2,0
+2008,Uruguay,URU,South America,13,10,3,0
+2008,San Marino,SMR,Europe,4,2,2,0
+2008,Fiji,FIJ,Oceania,6,4,2,0
+2008,Guyana,GUY,South America,4,2,2,0
+2008,Zambia,ZAM,Africa,8,6,2,0
+2008,Singapore,SGP,Asia,36,13,23,3
+2008,Bolivia,BOL,South America,7,4,3,0
+2008,Mozambique,MOZ,Africa,4,2,2,0
+2008,Mauritania,MTN,Africa,2,1,1,0
+2008,Taiwan,TPE,Asia,92,48,44,4
+2008,Malawi,MAW,Africa,4,2,2,0
+2008,Indonesia,INA,Asia,26,15,11,7
+2008,Laos,LAO,Asia,4,2,2,0
+2008,Saint Kitts,SKN,North America,6,2,4,0
+2008,Marshall Islands,MHL,Oceania,5,3,2,0
+2008,Cape Verde,CPV,Africa,2,1,1,0
+2008,Guinea-Bissau,GBS,Africa,3,2,1,0
+2008,Micronesia,FSM,Oceania,5,3,2,0
+2008,Benin,BEN,Africa,5,3,2,0
+2008,Curacao,AHO,South America,4,4,0,0
+2008,Bhutan,BHU,Asia,2,1,1,0
+2008,Nauru,NRU,Oceania,1,1,0,0
+2008,Monaco,MON,Europe,5,4,1,0
+2008,Rwanda,RWA,Africa,4,2,2,0
+2008,Swaziland,SWZ,Africa,4,2,2,0
+2008,Vietnam,VIE,Asia,18,8,10,1
+2008,Palau,PLW,Oceania,5,3,2,0
+2008,Tuvalu,TUV,Oceania,3,2,1,0
+2008,Belize,BIZ,North America,4,3,1,0
+2008,Cayman Islands,CAY,North America,6,5,1,0
+2008,Liechtenstein,LIE,Europe,2,2,0,0
+2008,Lebanon,LIB,Asia,6,4,2,0
+2008,Solomon Islands,SOL,Oceania,3,1,2,0
+2008,"Virgin Islands, British",IVB,North America,2,1,1,0
+2008,Cook Islands,COK,Oceania,4,3,1,0
+2008,Cambodia,CAM,Asia,4,2,2,0
+2008,Dominica,DMA,North America,2,2,0,0
+2008,Maldives,MDV,Asia,4,2,2,0
+2008,Somalia,SOM,Africa,2,1,1,0
+2008,Gambia,GAM,Africa,3,2,1,0
+2008,Sri Lanka,SRI,Asia,9,5,4,0
+2008,Vanuatu,VAN,Oceania,3,1,2,0
+2008,Kiribati,KIR,Oceania,2,2,0,0
+2008,Democratic Republic of the Congo,COD,Africa,5,4,1,0
+2008,Lesotho,LES,Africa,5,4,1,0
+2008,Myanmar,MYA,Asia,7,5,2,0
+2008,Tonga,TGA,Oceania,3,2,1,0
+2008,Equatorial Guinea,GEQ,Africa,3,2,1,0
+2008,Chad,CHA,Africa,2,1,1,0
+2008,Macedonia,MKD,Europe,7,5,2,0
+2008,Suriname,SUR,South America,4,2,2,0
+2008,Burkina Faso,BUR,Africa,6,3,3,0
+2008,Burundi,BDI,Africa,3,1,2,0
+2008,Aruba,ARU,North America,2,2,0,0
+2008,Timor-Leste,TLS,Asia,1,0,1,0
+2012,China,CHN,Asia,479,212,267,125
+2012,France,FRA,Europe,426,243,183,82
+2012,Morocco,MAR,Africa,67,48,19,1
+2012,Russia,RUS,Europe,549,266,283,140
+2012,Argentina,ARG,South America,148,103,45,19
+2012,Italy,ITA,Europe,382,212,170,68
+2012,Algeria,ALG,Africa,39,22,17,1
+2012,Pakistan,PAK,Asia,21,19,2,0
+2012,Iran,IRI,Asia,57,46,11,12
+2012,Egypt,EGY,Africa,132,87,45,2
+2012,Australia,AUS,Oceania,514,271,243,114
+2012,USA,USA,North America,689,346,343,248
+2012,Cameroon,CMR,Africa,32,10,22,0
+2012,Iraq,IRQ,Asia,8,5,3,0
+2012,Uzbekistan,UZB,Asia,56,37,19,3
+2012,Azerbaijan,AZE,Asia,59,43,16,10
+2012,United Arab Emirates,UAE,Asia,26,24,2,0
+2012,Kyrgyzstan,KGZ,Asia,15,12,3,0
+2012,Tajikistan,TJK,Asia,16,13,3,1
+2012,Canada,CAN,North America,354,146,208,55
+2012,Cuba,CUB,North America,118,70,48,14
+2012,Spain,ESP,Europe,339,203,136,63
+2012,Japan,JPN,Asia,399,199,200,84
+2012,Nigeria,NGR,Africa,58,30,28,0
+2012,Portugal,POR,Europe,98,56,42,2
+2012,Switzerland,SUI,Europe,126,89,37,4
+2012,Colombia,COL,South America,120,56,64,8
+2012,Ethiopia,ETH,Africa,34,18,16,7
+2012,Jordan,JOR,Asia,9,5,4,0
+2012,Palestine,PLE,Asia,5,3,2,0
+2012,Kazakhstan,KAZ,Asia,132,85,47,13
+2012,UK,GBR,Europe,684,350,334,126
+2012,Uganda,UGA,Africa,16,12,4,1
+2012,Tunisia,TUN,Africa,87,66,21,3
+2012,Netherlands,NED,Europe,222,117,105,69
+2012,Mexico,MEX,North America,119,74,45,24
+2012,Venezuela,VEN,South America,85,49,36,1
+2012,Poland,POL,Europe,256,145,111,12
+2012,Niger,NIG,Africa,6,4,2,0
+2012,Saint Kitts,SKN,North America,7,7,0,0
+2012,New Zealand,NZL,Oceania,204,110,94,27
+2012,Germany,GER,Europe,510,279,231,94
+2012,Liberia,LBR,Africa,3,1,2,0
+2012,Eritrea,ERI,Africa,12,11,1,0
+2012,Brazil,BRA,South America,306,162,144,59
+2012,Sweden,SWE,Europe,168,66,102,22
+2012,Belgium,BEL,Europe,142,93,49,3
+2012,Malaysia,MAS,Asia,38,22,16,2
+2012,Greece,GRE,Europe,115,70,45,3
+2012,Romania,ROU,Europe,155,82,73,16
+2012,Rwanda,RWA,Africa,7,5,2,0
+2012,Togo,TOG,Africa,6,4,2,0
+2012,Paraguay,PAR,South America,10,6,4,0
+2012,Uruguay,URU,South America,27,24,3,0
+2012,Comoros,COM,Africa,3,1,2,0
+2012,Indonesia,INA,Asia,22,13,9,2
+2012,Maldives,MDV,Asia,5,3,2,0
+2012,Benin,BEN,Africa,5,4,1,0
+2012,Ivory Coast,CIV,Africa,10,4,6,0
+2012,Namibia,NAM,Africa,9,5,4,0
+2012,Estonia,EST,Europe,36,25,11,2
+2012,Trinidad and Tobago,TTO,Asia,38,26,12,10
+2012,Lithuania,LTU,Europe,72,42,30,5
+2012,Ukraine,UKR,Europe,304,161,143,26
+2012,Saint Vincent,VIN,North America,3,2,1,0
+2012,Turkey,TUR,Asia,119,52,67,5
+2012,Cyprus,CYP,Asia,13,9,4,1
+2012,Saudi Arabia,KSA,Asia,23,21,2,4
+2012,Kuwait,KUW,Asia,12,9,3,1
+2012,Qatar,QAT,Asia,14,9,5,2
+2012,Bahrain,BRN,Asia,14,4,10,1
+2012,Yemen,YEM,Asia,4,3,1,0
+2012,Oman,OMA,Asia,3,2,1,0
+2012,Sudan,SUD,Africa,6,4,2,0
+2012,Finland,FIN,Europe,69,32,37,5
+2012,Fiji,FIJ,Oceania,9,6,3,0
+2012,Vanuatu,VAN,Oceania,5,3,2,0
+2012,Jamaica,JAM,North America,62,29,33,25
+2012,Guatemala,GUA,North America,24,14,10,1
+2012,Puerto Rico,PUR,North America,28,19,9,2
+2012,Bulgaria,BUL,Europe,75,39,36,2
+2012,Armenia,ARM,Asia,31,27,4,3
+2012,Latvia,LAT,Europe,50,36,14,3
+2012,Serbia,SRB,Europe,134,92,42,16
+2012,Belarus,BLR,Europe,185,99,86,23
+2012,"Virgin Islands, British",IVB,North America,2,1,1,0
+2012,El Salvador,ESA,North America,11,5,6,0
+2012,Madagascar,MAD,Africa,7,3,4,0
+2012,Djibouti,DJI,Africa,4,2,2,0
+2012,Croatia,CRO,Europe,118,69,49,35
+2012,Philippines,PHI,Asia,11,7,4,0
+2012,Seychelles,SEY,Africa,6,4,2,0
+2012,Barbados,BAR,North America,8,8,0,0
+2012,Ecuador,ECU,South America,36,23,13,0
+2012,Angola,ANG,Africa,35,6,29,0
+2012,Norway,NOR,Europe,69,37,32,17
+2012,Costa Rica,CRC,North America,11,8,3,0
+2012,Austria,AUT,Europe,90,52,38,0
+2012,Bahamas,BAH,North America,29,16,13,4
+2012,Botswana,BOT,Africa,4,3,1,1
+2012,Ghana,GHA,Africa,7,5,2,0
+2012,North Korea,PRK,Asia,57,17,40,6
+2012,Denmark,DEN,Europe,149,76,73,16
+2012,Kenya,KEN,Africa,51,29,22,11
+2012,Ireland,IRL,Europe,76,42,34,5
+2012,Mongolia,MGL,Asia,32,18,14,5
+2012,Slovenia,SLO,Europe,78,30,48,5
+2012,Palau,PLW,Oceania,5,2,3,0
+2012,Hungary,HUN,Europe,201,113,88,26
+2012,India,IND,Asia,95,66,29,6
+2012,Czech Republic,CZE,Europe,159,81,78,14
+2012,South Africa,RSA,Africa,145,84,61,9
+2012,Chile,CHI,South America,44,26,18,0
+2012,Thailand,THA,Asia,43,22,21,3
+2012,Dominican Republic,DOM,North America,36,15,21,2
+2012,Peru,PER,South America,16,9,7,0
+2012,Iceland,ISL,Europe,36,24,12,0
+2012,Israel,ISR,Asia,56,33,23,0
+2012,Mauritius,MRI,Africa,11,4,7,0
+2012,Moldova,MDA,Europe,20,12,8,2
+2012,Guam,GUM,Oceania,8,5,3,0
+2012,China,HKG,Asia,55,26,29,1
+2012,Gabon,GAB,Africa,21,19,2,1
+2012,Myanmar,MYA,Asia,6,3,3,0
+2012,Afghanistan,AFG,Asia,6,5,1,1
+2012,Senegal,SEN,Africa,32,25,7,0
+2012,Lebanon,LIB,Asia,10,3,7,0
+2012,South Korea,KOR,Asia,312,176,136,61
+2012,Antigua,ANT,North America,4,2,2,0
+2012,Republic of Congo,CGO,Africa,7,4,3,0
+2012,Bolivia,BOL,South America,5,3,2,0
+2012,Monaco,MON,Europe,6,5,1,0
+2012,Syria,SYR,Asia,10,6,4,0
+2012,Montenegro,MNE,Europe,34,19,15,14
+2012,Guinea,GUI,Africa,4,2,2,0
+2012,Slovakia,SVK,Europe,65,35,30,5
+2012,Guyana,GUY,South America,6,4,2,0
+2012,Turkmenistan,TKM,Asia,10,7,3,0
+2012,Saint Lucia,LCA,North America,4,1,3,0
+2012,Albania,ALB,Europe,10,7,3,0
+2012,Honduras,HON,North America,25,22,3,0
+2012,Samoa,SAM,Oceania,9,6,3,0
+2012,Andorra,AND,Europe,6,4,2,0
+2012,Grenada,GRN,North America,8,5,3,1
+2012,Burundi,BDI,Africa,6,2,4,0
+2012,Macedonia,MKD,Europe,4,2,2,0
+2012,Georgia,GEO,Asia,36,28,8,7
+2012,Individual Olympic Athletes,IOA,IOA,4,3,1,0
+2012,Malta,MLT,Europe,5,3,2,0
+2012,Central African Republic,CAF,Africa,6,3,3,0
+2012,Nicaragua,NCA,North America,6,3,3,0
+2012,Cook Islands,COK,Oceania,9,4,5,0
+2012,Bermuda,BER,North America,8,5,3,0
+2012,Bangladesh,BAN,Asia,7,6,1,0
+2012,Luxembourg,LUX,Europe,11,7,4,0
+2012,Mozambique,MOZ,Africa,6,4,2,0
+2012,Mali,MLI,Africa,6,4,2,0
+2012,Panama,PAN,North America,8,6,2,0
+2012,Cambodia,CAM,Asia,6,3,3,0
+2012,Taiwan,TPE,Asia,55,22,33,2
+2012,Singapore,SGP,Asia,36,12,24,4
+2012,Bhutan,BHU,Asia,2,0,2,0
+2012,Zambia,ZAM,Africa,7,5,2,0
+2012,Vietnam,VIE,Asia,24,8,16,0
+2012,Gambia,GAM,Africa,2,1,1,0
+2012,Sri Lanka,SRI,Asia,8,5,3,0
+2012,Zimbabwe,ZIM,Africa,9,4,5,0
+2012,Sao Tome and Principe,STP,Africa,2,1,1,0
+2012,Guinea-Bissau,GBS,Africa,4,2,2,0
+2012,Micronesia,FSM,Oceania,6,4,2,0
+2012,Kiribati,KIR,Oceania,3,2,1,0
+2012,Haiti,HAI,North America,5,3,2,0
+2012,Nauru,NRU,Oceania,2,2,0,0
+2012,Nepal,NEP,Asia,5,2,3,0
+2012,Libya,LBA,Africa,4,3,1,0
+2012,Mauritania,MTN,Africa,2,1,1,0
+2012,Equatorial Guinea,GEQ,Africa,2,1,1,0
+2012,American Samoa,ASA,Oceania,4,3,1,0
+2012,Somalia,SOM,Africa,2,1,1,0
+2012,Bosnia and Herzegovina,BIH,Europe,8,6,2,0
+2012,Tonga,TGA,Oceania,3,2,1,0
+2012,Cayman Islands,CAY,North America,7,7,0,0
+2012,Dominica,DMA,North America,2,1,1,0
+2012,Marshall Islands,MHL,Oceania,4,2,2,0
+2012,Tanzania,TAN,Africa,6,4,2,0
+2012,San Marino,SMR,Europe,4,1,3,0
+2012,"Virgin Islands, US",ISV,North America,9,4,5,0
+2012,Swaziland,SWZ,Africa,3,2,1,0
+2012,Liechtenstein,LIE,Europe,4,1,3,0
+2012,Aruba,ARU,North America,4,3,1,0
+2012,Laos,LAO,Asia,3,2,1,0
+2012,Papua New Guinea,PNG,Oceania,8,4,4,0
+2012,Democratic Republic of the Congo,COD,Africa,4,3,1,0
+2012,Burkina Faso,BUR,Africa,5,2,3,0
+2012,Solomon Islands,SOL,Oceania,4,2,2,0
+2012,Tuvalu,TUV,Oceania,3,2,1,0
+2012,Lesotho,LES,Africa,4,2,2,0
+2012,Brunei,BRU,Asia,3,2,1,0
+2012,Cape Verde,CPV,Africa,3,1,2,0
+2012,Belize,BIZ,North America,3,2,1,0
+2012,Timor-Leste,TLS,Asia,2,1,1,0
+2012,Chad,CHA,Africa,2,0,2,0
+2012,Suriname,SUR,South America,5,3,2,0
+2012,Sierra Leone,SLE,Africa,2,1,1,0
+2012,Malawi,MAW,Africa,3,1,2,0
+2016,Romania,ROU,Europe,121,46,75,16
+2016,Spain,ESP,Europe,363,191,172,45
+2016,Italy,ITA,Europe,399,213,186,72
+2016,Azerbaijan,AZE,Asia,69,53,16,18
+2016,France,FRA,Europe,512,295,217,96
+2016,Algeria,ALG,Africa,74,61,13,2
+2016,Bahrain,BRN,Asia,33,20,13,2
+2016,Netherlands,NED,Europe,329,153,176,47
+2016,Iraq,IRQ,Asia,20,20,0,0
+2016,Ireland,IRL,Europe,93,62,31,3
+2016,USA,USA,North America,719,350,369,264
+2016,Egypt,EGY,Africa,137,91,46,3
+2016,Iran,IRI,Asia,67,56,11,8
+2016,Belgium,BEL,Europe,138,85,53,21
+2016,Cameroon,CMR,Africa,22,5,17,0
+2016,Kazakhstan,KAZ,Asia,123,66,57,18
+2016,Brunei,BRU,Asia,3,2,1,0
+2016,Uzbekistan,UZB,Asia,80,53,27,13
+2016,Tajikistan,TJK,Asia,7,5,2,1
+2016,Russia,RUS,Europe,406,203,203,115
+2016,Canada,CAN,North America,405,151,254,69
+2016,Germany,GER,Europe,536,290,246,159
+2016,Mexico,MEX,North America,139,83,56,5
+2016,Ethiopia,ETH,Africa,38,17,21,8
+2016,Sri Lanka,SRI,Asia,10,8,2,0
+2016,Armenia,ARM,Asia,34,24,10,4
+2016,Kenya,KEN,Africa,80,46,34,13
+2016,Nigeria,NGR,Africa,77,49,28,18
+2016,Brazil,BRA,South America,583,324,259,50
+2016,Australia,AUS,Oceania,518,255,263,82
+2016,Chile,CHI,South America,47,26,21,0
+2016,Switzerland,SUI,Europe,152,91,61,11
+2016,Belarus,BLR,Europe,142,65,77,12
+2016,Guyana,GUY,South America,7,3,4,0
+2016,Georgia,GEO,Asia,45,31,14,7
+2016,Portugal,POR,Europe,106,72,34,1
+2016,Colombia,COL,South America,157,81,76,8
+2016,Djibouti,DJI,Africa,8,7,1,0
+2016,Jordan,JOR,Asia,8,7,1,1
+2016,Palestine,PLE,Asia,6,4,2,0
+2016,Saudi Arabia,KSA,Asia,11,8,3,0
+2016,India,IND,Asia,130,68,62,2
+2016,Ghana,GHA,Africa,15,7,8,0
+2016,Honduras,HON,North America,23,22,1,0
+2016,El Salvador,ESA,North America,10,7,3,0
+2016,Venezuela,VEN,South America,105,76,29,3
+2016,Argentina,ARG,South America,232,150,82,22
+2016,Turkmenistan,TKM,Asia,9,4,5,0
+2016,Japan,JPN,Asia,436,227,209,64
+2016,Saint Kitts,SKN,North America,9,8,1,0
+2016,UK,GBR,Europe,478,266,212,145
+2016,New Zealand,NZL,Oceania,232,118,114,36
+2016,Turkey,TUR,Asia,119,65,54,8
+2016,Eritrea,ERI,Africa,12,11,1,0
+2016,Uganda,UGA,Africa,23,15,8,0
+2016,Mongolia,MGL,Asia,46,26,20,2
+2016,Lithuania,LTU,Europe,80,60,20,7
+2016,Namibia,NAM,Africa,11,5,6,0
+2016,Kyrgyzstan,KGZ,Asia,19,12,7,0
+2016,Puerto Rico,PUR,North America,41,13,28,1
+2016,Malaysia,MAS,Asia,42,23,19,8
+2016,Samoa,SAM,Oceania,9,5,4,0
+2016,Angola,ANG,Africa,26,8,18,0
+2016,South Africa,RSA,Africa,155,109,46,23
+2016,Greece,GRE,Europe,104,67,37,7
+2016,Norway,NOR,Europe,77,40,37,19
+2016,Cuba,CUB,North America,143,100,43,11
+2016,Paraguay,PAR,South America,11,6,5,0
+2016,Indonesia,INA,Asia,31,20,11,4
+2016,Bangladesh,BAN,Asia,7,4,3,0
+2016,Ivory Coast,CIV,Africa,15,6,9,2
+2016,Trinidad and Tobago,TTO,Asia,43,25,18,1
+2016,China,CHN,Asia,499,204,295,113
+2016,Singapore,SGP,Asia,32,12,20,1
+2016,Morocco,MAR,Africa,52,31,21,1
+2016,Sweden,SWE,Europe,186,74,112,28
+2016,Ukraine,UKR,Europe,272,127,145,15
+2016,Tunisia,TUN,Africa,65,44,21,3
+2016,Individual Olympic Athletes,IOA,IOA,9,8,1,2
+2016,Oman,OMA,Asia,4,2,2,0
+2016,Qatar,QAT,Asia,42,40,2,1
+2016,United Arab Emirates,UAE,Asia,12,9,3,1
+2016,Moldova,MDA,Europe,23,14,9,0
+2016,Mauritius,MRI,Africa,11,5,6,0
+2016,Bulgaria,BUL,Europe,58,33,25,7
+2016,Serbia,SRB,Europe,127,70,57,54
+2016,Saint Vincent,VIN,North America,4,2,2,0
+2016,Austria,AUT,Europe,85,45,40,2
+2016,Niger,NIG,Africa,6,4,2,1
+2016,Costa Rica,CRC,North America,12,7,5,0
+2016,Sudan,SUD,Africa,6,4,2,0
+2016,Madagascar,MAD,Africa,6,2,4,0
+2016,Pakistan,PAK,Asia,7,4,3,0
+2016,Chad,CHA,Africa,2,1,1,0
+2016,Bosnia and Herzegovina,BIH,Europe,11,7,4,0
+2016,Philippines,PHI,Asia,13,7,6,1
+2016,Cayman Islands,CAY,North America,5,3,2,0
+2016,Syria,SYR,Asia,7,4,3,0
+2016,Jamaica,JAM,North America,77,34,43,30
+2016,Estonia,EST,Europe,49,28,21,4
+2016,Seychelles,SEY,Africa,10,8,2,0
+2016,Ecuador,ECU,South America,40,24,16,0
+2016,Panama,PAN,North America,14,5,9,0
+2016,Gabon,GAB,Africa,6,4,2,0
+2016,Bahamas,BAH,North America,38,21,17,6
+2016,Israel,ISR,Asia,59,28,31,2
+2016,Thailand,THA,Asia,58,28,30,6
+2016,Botswana,BOT,Africa,14,11,3,0
+2016,Refugee Olympic Team,ROT,ROT,12,7,5,0
+2016,South Korea,KOR,Asia,263,145,118,26
+2016,Denmark,DEN,Europe,143,82,61,41
+2016,Cape Verde,CPV,Africa,5,2,3,0
+2016,Poland,POL,Europe,289,164,125,16
+2016,Dominican Republic,DOM,North America,30,22,8,1
+2016,Hungary,HUN,Europe,204,114,90,22
+2016,Czech Republic,CZE,Europe,135,79,56,15
+2016,Benin,BEN,Africa,6,4,2,0
+2016,Uruguay,URU,South America,17,12,5,0
+2016,Latvia,LAT,Europe,33,20,13,0
+2016,Andorra,AND,Europe,4,2,2,0
+2016,Cyprus,CYP,Asia,21,14,7,0
+2016,Comoros,COM,Africa,4,2,2,0
+2016,Libya,LBA,Africa,7,6,1,0
+2016,China,HKG,Asia,47,17,30,0
+2016,Saint Lucia,LCA,North America,5,2,3,0
+2016,Mozambique,MOZ,Africa,8,7,1,0
+2016,Micronesia,FSM,Oceania,5,2,3,0
+2016,Togo,TOG,Africa,5,2,3,0
+2016,Mauritania,MTN,Africa,2,1,1,0
+2016,Yemen,YEM,Asia,3,2,1,0
+2016,Croatia,CRO,Europe,93,69,24,24
+2016,Antigua,ANT,North America,9,7,2,0
+2016,Afghanistan,AFG,Asia,3,2,1,0
+2016,Macedonia,MKD,Europe,6,2,4,0
+2016,Slovakia,SVK,Europe,63,39,24,8
+2016,Guinea,GUI,Africa,5,2,3,0
+2016,Fiji,FIJ,Oceania,53,36,17,13
+2016,Lebanon,LIB,Asia,9,4,5,0
+2016,Montenegro,MNE,Europe,35,17,18,0
+2016,Guatemala,GUA,North America,25,15,10,0
+2016,Papua New Guinea,PNG,Oceania,8,6,2,0
+2016,Zimbabwe,ZIM,Africa,31,9,22,0
+2016,Gambia,GAM,Africa,4,3,1,0
+2016,Slovenia,SLO,Europe,70,41,29,4
+2016,Barbados,BAR,North America,13,8,5,0
+2016,Cook Islands,COK,Oceania,9,4,5,0
+2016,Malta,MLT,Europe,8,4,4,0
+2016,Nepal,NEP,Asia,7,3,4,0
+2016,Sao Tome and Principe,STP,Africa,3,2,1,0
+2016,Republic of Congo,CGO,Africa,10,7,3,0
+2016,Central African Republic,CAF,Africa,6,3,3,0
+2016,Senegal,SEN,Africa,22,6,16,0
+2016,Peru,PER,South America,34,19,15,0
+2016,Nauru,NRU,Oceania,2,2,0,0
+2016,Guinea-Bissau,GBS,Africa,5,3,2,0
+2016,Laos,LAO,Asia,5,3,2,0
+2016,Rwanda,RWA,Africa,7,4,3,0
+2016,Timor-Leste,TLS,Asia,3,1,2,0
+2016,Albania,ALB,Europe,6,3,3,0
+2016,Luxembourg,LUX,Europe,15,8,7,0
+2016,Haiti,HAI,North America,10,7,3,0
+2016,Bolivia,BOL,South America,12,6,6,0
+2016,Finland,FIN,Europe,67,34,33,1
+2016,Taiwan,TPE,Asia,67,31,36,5
+2016,Grenada,GRN,North America,6,5,1,1
+2016,Zambia,ZAM,Africa,7,5,2,0
+2016,Malawi,MAW,Africa,5,3,2,0
+2016,North Korea,PRK,Asia,38,13,25,7
+2016,Cambodia,CAM,Asia,6,2,4,0
+2016,"Virgin Islands, US",ISV,North America,7,5,2,0
+2016,Mali,MLI,Africa,6,4,2,0
+2016,Marshall Islands,MHL,Oceania,5,2,3,0
+2016,Monaco,MON,Europe,8,8,0,0
+2016,Palau,PLW,Oceania,6,3,3,0
+2016,Vietnam,VIE,Asia,28,12,16,2
+2016,Bermuda,BER,North America,8,4,4,0
+2016,Dominica,DMA,North America,2,1,1,0
+2016,Equatorial Guinea,GEQ,Africa,1,1,0,0
+2016,Tonga,TGA,Oceania,7,4,3,0
+2016,Solomon Islands,SOL,Oceania,3,1,2,0
+2016,Burundi,BDI,Africa,10,6,4,1
+2016,Kosovo,KOS,Europe,8,3,5,1
+2016,Iceland,ISL,Europe,14,4,10,0
+2016,"Virgin Islands, British",IVB,North America,4,1,3,0
+2016,South Sudan,SSD,Africa,3,2,1,0
+2016,Liechtenstein,LIE,Europe,3,1,2,0
+2016,Tanzania,TAN,Africa,7,5,2,0
+2016,Myanmar,MYA,Asia,8,5,3,0
+2016,Guam,GUM,Oceania,5,3,2,0
+2016,Maldives,MDV,Asia,4,2,2,0
+2016,Sierra Leone,SLE,Africa,4,2,2,0
+2016,Belize,BIZ,North America,3,2,1,0
+2016,American Samoa,ASA,Oceania,4,3,1,0
+2016,Democratic Republic of the Congo,COD,Africa,4,2,2,0
+2016,Bhutan,BHU,Asia,2,0,2,0
+2016,Kiribati,KIR,Oceania,3,2,1,0
+2016,Burkina Faso,BUR,Africa,5,3,2,0
+2016,Suriname,SUR,South America,6,4,2,0
+2016,Liberia,LBR,Africa,3,2,1,0
+2016,Nicaragua,NCA,North America,5,3,2,0
+2016,Lesotho,LES,Africa,9,8,1,0
+2016,Vanuatu,VAN,Oceania,4,4,0,0
+2016,Aruba,ARU,North America,7,3,4,0
+2016,Swaziland,SWZ,Africa,2,1,1,0
+2016,Somalia,SOM,Africa,2,1,1,0
+2016,San Marino,SMR,Europe,4,2,2,0
+2016,Tuvalu,TUV,Oceania,1,1,0,0

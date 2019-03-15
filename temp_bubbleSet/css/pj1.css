@@ -1,0 +1,111 @@
+body{
+    font-size: medium;
+    width: 1620px;
+}
+
+path {  stroke: #fff; }
+rect:hover {  opacity:0.7; }
+
+#addRound text{
+    opacity: 1;
+}
+
+line{
+    fill:none;
+    stroke: gray;
+    stroke-width: 1;
+}
+
+text{
+    z-index: 1;
+}
+
+path{
+    z-index: -1;
+}
+
+
+.content{
+    width: 100%;
+}
+
+.first-section{
+    background: #fafafa;
+}
+.first-div{
+    text-align: center;
+    margin: 0 auto;
+    padding: 35px 0;
+    width: 90%;
+}
+
+.first-div .hr{
+    width: 50%;
+    height: 2px;
+    margin: 15px auto;
+    background: black;
+}
+
+.second-section{
+    background: #efefef;
+    color: #000000e0;
+}
+
+.second-div > div{
+    float: left;
+}
+
+.second-div:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.d3{
+    margin: 1% 1%;
+    width: 78%;
+}
+
+.textP{
+    position: relative;
+    width: 18%;
+    margin: 1% 1%;
+    top:150px;
+    text-align: center;
+}
+
+/*.text p{*/
+    /*font-size: 18px;*/
+/*}*/
+
+.third-section{
+    background: #cacaca;
+    color: #000000cf;
+}
+
+.third-div > div{
+    float: left;
+}
+
+.third-div:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.fourth-section{
+    background: #313131;
+    color: #d5d5d0f7;
+}
+
+.fourth-div > div{
+    color: #d5d5d0f7;
+    float: left;
+}
+
+.fourth-div:after{
+    color: #d5d5d0f7;
+    content: '';
+    display: block;
+    clear: both;
+}
