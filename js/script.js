@@ -9,6 +9,8 @@ currentYearIndex = 0;
 loadScatterplot(years[currentYearIndex])
 setupSlider();
 
+var timer = null;
+
 function setupSlider() {
 	var slider = document.getElementById('slider');
 
@@ -26,11 +28,45 @@ function setupSlider() {
 		}
 	});
 	slider.noUiSlider.on('slide', function() {
+		if (timer != null) {
+			clearInterval(timer);
+			timer = null;
+			var e = document.getElementById("button-img");
+			e.src = "play.png";
+		}
+	});
+
+	slider.noUiSlider.on('set', function() {
 		var index = Math.trunc(slider.noUiSlider.get());
-		console.log(index);
 		loadScatterplot(years[index]);
 	});
 }
+
+
+function play() {
+	var e = document.getElementById("button-img");
+	e.src = "pause.png";
+	if (timer != null) {
+		clearInterval(timer);
+		timer = null;
+		var e = document.getElementById("button-img");
+		e.src = "play.png";
+		return;
+	}
+	var slider = document.getElementById('slider');
+	timer = setInterval(function() {
+		var index = Math.trunc(slider.noUiSlider.get());
+		if (index == years.length - 1) {
+			clearInterval(timer);
+			timer = null;
+			var e = document.getElementById("button-img");
+			e.src = "play.png";
+		} else {
+			slider.noUiSlider.set(index + 1);
+		}
+	}, 1000);
+}
+
 
 function loadScatterplot(year) {
 	d3.select("#scatterplot").select("svg").remove();

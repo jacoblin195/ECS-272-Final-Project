@@ -32,3 +32,10 @@ body {
 	opacity: 0;
 	pointer-events: none;
 }
+
+#play-button{
+	width: 70px;
+	height: 70px;
+	margin: auto;
+	background-color: green;
+}
