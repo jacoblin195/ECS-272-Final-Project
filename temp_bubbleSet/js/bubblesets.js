@@ -1366,8 +1366,7 @@ function BubbleSet() {
 // override these defaults to change the spacing and bubble precision; affects performance and appearance
 BubbleSet.DEFAULT_MAX_ROUTING_ITERATIONS = 100;  // number of times to run the algorithm to refine the path finding in difficult areas
 BubbleSet.DEFAULT_MAX_MARCHING_ITERATIONS = 20; // number of times to refine the boundary
-//TODO: 9
-BubbleSet.DEFAULT_PIXEL_GROUP = 4; // the resolution of the algorithm in square pixels
+BubbleSet.DEFAULT_PIXEL_GROUP = 9; // the resolution of the algorithm in square pixels
 BubbleSet.DEFAULT_EDGE_R0 = 10; // the distance from edges at which energy is 1 (full influence)
 BubbleSet.DEFAULT_EDGE_R1 = 20; // the distance from edges at which energy is 0 (no influence)
 BubbleSet.DEFAULT_NODE_R0 = 15; // the distance from nodes which energy is 1 (full influence)
