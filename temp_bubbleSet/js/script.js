@@ -24,6 +24,10 @@ function setupSlider() {
 	});
 	slider.noUiSlider.on('slide', function() {
 		// TODO: load static graph after user slide the slider.
+        clearInterval(timer);
+		var index = Math.trunc(slider.noUiSlider.get());
+        currYearIndex = index;
+        drawWithIndex(index);
 	});
 
 	slider.noUiSlider.on('set', function() {
