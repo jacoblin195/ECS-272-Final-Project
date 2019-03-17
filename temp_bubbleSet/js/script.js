@@ -25,9 +25,10 @@ function setupSlider() {
 	slider.noUiSlider.on('slide', function() {
 		// TODO: load static graph after user slide the slider.
         clearInterval(timer);
-		var index = Math.trunc(slider.noUiSlider.get());
-        currYearIndex = index;
-        drawWithIndex(index);
+		// change global var
+        currYearIndex = Math.trunc(slider.noUiSlider.get());
+		currFrame = 0;
+        drawWithIndex();
 	});
 
 	slider.noUiSlider.on('set', function() {
@@ -36,7 +37,6 @@ function setupSlider() {
 }
 
 setupScatterplot();
-
 
 function setupScatterplot(){
     var svg = d3.select("#scatterplot").select("svg").append("g");

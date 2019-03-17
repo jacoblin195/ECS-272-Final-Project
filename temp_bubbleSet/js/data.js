@@ -34,6 +34,8 @@ var allLen = new Map();
 var timer;
 //current year index
 var currYearIndex = 0;
+// current frame
+var currFrame = 0;
 
 d3.csv("./json/data.csv").then((function(data){
   data.forEach(function(d){
@@ -220,15 +222,16 @@ d3.csv("./json/data.csv").then((function(data){
     }
   }
   // draw the bubble first time
-  drawWithIndex(0);
+  drawWithIndex();
 
 // //TODO: bubble set funciton
 // isAddPathList.length = 5. value = {0,1}.
-  myBubbleSet(0);
+  myBubbleSet();
 }));
 
 
-function drawWithIndex(yearIndex){
+// TODO: change currYearIndex to redraw bubble set.
+function drawWithIndex(){
 
   for(continent of continents){
     var numToposition = allNumToPosition.get(continent);
@@ -237,8 +240,8 @@ function drawWithIndex(yearIndex){
     var xs = new Array();
     var ys = new Array();
     for(inPos of numToposition){
-      xs[xs.length] = inPos[yearIndex*2];
-      ys[ys.length] = inPos[yearIndex*2+1];
+      xs[xs.length] = inPos[currYearIndex*2];
+      ys[ys.length] = inPos[currYearIndex*2+1];
     }
 
     d3.select("#main").selectAll("rect."+continent).remove();

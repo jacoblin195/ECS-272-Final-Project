@@ -150,10 +150,10 @@ function addRect(rectangles, color, cx, cy, className,addPath) {
 }
 
 
-//TODO: set bubble set, parameter: continent
+//TODO: change global var currYearIndex as indexOfYear
 //indexOfYear: which year begin with，ranged from (0,1,2,3,....,numOfYears-1)
 //note: all the second parameters of myBubbleSet() need to be the same
-function myBubbleSet(indexOfYear){
+function myBubbleSet(){
     //Asia, Europe, Oceania, Africa, America
     var xsArray = new Array();
     var ysArray = new Array();
@@ -186,24 +186,24 @@ function myBubbleSet(indexOfYear){
 
         for(inPos of numToposition){
             //check bound
-            if (indexOfYear == years.length) {
+            if (currYearIndex == years.length) {
                 return;
             }
-            else if(indexOfYear==years.length-1){
-                xs[xs.length] = inPos[indexOfYear*2];
-                ys[ys.length] = inPos[indexOfYear*2+1];
+            else if(currYearIndex==years.length-1){
+                xs[xs.length] = inPos[currYearIndex*2];
+                ys[ys.length] = inPos[currYearIndex*2+1];
                 nxs[nxs.length] = -1;
                 nys[nys.length] = -1;
                 dxs[dxs.length] = 0;
                 dys[dys.length] = 0;
             }
             else{
-                xs[xs.length] = inPos[indexOfYear*2];
-                ys[ys.length] = inPos[indexOfYear*2+1];
-                nxs[nxs.length] = inPos[indexOfYear*2+2];
-                nys[nys.length] = inPos[indexOfYear*2+3];
-                dxs[dxs.length] = (inPos[indexOfYear*2+2]-inPos[indexOfYear*2])/60;
-                dys[dys.length] = (inPos[indexOfYear*2+3]-inPos[indexOfYear*2+1])/60;
+                xs[xs.length] = inPos[currYearIndex*2];
+                ys[ys.length] = inPos[currYearIndex*2+1];
+                nxs[nxs.length] = inPos[currYearIndex*2+2];
+                nys[nys.length] = inPos[currYearIndex*2+3];
+                dxs[dxs.length] = (inPos[currYearIndex*2+2]-inPos[currYearIndex*2])/60;
+                dys[dys.length] = (inPos[currYearIndex*2+3]-inPos[currYearIndex*2+1])/60;
             }
         }
 
@@ -216,20 +216,20 @@ function myBubbleSet(indexOfYear){
         dysArray[index] = dys;
     }
 
+    // TODO: change count to global var currFrame
     //count为帧数，当前年的坐标移动到下一年的坐标需要60帧
-    var count  = 0;
+    // var count  = 0;
     //stop=1表示跑完数据，return。
     var stop = 0;
-    var i = indexOfYear;
 
     // 每秒60帧
     timer = setInterval(function() {
 
-        //count为帧数，当前年的坐标移动到下一年的坐标需要60帧
-        ++count;
-        if(count == 60){
-            ++i;
-            count = 0;
+        //currFrame为帧数，当前年的坐标移动到下一年的坐标需要60帧
+        ++currFrame;
+        if(currFrame == 60){
+            ++currYearIndex;
+            currFrame = 0;
         }
 
         for(continent of continents) {
@@ -243,17 +243,17 @@ function myBubbleSet(indexOfYear){
             var dys = dysArray[contientToIndex.get(continent)];
 
             // 到60帧时，进入下一年的坐标
-            if (count == 0) {
+            if (currFrame == 0) {
                 //坐标数据跑完，退出。
-                if (i == years.length) {
+                if (currYearIndex == years.length) {
                     stop = 1;
                     break;
                 }
                 //坐标数据跑到最后一年，所有点停止移动
-                else if (i == years.length - 1) {
+                else if (currYearIndex == years.length - 1) {
                     for (var j = 0; j < len; j++) {
-                        xs[j] = numToposition[j][i * 2];
-                        ys[j] = numToposition[j][i * 2 + 1];
+                        xs[j] = numToposition[j][currYearIndex * 2];
+                        ys[j] = numToposition[j][currYearIndex * 2 + 1];
                         nxs[j] = -1;
                         nys[j] = -1;
                         dxs[j] = 0;
@@ -263,12 +263,12 @@ function myBubbleSet(indexOfYear){
                 //更新下一年对应的数据
                 else {
                     for (var j = 0; j < len; j++) {
-                        xs[j] = numToposition[j][i * 2];
-                        ys[j] = numToposition[j][i * 2 + 1];
-                        nxs[j] = numToposition[j][i * 2 + 2];
-                        nys[j] = numToposition[j][i * 2 + 3];
-                        dxs[j] = (numToposition[j][i * 2 + 2] - numToposition[j][i * 2]) / 60;
-                        dys[j] = (numToposition[j][i * 2 + 3] - numToposition[j][i * 2 + 1]) / 60;
+                        xs[j] = numToposition[j][currYearIndex * 2];
+                        ys[j] = numToposition[j][currYearIndex * 2 + 1];
+                        nxs[j] = numToposition[j][currYearIndex * 2 + 2];
+                        nys[j] = numToposition[j][currYearIndex * 2 + 3];
+                        dxs[j] = (numToposition[j][currYearIndex * 2 + 2] - numToposition[j][currYearIndex * 2]) / 60;
+                        dys[j] = (numToposition[j][currYearIndex * 2 + 3] - numToposition[j][currYearIndex * 2 + 1]) / 60;
                     }
                 }
             }
@@ -350,8 +350,8 @@ function myBubbleSet(indexOfYear){
                     }
                 }
             }
-            if(count == 0)
-                console.log(years[i]);
+            if(currFrame == 0)
+                console.log(years[currYearIndex]);
         }
     }, 1000/60);
     //每一帧花费1000/60微秒。即一秒60帧。
