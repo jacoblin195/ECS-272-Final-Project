@@ -23,7 +23,7 @@ function setupSlider() {
 		}
 	});
 	slider.noUiSlider.on('slide', function() {
-		// TODO:
+		// TODO: load static graph after user slide the slider.
 	});
 
 	slider.noUiSlider.on('set', function() {
@@ -32,6 +32,8 @@ function setupSlider() {
 }
 
 setupScatterplot();
+
+
 function setupScatterplot(){
     var svg = d3.select("#scatterplot").select("svg").append("g");
 
