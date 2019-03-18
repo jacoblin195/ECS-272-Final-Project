@@ -1,4 +1,3 @@
-
 function attr(elem, attr) {
     for(key in attr) {
         var value = attr[key];
@@ -38,15 +37,29 @@ var rectanglesC = [];
 var rectanglesD = [];
 var rectanglesE = [];
 var main = document.getElementById("main");
-var items = appendSVG(main, "g");
-var pathA = appendSVG(main, "path");
-var pathB = appendSVG(main, "path");
-var pathC = appendSVG(main, "path");
-var pathD = appendSVG(main, "path");
-var pathE = appendSVG(main, "path");
-var debug = appendSVG(main, "g");
+var svg = d3.select("#scatterplot").select("svg");
+var G = svg.append("g");
+// var items = appendSVG(main, "g");
+var pathA = svg.append("path");
+var pathB = svg.append("path");
+var pathC = svg.append("path");
+var pathD = svg.append("path");
+var pathE = svg.append("path");
+var debug = svg.append("g");
+// var pathB = appendSVG(main, "path");
+// var pathC = appendSVG(main, "path");
+// var pathD = appendSVG(main, "path");
+// var pathE = appendSVG(main, "path");
+// var debug = appendSVG(main, "g");
 bubbles.debug(false);
 var debugFor = pathA;
+
+var contientToIndex = new Map();
+contientToIndex.set("Asia",0);
+contientToIndex.set("Europe",1);
+contientToIndex.set("Oceania",2);
+contientToIndex.set("Africa",3);
+contientToIndex.set("America",4);
 
 function update(addPath) {
     if(addPath == 0)
@@ -64,7 +77,6 @@ function update(addPath) {
 function updateOutline(rectangles, otherRectanglesA, otherRectanglesB,otherRectanglesC,otherRectanglesD
     ,color, path, className) {
     var pad = 2;
-    // console.log("B:" + otherRectanglesB);
 
     if(rectangles.length!=0){
         var otherRectangles = new Array();
@@ -91,13 +103,41 @@ function updateOutline(rectangles, otherRectanglesA, otherRectanglesB,otherRecta
             new ShapeSimplifier(0.0),
         ]);
         // outline is a path that can be used for the attribute d of a path element
-        attr(path, {
-            "d": outline,
-            "opacity": 0.5,
-            "fill": color,
-            "stroke": "black",
-            class:className
-        });
+        // attr(path, {
+        //     "d": outline,
+        //     "opacity": 0.5,
+        //     "fill": color,
+        //     "stroke": "black",
+        //     class:className
+        // });
+
+        path.attr("d", outline)
+            .attr("opacity", 0.5)
+            .attr("fill",color)
+            .attr("stroke","black")
+            .attr("class", className)
+            .on("click",function (d) {
+                var chooseIndex = contientToIndex.get(className);
+                isAddPathList[chooseIndex] = isAddPathList[chooseIndex]==0?1:0;
+                drawWithIndex();
+            })
+            .on('mousemove', function(d) {
+                pathA.attr("opacity",0.2);
+                pathB.attr("opacity",0.2);
+                pathC.attr("opacity",0.2);
+                pathD.attr("opacity",0.2);
+                pathE.attr("opacity",0.2);
+                d3.select(this)
+                    .attr("opacity",0.6);
+            })
+            .on('mouseout', function() {
+                pathA.attr("opacity",0.5);
+                pathB.attr("opacity",0.5);
+                pathC.attr("opacity",0.5);
+                pathD.attr("opacity",0.5);
+                pathE.attr("opacity",0.5);
+            });
+
         if(bubbles.debug() && path === debugFor) {
             removeAllChilds(debug);
             bubbles.debugPotentialArea().forEach(function(r) {
@@ -121,30 +161,50 @@ function updateOutline(rectangles, otherRectanglesA, otherRectanglesB,otherRecta
 function addRect(rectangles, color, cx, cy, className,addPath) {
     var width = 20;
     var height = 20;
-    var x = cx - width * 0.5;
-    var y = cy - height * 0.5;
-    //generate rectangles
-    var elem = appendSVG(items, "rect");
-    attr(elem, {
-        x: x,
-        y: y,
-        width: width,
-        height: height,
-        class: className
-    });
-    style(elem, {
-        "stroke": "black",
-        "stroke-width": 1,
-        "fill": color,
-    });
+    // var x = cx - width * 0.5;
+    // var y = cy - height * 0.5;
+    // //generate rectangles
+    // var elem = appendSVG(items, "rect");
+    // attr(elem, {
+    //     x: x,
+    //     y: y,
+    //     width: width,
+    //     height: height,
+    //     class: className
+    // });
+    // style(elem, {
+    //     "stroke": "black",
+    //     "stroke-width": 1,
+    //     "fill": color,
+    // });
+
+
+    // var svg = d3.select("#scatterplot").select("svg");
+    var elem = G.append("rect")
+        .attr("class", className)
+        // .attr("r", function(d) {
+        //     return rScale(d["male"] / d["participants"]);
+        // })
+        .attr("x", cx)
+        .attr("y", cy)
+        .attr("width",width)
+        .attr("height",height)
+        .attr("class", className)
+        .attr("fill", color)
+        .on("click",function (d) {
+            var chooseIndex = contientToIndex.get(className);
+            isAddPathList[chooseIndex] = isAddPathList[chooseIndex]==0?1:0;
+            drawWithIndex();
+        })
+
     rectangles.push({
-        x: x,
-        y: y,
+        x: cx - width * 0.5,
+        y: cy - height * 0.5,
         width: width,
         height: height,
         elem: elem,
     });
-    
+
     if(addPath >= 0)
         update(addPath);
 }
@@ -171,12 +231,13 @@ function myBubbleSet(flag){
     var nysArray = new Array();
     var dxsArray = new Array();
     var dysArray = new Array();
-    var contientToIndex = new Map();
-    contientToIndex.set("Asia",0);
-    contientToIndex.set("Europe",1);
-    contientToIndex.set("Oceania",2);
-    contientToIndex.set("Africa",3);
-    contientToIndex.set("America",4);
+
+    // var contientToIndex = new Map();
+    // contientToIndex.set("Asia",0);
+    // contientToIndex.set("Europe",1);
+    // contientToIndex.set("Oceania",2);
+    // contientToIndex.set("Africa",3);
+    // contientToIndex.set("America",4);
 
     for(continent of continents){
         //numToposition是数组，每一个元素也是一个数组，用inPos表示numToposition是数组的元素的话。

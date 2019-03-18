@@ -1,5 +1,3 @@
-//handle csv data
-
 // countryToContinent (NOC -> continent)
 var cTc = new Map();
 //keyMap: year -> (Map: NOC: Array())
