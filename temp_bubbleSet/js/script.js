@@ -4,6 +4,10 @@ var years = ["1896", "1900", "1904", "1906", "1908", "1912", "1920", "1924",
 	"2008", "2012", "2016"
 ];
 var slider = document.getElementById('slider');
+var xScale;
+var yScale;
+// var width;
+// var height;
 
 setupSlider();
 
@@ -40,10 +44,11 @@ function setupSlider() {
 
 	slider.noUiSlider.on('set', function() {
 		// TODO: load static graph after slider is set to new values.
+		// console.log("set");
 	});
 }
 
-setupScatterplot();
+// setupScatterplot();
 
 function setupScatterplot(){
     var svg = d3.select("#scatterplot").select("svg").append("g");
@@ -59,13 +64,12 @@ function setupScatterplot(){
 
     svg.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    // TODO: [0,100] for test only
-    const xScale = d3.scaleLinear()
-        .domain([0, 100])
+	xScale = d3.scaleLinear()
+        .domain([0, maxX])
         .range([0, width]);
 
-    const yScale = d3.scaleLinear()
-        .domain([0, 100])
+    yScale = d3.scaleLinear()
+        .domain([0, maxY])
         .range([height, 0]);
 
     const xAxis = d3.axisBottom(xScale);
@@ -87,19 +91,14 @@ function play() {
 	var e = document.getElementById("button-img");
 	//change to play
 	if(playFlag == 0){
-		console.log("play");
 		e.src = "pause.png";
 		playFlag = 1;
 		myBubbleSet(1);
 	}
 	//change to stop
 	else if(playFlag == 1){
-		console.log("stop");
 		e.src = "play.png";
 		playFlag = 0;
 		clearInterval(timer);
-	}
-	else{
-		console.log("palyFlag: "+playFlag);
 	}
 }

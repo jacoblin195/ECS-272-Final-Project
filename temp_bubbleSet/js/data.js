@@ -208,6 +208,8 @@ d3.csv("./json/data.csv").then((function(data){
   }
   var inLen = years.length * 2;
 
+  setupScatterplot();
+
   //TODO: change X and Y sacle
   for(key of continents){
     var numToposition = allNumToPosition.get(key);
@@ -215,9 +217,9 @@ d3.csv("./json/data.csv").then((function(data){
       var index = inLen;
       for(var i=0;i<index/2;i++){
         if(inPos[i*2] != -1)
-          inPos[i*2] = Math.round(inPos[i*2]*1000/maxX + 70);
+          inPos[i*2] = Math.round(xScale(inPos[i*2]));
         if(inPos[i*2+1] != -1)
-          inPos[i*2+1] = Math.round(inPos[i*2+1]*800/maxY + 70);
+          inPos[i*2+1] = Math.round(yScale(inPos[i*2+1]));
       }
     }
   }
