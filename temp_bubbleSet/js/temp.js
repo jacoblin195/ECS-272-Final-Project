@@ -119,12 +119,11 @@ function updateOutline(rectangles, otherRectanglesA, otherRectanglesB,otherRecta
 };
 
 function addRect(rectangles, color, cx, cy, className,addPath) {
-
     var width = 20;
     var height = 20;
     var x = cx - width * 0.5;
     var y = cy - height * 0.5;
-    //生成长方形
+    //generate rectangles
     var elem = appendSVG(items, "rect");
     attr(elem, {
         x: x,
@@ -145,15 +144,26 @@ function addRect(rectangles, color, cx, cy, className,addPath) {
         height: height,
         elem: elem,
     });
+    
     if(addPath >= 0)
         update(addPath);
 }
 
-
 //TODO: change global var currYearIndex as indexOfYear
 //indexOfYear: which year begin with，ranged from (0,1,2,3,....,numOfYears-1)
 //note: all the second parameters of myBubbleSet() need to be the same
-function myBubbleSet(){
+function myBubbleSet(flag){
+    if(flag == undefined)
+        return;
+
+    // 重新开始
+    if(currYearIndex == years.length-1) {
+        //change to stop
+        currYearIndex = 0;
+        currFrame = 0;
+        slider.noUiSlider.set(currYearIndex);
+    }
+
     //Asia, Europe, Oceania, Africa, America
     var xsArray = new Array();
     var ysArray = new Array();
@@ -185,26 +195,26 @@ function myBubbleSet(){
         var dys = new Array();
 
         for(inPos of numToposition){
-            //check bound
-            if (currYearIndex == years.length) {
-                return;
-            }
-            else if(currYearIndex==years.length-1){
-                xs[xs.length] = inPos[currYearIndex*2];
-                ys[ys.length] = inPos[currYearIndex*2+1];
-                nxs[nxs.length] = -1;
-                nys[nys.length] = -1;
-                dxs[dxs.length] = 0;
-                dys[dys.length] = 0;
-            }
-            else{
+            // //check bound
+            // if (currYearIndex == years.length) {
+            //     return;
+            // }
+            // else if(currYearIndex==years.length-1){
+            //     xs[xs.length] = inPos[currYearIndex*2];
+            //     ys[ys.length] = inPos[currYearIndex*2+1];
+            //     nxs[nxs.length] = -1;
+            //     nys[nys.length] = -1;
+            //     dxs[dxs.length] = 0;
+            //     dys[dys.length] = 0;
+            // }
+            // else{
                 xs[xs.length] = inPos[currYearIndex*2];
                 ys[ys.length] = inPos[currYearIndex*2+1];
                 nxs[nxs.length] = inPos[currYearIndex*2+2];
                 nys[nys.length] = inPos[currYearIndex*2+3];
                 dxs[dxs.length] = (inPos[currYearIndex*2+2]-inPos[currYearIndex*2])/60;
                 dys[dys.length] = (inPos[currYearIndex*2+3]-inPos[currYearIndex*2+1])/60;
-            }
+            // }
         }
 
         var index = contientToIndex.get(continent);
@@ -230,6 +240,7 @@ function myBubbleSet(){
         if(currFrame == 60){
             ++currYearIndex;
             currFrame = 0;
+            slider.noUiSlider.set(currYearIndex);
         }
 
         for(continent of continents) {
@@ -245,21 +256,22 @@ function myBubbleSet(){
             // 到60帧时，进入下一年的坐标
             if (currFrame == 0) {
                 //坐标数据跑完，退出。
-                if (currYearIndex == years.length) {
+                if (currYearIndex == years.length - 1) {
                     stop = 1;
                     break;
                 }
-                //坐标数据跑到最后一年，所有点停止移动
-                else if (currYearIndex == years.length - 1) {
-                    for (var j = 0; j < len; j++) {
-                        xs[j] = numToposition[j][currYearIndex * 2];
-                        ys[j] = numToposition[j][currYearIndex * 2 + 1];
-                        nxs[j] = -1;
-                        nys[j] = -1;
-                        dxs[j] = 0;
-                        dys[j] = 0;
-                    }
-                }
+                // //坐标数据跑到最后一年，所有点停止移动
+                // else if (currYearIndex == years.length - 1) {
+                //     for (var j = 0; j < len; j++) {
+                //         console.log("1111");
+                //         xs[j] = numToposition[j][currYearIndex * 2];
+                //         ys[j] = numToposition[j][currYearIndex * 2 + 1];
+                //         nxs[j] = -1;
+                //         nys[j] = -1;
+                //         dxs[j] = 0;
+                //         dys[j] = 0;
+                //     }
+                // }
                 //更新下一年对应的数据
                 else {
                     for (var j = 0; j < len; j++) {
@@ -285,6 +297,12 @@ function myBubbleSet(){
 
         //坐标数据跑完，退出。
         if(stop == 1) {
+            //change to stop
+            if(playFlag == 1){
+                var e = document.getElementById("button-img");
+                e.src = "play.png";
+                playFlag = 0;
+            }
             clearInterval(timer);
             return;
         }

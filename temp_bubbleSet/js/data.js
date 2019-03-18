@@ -226,7 +226,7 @@ d3.csv("./json/data.csv").then((function(data){
 
 // //TODO: bubble set funciton
 // isAddPathList.length = 5. value = {0,1}.
-  myBubbleSet();
+//   myBubbleSet(1);
 }));
 
 

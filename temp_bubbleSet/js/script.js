@@ -3,6 +3,7 @@ var years = ["1896", "1900", "1904", "1906", "1908", "1912", "1920", "1924",
 	"1972", "1976", "1980", "1984", "1988", "1992", "1996", "2000", "2004",
 	"2008", "2012", "2016"
 ];
+var slider = document.getElementById('slider');
 
 setupSlider();
 
@@ -25,6 +26,12 @@ function setupSlider() {
 	slider.noUiSlider.on('slide', function() {
 		// TODO: load static graph after user slide the slider.
         clearInterval(timer);
+		//change to stop
+		if(playFlag == 1){
+			var e = document.getElementById("button-img");
+			e.src = "play.png";
+			playFlag = 0;
+		}
 		// change global var
         currYearIndex = Math.trunc(slider.noUiSlider.get());
 		currFrame = 0;
@@ -72,4 +79,27 @@ function setupScatterplot(){
     svg.append("g")
         .attr("class", "yaxis")
         .call(yAxis);
+}
+
+//flag: 0:stop; 1:play
+var playFlag = 0;
+function play() {
+	var e = document.getElementById("button-img");
+	//change to play
+	if(playFlag == 0){
+		console.log("play");
+		e.src = "pause.png";
+		playFlag = 1;
+		myBubbleSet(1);
+	}
+	//change to stop
+	else if(playFlag == 1){
+		console.log("stop");
+		e.src = "play.png";
+		playFlag = 0;
+		clearInterval(timer);
+	}
+	else{
+		console.log("palyFlag: "+playFlag);
+	}
 }
