@@ -220,6 +220,28 @@ function addRect(rectangles, color, cx, cy, className,addPath,cr,NOC) {
             isAddPathList[chooseIndex] = isAddPathList[chooseIndex]==0?1:0;
             drawWithIndex();
         })
+        .on('mouseover', function() {
+            var tooltip = d3.select("#scatterplot").select(".tooltip");
+            tooltip.select('.country').html(NOC);
+            tooltip.select('.male').html("M: " + cr);
+            tooltip.select('.female').html("F: " + (cx-cr));
+            tooltip.select(".total").html("Total: " + cx);
+            tooltip.select('.ratio').html("M ratio: " + cr / cx);
+            tooltip.select('.medal').html("Medals: " + cy);
+            tooltip.style('display', 'block');
+            tooltip.style('opacity', 1);
+        })
+        .on('mousemove', function(d) {
+            var tooltip = d3.select("#scatterplot").select(".tooltip");
+
+            tooltip.style('top', (y + 15 + margin.top) + 'px')
+                .style('left', (x + 15 + margin.left) + 'px');
+        })
+        .on('mouseout', function() {
+            var tooltip = d3.select("#scatterplot").select(".tooltip");
+            tooltip.style('display', 'none');
+            tooltip.style('opacity', 0);
+        })
 
     rectangles.push({
         x: x - width * 0.5,

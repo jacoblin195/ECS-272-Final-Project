@@ -102,8 +102,8 @@ function loadScatterplot(year) {
 			.range([0, width]);
 
 		const yScale = d3.scaleLinear()
-			.domain([y_min - y_extra, y_max + y_extra])
-			.range([height, 0]);
+			.domain([y_max + y_extra, y_min - y_extra])
+			.range([0,height]);
 
 		const xAxis = d3.axisBottom(xScale);
 		const yAxis = d3.axisLeft(yScale);
