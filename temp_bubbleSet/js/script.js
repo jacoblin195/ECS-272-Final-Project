@@ -6,8 +6,7 @@ var years = ["1896", "1900", "1904", "1906", "1908", "1912", "1920", "1924",
 var slider = document.getElementById('slider');
 var xScale;
 var yScale;
-// var width;
-// var height;
+var rScale;
 
 setupSlider();
 
@@ -51,36 +50,51 @@ function setupSlider() {
 // setupScatterplot();
 
 function setupScatterplot(){
-    var svg = d3.select("#scatterplot").select("svg").append("g");
+	const margin = {
+		top: 40,
+		right: 60,
+		bottom: 60,
+		left: 60
+	};
 
-    const margin = {
-        top: 40,
-        right: 60,
-        bottom: 60,
-        left: 60
-    };
+    G = d3.select("#scatterplot").select("svg").append("g");
+    pathA = G.append("path");
+    pathB = G.append("path");
+    pathC = G.append("path");
+    pathD = G.append("path");
+    pathE = G.append("path");
+    debug = G.append("g");
+
     const width = d3.select("#scatterplot").node().getBoundingClientRect().width - margin.left - margin.right;
     const height = d3.select("#scatterplot").node().getBoundingClientRect().height - margin.top - margin.bottom;
 
-    svg.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+	G.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 	xScale = d3.scaleLinear()
-        .domain([0, maxX])
+        .domain([minX, maxX])
         .range([0, width]);
 
     yScale = d3.scaleLinear()
-        .domain([0, maxY])
+        .domain([minR, maxY])
         .range([height, 0]);
 
     const xAxis = d3.axisBottom(xScale);
     const yAxis = d3.axisLeft(yScale);
 
-    svg.append("g")
+    rScale = d3.scaleLinear()
+		.domain([minR/minX, maxR/maxX])
+		.range([3.5, 15]);
+
+	// const colorScale = d3.scaleLinear()
+	// 	.domain([0, 1])
+	// 	.range([0, 1]);
+
+	G.append("g")
         .attr("class", "xaxis")
         .attr("transform", "translate(0," + height + ")")
         .call(xAxis);
 
-    svg.append("g")
+	G.append("g")
         .attr("class", "yaxis")
         .call(yAxis);
 }

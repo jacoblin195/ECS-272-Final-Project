@@ -17,14 +17,19 @@ var years = ["1896", "1900", "1904", "1906", "1908", "1912", "1920", "1924", "19
 // numOfYears*2 -> set to -1
 var numOfYears = years.length;
 var continents = ["Asia", "Europe", "Oceania", "Africa", "America"];
-// continent -> Array([0]:num of people; [1]: num of medal);
+// continent -> Array([0]:num of people; [1]: num of medal, [3]:man, [4]:NOC);
 var allNumToPosition = new Map();
 //continent -> Map(Noc -> index)
 var allCToIndex = new Map();
 // maxX: largest number of participants
 // maxY: largest number of medals
+// marR: max ration of man/all
 var maxX = 0;
+var minX = 1000;
 var maxY = 0;
+var minY = 1000;
+var maxR = 0;
+var minR = 1000;
 var currNumofYear = 0;
 //continent -> length
 var allLen = new Map();
@@ -168,30 +173,55 @@ d3.csv("./json/data.csv").then((function(data){
         continue;
 
       if(cToIndex.has(NOC)){
-        var index = currNumofYear*2;
+        var index = currNumofYear*4;
         var inPos = numToposition[cToIndex.get(NOC)];
 
         inPos[index] = +inData[1];
         if(maxX < inPos[index])
           maxX = inPos[index];
+        if(minX > inPos[index])
+          minX = inPos[index];
 
         inPos[index+1] = +inData[4];
         if(maxY < inPos[index+1])
           maxY = inPos[index+1];
+        if(maxY > inPos[index+1])
+          maxY = inPos[index+1];
+
+        inPos[index+2] = +inData[2];
+        if(maxR < inPos[index+2])
+          maxR = inPos[index+2];
+        if(maxR > inPos[index+2])
+          maxR = inPos[index+2];
+
+        inPos[index+3] = NOC;
       }
       else{
         var inPos = new Array();
-        for(var j=0;j<numOfYears*2;j++)
+        for(var j=0;j<numOfYears*4;j++)
           inPos[j]=-1;
 
-        var index = currNumofYear*2;
+        var index = currNumofYear*4;
         inPos[index] = +inData[1];
         if(maxX < inPos[index])
           maxX = inPos[index];
+        if(minX > inPos[index])
+          minX = inPos[index];
 
         inPos[index+1] = +inData[4];
         if(maxY < inPos[index+1])
           maxY = inPos[index+1];
+        if(maxY > inPos[index+1])
+          maxY = inPos[index+1];
+
+        inPos[index+2] = +inData[2];
+        if(maxR < inPos[index+2])
+          maxR = inPos[index+2];
+        if(maxR > inPos[index+2])
+          maxR = inPos[index+2];
+
+
+        inPos[index+3] = NOC;
 
         cToIndex.set(NOC,numToposition.length);
         numToposition[numToposition.length] = inPos;
@@ -204,23 +234,25 @@ d3.csv("./json/data.csv").then((function(data){
     var len = allNumToPosition.get(key).length;
     allLen.set(key,len);
   }
-  var inLen = years.length * 2;
+  var inLen = years.length * 4;
 
   setupScatterplot();
 
-  //TODO: change X and Y sacle
-  for(key of continents){
-    var numToposition = allNumToPosition.get(key);
-    for(inPos of numToposition){
-      var index = inLen;
-      for(var i=0;i<index/2;i++){
-        if(inPos[i*2] != -1)
-          inPos[i*2] = Math.round(xScale(inPos[i*2]));
-        if(inPos[i*2+1] != -1)
-          inPos[i*2+1] = Math.round(yScale(inPos[i*2+1]));
-      }
-    }
-  }
+  // //TODO: change X and Y sacle
+  // for(key of continents){
+  //   var numToposition = allNumToPosition.get(key);
+  //   for(inPos of numToposition){
+  //     var index = inLen;
+  //     for(var i=0;i<index/4;i++){
+  //       if(inPos[i*4] != -1)
+  //         inPos[i*4] = Math.round(xScale(inPos[i*4]));
+  //       if(inPos[i*4+1] != -1)
+  //         inPos[i*4+1] = Math.round(yScale(inPos[i*4+1]));
+  //       if(inPos[i*4+2] != -1)
+  //         inPos[i*4+2] = Math.round(rScale(inPos[i*4+2]));
+  //     }
+  //   }
+  // }
   // draw the bubble first time
   drawWithIndex();
 
@@ -239,9 +271,13 @@ function drawWithIndex(){
 
     var xs = new Array();
     var ys = new Array();
+    var rs = new Array();
+    var NOCs = new Array();
     for(inPos of numToposition){
-      xs[xs.length] = inPos[currYearIndex*2];
-      ys[ys.length] = inPos[currYearIndex*2+1];
+      xs[xs.length] = inPos[currYearIndex*4];
+      ys[ys.length] = inPos[currYearIndex*4+1];
+      rs[rs.length] = inPos[currYearIndex*4+2];
+      NOCs[NOCs.length] = inPos[currYearIndex*4+3];
     }
 
     d3.select("#main").selectAll("rect."+continent).remove();
@@ -252,9 +288,9 @@ function drawWithIndex(){
       for(var j=0;j<len;j++){
         if(xs[j] != -1 && ys[j] != -1)
           if(isAddPathList[0] == 1)
-            addRect(rectanglesA, "blue", xs[j], ys[j],continent,0);
+            addRect(rectanglesA, "blue", xs[j], ys[j],continent,0,rs[j],NOCs[j]);
           else
-            addRect(rectanglesA, "blue", xs[j], ys[j],continent,-1);
+            addRect(rectanglesA, "blue", xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
       }
     }
     else if(continent == "Europe"){
@@ -262,10 +298,9 @@ function drawWithIndex(){
       for(var j=0;j<len;j++){
         if(xs[j] != -1 && ys[j] != -1)
           if(isAddPathList[1] == 1)
-            addRect(rectanglesB, "yellow", xs[j], ys[j],continent,1);
+            addRect(rectanglesB, "yellow", xs[j], ys[j],continent,1,rs[j],NOCs[j]);
           else
-            addRect(rectanglesB, "yellow", xs[j], ys[j],continent,-1);
-
+            addRect(rectanglesB, "yellow", xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
       }
     }
     else if(continent == "Oceania"){
@@ -273,9 +308,9 @@ function drawWithIndex(){
       for(var j=0;j<len;j++){
         if(xs[j] != -1 && ys[j] != -1)
           if(isAddPathList[2] == 1)
-            addRect(rectanglesC, "green", xs[j], ys[j],continent,2);
+            addRect(rectanglesC, "green", xs[j], ys[j],continent,2,rs[j],NOCs[j]);
           else
-            addRect(rectanglesC, "green", xs[j], ys[j],continent,-1);
+            addRect(rectanglesC, "green", xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
       }
     }
     else if(continent == "Africa"){
@@ -283,9 +318,9 @@ function drawWithIndex(){
       for(var j=0;j<len;j++){
         if(xs[j] != -1 && ys[j] != -1)
           if(isAddPathList[3] == 1)
-            addRect(rectanglesD, "red", xs[j], ys[j],continent,3);
+            addRect(rectanglesD, "red", xs[j], ys[j],continent,3,rs[j],NOCs[j]);
           else
-            addRect(rectanglesD, "red", xs[j], ys[j],continent,-1);
+            addRect(rectanglesD, "red", xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
       }
     }
     else if(continent == "America"){
@@ -293,9 +328,9 @@ function drawWithIndex(){
       for(var j=0;j<len;j++){
         if(xs[j] != -1 && ys[j] != -1)
           if(isAddPathList[4] == 1)
-            addRect(rectanglesE, "black", xs[j], ys[j],continent,4);
+            addRect(rectanglesE, "black", xs[j], ys[j],continent,4,rs[j],NOCs[j]);
           else
-            addRect(rectanglesE, "black", xs[j], ys[j],continent,-1);
+            addRect(rectanglesE, "black", xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
       }
     }
   }

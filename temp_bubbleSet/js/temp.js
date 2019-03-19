@@ -38,19 +38,14 @@ var rectanglesD = [];
 var rectanglesE = [];
 var main = document.getElementById("main");
 var svg = d3.select("#scatterplot").select("svg");
-var G = svg.append("g");
+var G;
 // var items = appendSVG(main, "g");
-var pathA = svg.append("path");
-var pathB = svg.append("path");
-var pathC = svg.append("path");
-var pathD = svg.append("path");
-var pathE = svg.append("path");
-var debug = svg.append("g");
-// var pathB = appendSVG(main, "path");
-// var pathC = appendSVG(main, "path");
-// var pathD = appendSVG(main, "path");
-// var pathE = appendSVG(main, "path");
-// var debug = appendSVG(main, "g");
+var pathA;
+var pathB;
+var pathC;
+var pathD;
+var pathE;
+var debug;
 bubbles.debug(false);
 var debugFor = pathA;
 
@@ -158,9 +153,38 @@ function updateOutline(rectangles, otherRectanglesA, otherRectanglesB,otherRecta
     }
 };
 
-function addRect(rectangles, color, cx, cy, className,addPath) {
+//cx: participants
+//cy: medals
+//cr: male
+//NOC: country/region
+//className: continent
+function addRect(rectangles, color, cx, cy, className,addPath,cr,NOC) {
+    var country = cTc.get(NOC);
+
+    const margin = {
+        top: 40,
+        right: 60,
+        bottom: 60,
+        left: 60
+    };
+
     var width = 20;
     var height = 20;
+
+    var x = xScale(cx);
+    var y = yScale(cy);
+    var r = rScale(cr/cx);
+
+    console.log(className);
+    console.log(NOC);
+    console.log(country);
+    console.log(cx);
+    console.log(cy)
+    console.log(cr);
+
+    console.log(x);
+    console.log(y)
+    console.log(r);
     // var x = cx - width * 0.5;
     // var y = cy - height * 0.5;
     // //generate rectangles
@@ -178,6 +202,7 @@ function addRect(rectangles, color, cx, cy, className,addPath) {
     //     "fill": color,
     // });
 
+    var chooseIndex = contientToIndex.get(className);
 
     // var svg = d3.select("#scatterplot").select("svg");
     var elem = G.append("rect")
@@ -185,21 +210,20 @@ function addRect(rectangles, color, cx, cy, className,addPath) {
         // .attr("r", function(d) {
         //     return rScale(d["male"] / d["participants"]);
         // })
-        .attr("x", cx)
-        .attr("y", cy)
+        .attr("x", x)
+        .attr("y", y)
         .attr("width",width)
         .attr("height",height)
         .attr("class", className)
         .attr("fill", color)
         .on("click",function (d) {
-            var chooseIndex = contientToIndex.get(className);
             isAddPathList[chooseIndex] = isAddPathList[chooseIndex]==0?1:0;
             drawWithIndex();
         })
 
     rectangles.push({
-        x: cx - width * 0.5,
-        y: cy - height * 0.5,
+        x: x - width * 0.5,
+        y: y - height * 0.5,
         width: width,
         height: height,
         elem: elem,
@@ -227,10 +251,14 @@ function myBubbleSet(flag){
     //Asia, Europe, Oceania, Africa, America
     var xsArray = new Array();
     var ysArray = new Array();
+    var rsArray = new Array();
     var nxsArray = new Array();
     var nysArray = new Array();
+    var nrsArray = new Array();
     var dxsArray = new Array();
     var dysArray = new Array();
+    var drsArray = new Array();
+    var NOCsArray = new Array();
 
     // var contientToIndex = new Map();
     // contientToIndex.set("Asia",0);
@@ -248,46 +276,46 @@ function myBubbleSet(flag){
         //比如当前为2000年，continent是亚洲。xs和ys就为亚洲所有国家在2000年的坐标
         var xs = new Array();
         var ys = new Array();
+        var rs = new Array();
         // nxs和nys为下一年的坐标
         var nxs = new Array();
         var nys = new Array();
+        var nrs = new Array();
         //dxs和dys表示
         var dxs = new Array();
         var dys = new Array();
+        var drs = new Array();
+
+        var NOCs = new Array();
 
         for(inPos of numToposition){
-            // //check bound
-            // if (currYearIndex == years.length) {
-            //     return;
-            // }
-            // else if(currYearIndex==years.length-1){
-            //     xs[xs.length] = inPos[currYearIndex*2];
-            //     ys[ys.length] = inPos[currYearIndex*2+1];
-            //     nxs[nxs.length] = -1;
-            //     nys[nys.length] = -1;
-            //     dxs[dxs.length] = 0;
-            //     dys[dys.length] = 0;
-            // }
-            // else{
-                xs[xs.length] = inPos[currYearIndex*2];
-                ys[ys.length] = inPos[currYearIndex*2+1];
-                nxs[nxs.length] = inPos[currYearIndex*2+2];
-                nys[nys.length] = inPos[currYearIndex*2+3];
-                dxs[dxs.length] = (inPos[currYearIndex*2+2]-inPos[currYearIndex*2])/60;
-                dys[dys.length] = (inPos[currYearIndex*2+3]-inPos[currYearIndex*2+1])/60;
-            // }
+            xs[xs.length] = inPos[currYearIndex*4];
+            ys[ys.length] = inPos[currYearIndex*4+1];
+            rs[rs.length] = inPos[currYearIndex*4+2];
+            NOCs[NOCs.length] = inPos[currYearIndex*4+3];
+
+            nxs[nxs.length] = inPos[currYearIndex*4+4];
+            nys[nys.length] = inPos[currYearIndex*4+5];
+            nrs[nrs.length] = inPos[currYearIndex*4+6];
+
+            dxs[dxs.length] = (inPos[currYearIndex*4+4]-inPos[currYearIndex*4])/60;
+            dys[dys.length] = (inPos[currYearIndex*4+5]-inPos[currYearIndex*4+1])/60;
+            drs[drs.length] = (inPos[currYearIndex*4+6]-inPos[currYearIndex*4+2])/60;
         }
 
         var index = contientToIndex.get(continent);
         xsArray[index] = xs;
         ysArray[index] = ys;
+        rsArray[index] = rs;
+        NOCsArray[index] = NOCs;
         nxsArray[index] = nxs;
         nysArray[index] = nys;
+        nrsArray[index] = nrs;
         dxsArray[index] = dxs;
         dysArray[index] = dys;
+        drsArray[index] = drs;
     }
 
-    // TODO: change count to global var currFrame
     //count为帧数，当前年的坐标移动到下一年的坐标需要60帧
     // var count  = 0;
     //stop=1表示跑完数据，return。
@@ -295,7 +323,6 @@ function myBubbleSet(flag){
 
     // 每秒60帧
     timer = setInterval(function() {
-
         //currFrame为帧数，当前年的坐标移动到下一年的坐标需要60帧
         ++currFrame;
         if(currFrame == 60){
@@ -309,10 +336,14 @@ function myBubbleSet(flag){
             var len = allLen.get(continent);
             var xs = xsArray[contientToIndex.get(continent)];
             var ys = ysArray[contientToIndex.get(continent)];
+            var rs = rsArray[contientToIndex.get(continent)];
+            var NOCs = NOCsArray[contientToIndex.get(continent)];
             var nxs = nxsArray[contientToIndex.get(continent)];
             var nys = nysArray[contientToIndex.get(continent)];
+            var nrs = nrsArray[contientToIndex.get(continent)];
             var dxs = dxsArray[contientToIndex.get(continent)];
             var dys = dysArray[contientToIndex.get(continent)];
+            var drs = drsArray[contientToIndex.get(continent)];
 
             // 到60帧时，进入下一年的坐标
             if (currFrame == 0) {
@@ -321,27 +352,20 @@ function myBubbleSet(flag){
                     stop = 1;
                     break;
                 }
-                // //坐标数据跑到最后一年，所有点停止移动
-                // else if (currYearIndex == years.length - 1) {
-                //     for (var j = 0; j < len; j++) {
-                //         console.log("1111");
-                //         xs[j] = numToposition[j][currYearIndex * 2];
-                //         ys[j] = numToposition[j][currYearIndex * 2 + 1];
-                //         nxs[j] = -1;
-                //         nys[j] = -1;
-                //         dxs[j] = 0;
-                //         dys[j] = 0;
-                //     }
-                // }
                 //更新下一年对应的数据
                 else {
                     for (var j = 0; j < len; j++) {
-                        xs[j] = numToposition[j][currYearIndex * 2];
-                        ys[j] = numToposition[j][currYearIndex * 2 + 1];
-                        nxs[j] = numToposition[j][currYearIndex * 2 + 2];
-                        nys[j] = numToposition[j][currYearIndex * 2 + 3];
-                        dxs[j] = (numToposition[j][currYearIndex * 2 + 2] - numToposition[j][currYearIndex * 2]) / 60;
-                        dys[j] = (numToposition[j][currYearIndex * 2 + 3] - numToposition[j][currYearIndex * 2 + 1]) / 60;
+                        xs[j] = numToposition[j][currYearIndex * 4];
+                        ys[j] = numToposition[j][currYearIndex * 4 + 1];
+                        rs[j] = numToposition[j][currYearIndex*4+2];
+
+                        nxs[j] = numToposition[j][currYearIndex * 4 + 4];
+                        nys[j] = numToposition[j][currYearIndex * 4 + 5];
+                        nrs[j] = numToposition[j][currYearIndex * 4 + 6];
+
+                        dxs[j] = (numToposition[j][currYearIndex * 4 + 4] - numToposition[j][currYearIndex * 4]) / 60;
+                        dys[j] = (numToposition[j][currYearIndex * 4 + 5] - numToposition[j][currYearIndex * 4 + 1]) / 60;
+                        drs[j] = (numToposition[j][currYearIndex * 4 + 5] - numToposition[j][currYearIndex * 4 + 2]) / 60;
                     }
                 }
             }
@@ -352,6 +376,8 @@ function myBubbleSet(flag){
                         xs[j] += dxs[j];
                     if (ys[j] != -1 && nys[j] != -1)
                         ys[j] += dys[j];
+                    if (rs[j] != -1 && nrs[j] != -1)
+                        rs[j] += drs[j];
                 }
             }
         }
@@ -373,6 +399,9 @@ function myBubbleSet(flag){
             for(continent of continents){
                 var xs = xsArray[contientToIndex.get(continent)];
                 var ys = ysArray[contientToIndex.get(continent)];
+                var rs = rsArray[contientToIndex.get(continent)];
+                var NOCs = NOCsArray[contientToIndex.get(continent)];
+
                 var len = allLen.get(continent);
                 d3.select("#main").selectAll("rect."+continent).remove();
                 d3.select("#main").selectAll("path."+continent).attr("d",'');
@@ -382,9 +411,9 @@ function myBubbleSet(flag){
                     for(var j=0;j<len;j++){
                         if(xs[j] != -1 && ys[j] != -1)
                             if(isAddPathList[0] == 1)
-                                addRect(rectanglesA, "blue", xs[j], ys[j],continent,0);
+                                addRect(rectanglesA, "blue", xs[j], ys[j],continent,0,rs[j],NOCs[j]);
                             else
-                                addRect(rectanglesA, "blue", xs[j], ys[j],continent,-1);
+                                addRect(rectanglesA, "blue", xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
                     }
                 }
                 else if(continent == "Europe"){
@@ -392,10 +421,9 @@ function myBubbleSet(flag){
                     for(var j=0;j<len;j++){
                         if(xs[j] != -1 && ys[j] != -1)
                             if(isAddPathList[1] == 1)
-                                addRect(rectanglesB, "yellow", xs[j], ys[j],continent,1);
+                                addRect(rectanglesB, "yellow", xs[j], ys[j],continent,1,rs[j],NOCs[j]);
                             else
-                                addRect(rectanglesB, "yellow", xs[j], ys[j],continent,-1);
-
+                                addRect(rectanglesB, "yellow", xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
                     }
                 }
                 else if(continent == "Oceania"){
@@ -403,9 +431,9 @@ function myBubbleSet(flag){
                     for(var j=0;j<len;j++){
                         if(xs[j] != -1 && ys[j] != -1)
                             if(isAddPathList[2] == 1)
-                                addRect(rectanglesC, "green", xs[j], ys[j],continent,2);
+                                addRect(rectanglesC, "green", xs[j], ys[j],continent,2,rs[j],NOCs[j]);
                             else
-                                addRect(rectanglesC, "green", xs[j], ys[j],continent,-1);
+                                addRect(rectanglesC, "green", xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
                     }
                 }
                 else if(continent == "Africa"){
@@ -413,9 +441,9 @@ function myBubbleSet(flag){
                     for(var j=0;j<len;j++){
                         if(xs[j] != -1 && ys[j] != -1)
                             if(isAddPathList[3] == 1)
-                                addRect(rectanglesD, "red", xs[j], ys[j],continent,3);
+                                addRect(rectanglesD, "red", xs[j], ys[j],continent,3,rs[j],NOCs[j]);
                             else
-                                addRect(rectanglesD, "red", xs[j], ys[j],continent,-1);
+                                addRect(rectanglesD, "red", xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
                     }
                 }
                 else if(continent == "America"){
@@ -423,9 +451,9 @@ function myBubbleSet(flag){
                     for(var j=0;j<len;j++){
                         if(xs[j] != -1 && ys[j] != -1)
                             if(isAddPathList[4] == 1)
-                                addRect(rectanglesE, "black", xs[j], ys[j],continent,4);
+                                addRect(rectanglesE, "black", xs[j], ys[j],continent,4,rs[j],NOCs[j]);
                             else
-                                addRect(rectanglesE, "black", xs[j], ys[j],continent,-1);
+                                addRect(rectanglesE, "black", xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
                     }
                 }
             }
