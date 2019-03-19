@@ -70,11 +70,11 @@ function setupScatterplot() {
 	G.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 	xScale = d3.scaleLinear()
-		.domain([minX, maxX])
+		.domain([0, maxX])
 		.range([0, width]);
 
 	yScale = d3.scaleLinear()
-		.domain([minR, maxY])
+		.domain([0, maxY])
 		.range([height, 0]);
 
 	const xAxis = d3.axisBottom(xScale);
