@@ -28,17 +28,17 @@ function setupSlider() {
 	});
 	slider.noUiSlider.on('slide', function() {
 		// TODO: load static graph after user slide the slider.
-        clearInterval(timer);
+		clearInterval(timer);
 		//change to stop
-		if(playFlag == 1){
+		if (playFlag == 1) {
 			var e = document.getElementById("button-img");
 			e.src = "play.png";
 			playFlag = 0;
 		}
 		// change global var
-        currYearIndex = Math.trunc(slider.noUiSlider.get());
+		currYearIndex = Math.trunc(slider.noUiSlider.get());
 		currFrame = 0;
-        drawWithIndex();
+		drawWithIndex();
 	});
 
 	slider.noUiSlider.on('set', function() {
@@ -49,7 +49,7 @@ function setupSlider() {
 
 // setupScatterplot();
 
-function setupScatterplot(){
+function setupScatterplot() {
 	const margin = {
 		top: 40,
 		right: 60,
@@ -57,31 +57,31 @@ function setupScatterplot(){
 		left: 60
 	};
 
-    G = d3.select("#scatterplot").select("svg").append("g");
-    pathA = G.append("path");
-    pathB = G.append("path");
-    pathC = G.append("path");
-    pathD = G.append("path");
-    pathE = G.append("path");
-    debug = G.append("g");
+	G = d3.select("#scatterplot").select("svg").append("g");
+	pathA = G.append("path");
+	pathB = G.append("path");
+	pathC = G.append("path");
+	pathD = G.append("path");
+	pathE = G.append("path");
+	debug = G.append("g");
 
-    const width = d3.select("#scatterplot").node().getBoundingClientRect().width - margin.left - margin.right;
-    const height = d3.select("#scatterplot").node().getBoundingClientRect().height - margin.top - margin.bottom;
+	const width = d3.select("#scatterplot").node().getBoundingClientRect().width - margin.left - margin.right;
+	const height = d3.select("#scatterplot").node().getBoundingClientRect().height - margin.top - margin.bottom;
 
 	G.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 	xScale = d3.scaleLinear()
-        .domain([minX, maxX])
-        .range([0, width]);
+		.domain([minX, maxX])
+		.range([0, width]);
 
-    yScale = d3.scaleLinear()
-        .domain([minR, maxY])
-        .range([height, 0]);
+	yScale = d3.scaleLinear()
+		.domain([minR, maxY])
+		.range([height, 0]);
 
-    const xAxis = d3.axisBottom(xScale);
-    const yAxis = d3.axisLeft(yScale);
+	const xAxis = d3.axisBottom(xScale);
+	const yAxis = d3.axisLeft(yScale);
 
-    rScale = d3.scaleLinear()
+	rScale = d3.scaleLinear()
 		.domain([minR, maxR])
 		.range([7, 14]);
 
@@ -108,27 +108,63 @@ function setupScatterplot(){
 		.attr('class', 'medal');
 
 	G.append("g")
-        .attr("class", "xaxis")
-        .attr("transform", "translate(0," + height + ")")
-        .call(xAxis);
+		.attr("class", "xaxis")
+		.attr("transform", "translate(0," + height + ")")
+		.call(xAxis);
 
 	G.append("g")
-        .attr("class", "yaxis")
-        .call(yAxis);
+		.attr("class", "yaxis")
+		.call(yAxis);
+
+	G.append("text")
+		.attr("transform", "rotate(-90)")
+		.attr("y", 0 - margin.left + 4)
+		.attr("x", 0 - (height / 2))
+		.attr("dy", "1em")
+		.style("text-anchor", "middle")
+		.text("Number of Medals");
+
+	G.append("text")
+		.attr("transform",
+			"translate(" + (width / 2) + " ," +
+			(height + margin.top) + ")")
+		.style("text-anchor", "middle")
+		.text("Number of Participants");
+
+	var legendSize = 14;
+	var gap = 6;
+	var continents = ["Asia","Africa","Europe","America","Oceania"]
+	var colors = [];
+
+	for(var i = 0;i<continents.length;i++){
+		G.append("rect")
+			.attr("x",width*.8)
+			.attr("y",20+i*(legendSize+gap))
+			.attr("width",legendSize)
+			.attr("height",legendSize)
+			.attr("fill", colors[i]);
+		G.append("text")
+			.attr("x",width*.8+legendSize+gap)
+			.attr("y",20+(i+.5)*(legendSize+gap))
+			.text(continents[i])
+			.style("font-size",legendSize+"px")
+			.style("text-anchor", "start");
+	}
 }
 
 //flag: 0:stop; 1:play
 var playFlag = 0;
+
 function play() {
 	var e = document.getElementById("button-img");
 	//change to play
-	if(playFlag == 0){
+	if (playFlag == 0) {
 		e.src = "pause.png";
 		playFlag = 1;
 		myBubbleSet(1);
 	}
 	//change to stop
-	else if(playFlag == 1){
+	else if (playFlag == 1) {
 		e.src = "play.png";
 		playFlag = 0;
 		clearInterval(timer);

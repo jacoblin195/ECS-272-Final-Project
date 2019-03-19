@@ -151,7 +151,7 @@ function updateOutline(rectangles, otherRectanglesA, otherRectanglesB,otherRecta
 //NOC: country/region
 //className: continent
 function addRect(rectangles, color, cx, cy, className,addPath,cr,NOC) {
-    var country = cTc.get(NOC);
+    var country = NOCToCountry.get(NOC);
 
     const margin = {
         top: 40,
@@ -218,11 +218,13 @@ function addRect(rectangles, color, cx, cy, className,addPath,cr,NOC) {
 
 
             var tooltip = d3.select("#scatterplot").select(".tooltip");
-            tooltip.select('.country').html(NOC);
+            tooltip.select('.country').html(country);
+            tooltip.select('.noc').html(NOC);
+
             tooltip.select('.male').html("M: " + Math.round(cr));
             tooltip.select('.female').html("F: " + Math.round(cx-cr));
             tooltip.select(".total").html("Total: " + Math.round(cx));
-            tooltip.select('.ratio').html("M ratio: " + cr / cx);
+            tooltip.select('.ratio').html("M ratio: " + (cr / cx).toFixed(2));
             tooltip.select('.medal').html("Medals: " + Math.round(cy));
             tooltip.style('display', 'block');
             tooltip.style('opacity', 1);
