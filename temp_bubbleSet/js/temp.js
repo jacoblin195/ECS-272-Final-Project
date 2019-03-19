@@ -71,7 +71,7 @@ function update(addPath) {
 
 function updateOutline(rectangles, otherRectanglesA, otherRectanglesB,otherRectanglesC,otherRectanglesD
     ,color, path, className) {
-    var pad = 2;
+    var pad = 3;
 
     if(rectangles.length!=0){
         var otherRectangles = new Array();
@@ -147,11 +147,14 @@ function updateOutline(rectangles, otherRectanglesA, otherRectanglesB,otherRecta
 
 //cx: participants
 //cy: medals
-//cr: male
+//cr: female
 //NOC: country/region
 //className: continent
 function addRect(rectangles, color, cx, cy, className,addPath,cr,NOC) {
     var country = NOCToCountry.get(NOC);
+
+    if(NOCToCountry.has(NOC) == false)
+        console.log("NOC not find");
 
     const margin = {
         top: 40,
@@ -160,18 +163,9 @@ function addRect(rectangles, color, cx, cy, className,addPath,cr,NOC) {
         left: 60
     };
 
-    // var width = 20;
-    // var height = 20;
-
     var r = rScale(cr/cx);
-    var x = xScale(cx) - r * 0.5;
-    var y = yScale(cy) - r * 0.5;
-
-    // style(elem, {
-    //     "stroke": "black",
-    //     "stroke-width": 1,
-    //     "fill": color,
-    // });
+    var x = xScale(cx);
+    var y = yScale(cy);
 
     var chooseIndex = contientToIndex.get(className);
 
@@ -192,10 +186,10 @@ function addRect(rectangles, color, cx, cy, className,addPath,cr,NOC) {
             var tooltip = d3.select("#scatterplot").select(".tooltip");
             tooltip.select('.country').html(country);
             tooltip.select('.noc').html(NOC);
-            tooltip.select('.male').html("M: " + Math.round(cr));
-            tooltip.select('.female').html("F: " + Math.round(cx-cr));
+            tooltip.select('.male').html("Female: " + Math.round(cr));
+            tooltip.select('.female').html("Male: " + Math.round(cx-cr));
             tooltip.select(".total").html("Total: " + Math.round(cx));
-            tooltip.select('.ratio').html("Male ratio: " + (cr / cx).toFixed(2));
+            tooltip.select('.ratio').html("Female ratio: " + (cr / cx).toFixed(2));
             tooltip.select('.medal').html("Medals: " + Math.round(cy));
             tooltip.style('display', 'block');
             tooltip.style('opacity', 1);
@@ -210,8 +204,8 @@ function addRect(rectangles, color, cx, cy, className,addPath,cr,NOC) {
         });
 
     rectangles.push({
-        x: x - r * 0.5,
-        y: y - r * 0.5,
+        x: x,
+        y: y,
         width: r,
         height: r,
         elem: elem,
@@ -289,6 +283,10 @@ function myBubbleSet(flag){
             dxs[dxs.length] = (inPos[currYearIndex*4+4]-inPos[currYearIndex*4])/60;
             dys[dys.length] = (inPos[currYearIndex*4+5]-inPos[currYearIndex*4+1])/60;
             drs[drs.length] = (inPos[currYearIndex*4+6]-inPos[currYearIndex*4+2])/60;
+
+            xs[xs.length-1] = xs[xs.length-1] + dxs[dxs.length-1]*currFrame;
+            ys[ys.length-1] = ys[ys.length-1] + dys[dys.length-1]*currFrame;
+            rs[rs.length-1] = rs[rs.length-1] + drs[drs.length-1]*currFrame;
         }
 
         var index = contientToIndex.get(continent);
@@ -346,6 +344,7 @@ function myBubbleSet(flag){
                         xs[j] = numToposition[j][currYearIndex * 4];
                         ys[j] = numToposition[j][currYearIndex * 4 + 1];
                         rs[j] = numToposition[j][currYearIndex*4+2];
+                        NOCs[j] = numToposition[j][currYearIndex*4+3];
 
                         nxs[j] = numToposition[j][currYearIndex * 4 + 4];
                         nys[j] = numToposition[j][currYearIndex * 4 + 5];

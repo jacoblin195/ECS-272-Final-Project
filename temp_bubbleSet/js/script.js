@@ -82,7 +82,7 @@ function setupScatterplot() {
 
 	rScale = d3.scaleLinear()
 		.domain([minR, maxR])
-		.range([10, 25]);
+		.range([15, 40]);
 
 	var tooltip = d3.select("#scatterplot")
 		.append('div')

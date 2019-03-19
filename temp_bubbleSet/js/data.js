@@ -11,7 +11,7 @@ var topAscKeyToMap = new Map();
 //limit input data
 var NOCToNumber = new Map();
 var NOCToMostMedal = new Map();
-var isAddPathList = [1,1,1,1,1];
+var isAddPathList = [0,0,0,0,0];
 
 //TODO: data process
 var years = ["1896", "1900", "1904", "1906", "1908", "1912", "1920", "1924", "1928", "1932", "1936", "1948", "1952", "1956", "1960", "1964", "1968", "1972", "1976", "1980", "1984", "1988", "1992", "1996", "2000", "2004", "2008", "2012", "2016"];
@@ -49,9 +49,9 @@ var colors = {
   "America":"#dd0e2b"};
 
 d3.csv("./json/data.csv").then((function(data){
+
   data.forEach(function(d){
-    if(NOCToCountry.has(d.NOC) == false)
-      NOCToCountry.set(d.NOC,d.country);
+    NOCToCountry.set(d.NOC, d.country);
 
     if(NOCToNumber.has(d.NOC)){
       var number = NOCToNumber.get(d.NOC);
@@ -113,7 +113,7 @@ d3.csv("./json/data.csv").then((function(data){
 
       keyToMap.set(key,inMap);
     }
-  })
+  });
 
   // Create items array
   var outSort = Array.from(keyToMap.keys()).map(function(key) {
@@ -199,7 +199,7 @@ d3.csv("./json/data.csv").then((function(data){
         if(minY > inPos[index+1])
           minY = inPos[index+1];
 
-        inPos[index+2] = +inData[2];
+        inPos[index+2] = +inData[3];
         if(maxR < inPos[index+2]/inPos[index])
           maxR = inPos[index+2]/inPos[index];
         if(minR > inPos[index+2]/inPos[index])
@@ -225,12 +225,11 @@ d3.csv("./json/data.csv").then((function(data){
         if(minY > inPos[index+1])
           minY = inPos[index+1];
 
-        inPos[index+2] = +inData[2];
+        inPos[index+2] = +inData[3];
         if(maxR < inPos[index+2]/inPos[index])
           maxR = inPos[index+2]/inPos[index];
         if(minR > inPos[index+2]/inPos[index])
           minR = inPos[index+2]/inPos[index];
-
 
         inPos[index+3] = NOC;
 
@@ -261,13 +260,47 @@ function drawWithIndex(){
     var xs = new Array();
     var ys = new Array();
     var rs = new Array();
+    var nxs = new Array();
+    var nys = new Array();
+    var nrs = new Array();
+    var dxs = new Array();
+    var dys = new Array();
+    var drs = new Array();
     var NOCs = new Array();
-    for(inPos of numToposition){
-      xs[xs.length] = inPos[currYearIndex*4];
-      ys[ys.length] = inPos[currYearIndex*4+1];
-      rs[rs.length] = inPos[currYearIndex*4+2];
-      NOCs[NOCs.length] = inPos[currYearIndex*4+3];
+
+    if(currYearIndex == years.length-1){
+      for(inPos of numToposition) {
+        xs[xs.length] = inPos[currYearIndex * 4];
+        ys[ys.length] = inPos[currYearIndex * 4 + 1];
+        rs[rs.length] = inPos[currYearIndex * 4 + 2];
+        NOCs[NOCs.length] = inPos[currYearIndex * 4 + 3];
+
+        nxs[nxs.length] = 0;
+        nys[nys.length] = 0;
+        nrs[nrs.length] = 0;
+
+        dxs[dxs.length] = 0;
+        dys[dys.length] = 0;
+        drs[drs.length] = 0;
+      }
     }
+    else{
+      for(inPos of numToposition){
+        xs[xs.length] = inPos[currYearIndex*4];
+        ys[ys.length] = inPos[currYearIndex*4+1];
+        rs[rs.length] = inPos[currYearIndex*4+2];
+        NOCs[NOCs.length] = inPos[currYearIndex*4+3];
+
+        nxs[nxs.length] = inPos[currYearIndex*4+4];
+        nys[nys.length] = inPos[currYearIndex*4+5];
+        nrs[nrs.length] = inPos[currYearIndex*4+6];
+
+        dxs[dxs.length] = (inPos[currYearIndex*4+4]-inPos[currYearIndex*4])/60;
+        dys[dys.length] = (inPos[currYearIndex*4+5]-inPos[currYearIndex*4+1])/60;
+        drs[drs.length] = (inPos[currYearIndex*4+6]-inPos[currYearIndex*4+2])/60;
+      }
+    }
+
 
     d3.select("#main").selectAll("rect."+continent).remove();
     d3.select("#main").selectAll("path."+continent).attr("d",'');
@@ -277,9 +310,9 @@ function drawWithIndex(){
       for(var j=0;j<len;j++){
         if(xs[j] != -1 && ys[j] != -1)
           if(isAddPathList[0] == 1)
-            addRect(rectanglesA, colors["Asia"], xs[j], ys[j],continent,0,rs[j],NOCs[j]);
+            addRect(rectanglesA, colors["Asia"], (xs[j]+dxs[j]*currFrame), (ys[j]+dys[j]*currFrame),continent,0,(rs[j]+drs[j]*currFrame),NOCs[j]);
           else
-            addRect(rectanglesA, colors["Asia"], xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
+            addRect(rectanglesA, colors["Asia"], (xs[j]+dxs[j]*currFrame), (ys[j]+dys[j]*currFrame),continent,-1,(rs[j]+drs[j]*currFrame),NOCs[j]);
       }
     }
     else if(continent == "Europe"){
@@ -287,9 +320,9 @@ function drawWithIndex(){
       for(var j=0;j<len;j++){
         if(xs[j] != -1 && ys[j] != -1)
           if(isAddPathList[1] == 1)
-            addRect(rectanglesB, colors["Europe"], xs[j], ys[j],continent,1,rs[j],NOCs[j]);
+            addRect(rectanglesB, colors["Europe"], (xs[j]+dxs[j]*currFrame), (ys[j]+dys[j]*currFrame),continent,1,(rs[j]+drs[j]*currFrame),NOCs[j]);
           else
-            addRect(rectanglesB, colors["Europe"], xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
+            addRect(rectanglesB, colors["Europe"], (xs[j]+dxs[j]*currFrame), (ys[j]+dys[j]*currFrame),continent,-1,(rs[j]+drs[j]*currFrame),NOCs[j]);
       }
     }
     else if(continent == "Oceania"){
@@ -297,9 +330,9 @@ function drawWithIndex(){
       for(var j=0;j<len;j++){
         if(xs[j] != -1 && ys[j] != -1)
           if(isAddPathList[2] == 1)
-            addRect(rectanglesC, colors["Oceania"], xs[j], ys[j],continent,2,rs[j],NOCs[j]);
+            addRect(rectanglesC, colors["Oceania"], (xs[j]+dxs[j]*currFrame), (ys[j]+dys[j]*currFrame),continent,2,(rs[j]+drs[j]*currFrame),NOCs[j]);
           else
-            addRect(rectanglesC, colors["Oceania"], xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
+            addRect(rectanglesC, colors["Oceania"], (xs[j]+dxs[j]*currFrame), (ys[j]+dys[j]*currFrame),continent,-1,(rs[j]+drs[j]*currFrame),NOCs[j]);
       }
     }
     else if(continent == "Africa"){
@@ -307,9 +340,9 @@ function drawWithIndex(){
       for(var j=0;j<len;j++){
         if(xs[j] != -1 && ys[j] != -1)
           if(isAddPathList[3] == 1)
-            addRect(rectanglesD, colors["Africa"], xs[j], ys[j],continent,3,rs[j],NOCs[j]);
+            addRect(rectanglesD, colors["Africa"], (xs[j]+dxs[j]*currFrame), (ys[j]+dys[j]*currFrame),continent,3,(rs[j]+drs[j]*currFrame),NOCs[j]);
           else
-            addRect(rectanglesD, colors["Africa"], xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
+            addRect(rectanglesD, colors["Africa"], (xs[j]+dxs[j]*currFrame), (ys[j]+dys[j]*currFrame),continent,-1,(rs[j]+drs[j]*currFrame),NOCs[j]);
       }
     }
     else if(continent == "America"){
@@ -317,9 +350,9 @@ function drawWithIndex(){
       for(var j=0;j<len;j++){
         if(xs[j] != -1 && ys[j] != -1)
           if(isAddPathList[4] == 1)
-            addRect(rectanglesE, colors["America"], xs[j], ys[j],continent,4,rs[j],NOCs[j]);
+            addRect(rectanglesE, colors["America"], (xs[j]+dxs[j]*currFrame), (ys[j]+dys[j]*currFrame),continent,4,(rs[j]+drs[j]*currFrame),NOCs[j]);
           else
-            addRect(rectanglesE, colors["America"], xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
+            addRect(rectanglesE, colors["America"], (xs[j]+dxs[j]*currFrame), (ys[j]+dys[j]*currFrame),continent,-1,(rs[j]+drs[j]*currFrame),NOCs[j]);
       }
     }
   }
