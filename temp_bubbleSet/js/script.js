@@ -82,8 +82,8 @@ function setupScatterplot(){
     const yAxis = d3.axisLeft(yScale);
 
     rScale = d3.scaleLinear()
-		.domain([minR/minX, maxR/maxX])
-		.range([3.5, 15]);
+		.domain([minR, maxR])
+		.range([7, 14]);
 
 	// const colorScale = d3.scaleLinear()
 	// 	.domain([0, 1])

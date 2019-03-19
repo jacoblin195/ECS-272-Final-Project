@@ -98,14 +98,6 @@ function updateOutline(rectangles, otherRectanglesA, otherRectanglesB,otherRecta
             new ShapeSimplifier(0.0),
         ]);
         // outline is a path that can be used for the attribute d of a path element
-        // attr(path, {
-        //     "d": outline,
-        //     "opacity": 0.5,
-        //     "fill": color,
-        //     "stroke": "black",
-        //     class:className
-        // });
-
         path.attr("d", outline)
             .attr("opacity", 0.5)
             .attr("fill",color)
@@ -171,31 +163,14 @@ function addRect(rectangles, color, cx, cy, className,addPath,cr,NOC) {
     var width = 20;
     var height = 20;
 
-    var x = xScale(cx);
-    var y = yScale(cy);
     var r = rScale(cr/cx);
+    var x = xScale(cx) - r * 0.5;
+    var y = yScale(cy) - r * 0.5;
 
-    console.log(className);
-    console.log(NOC);
-    console.log(country);
-    console.log(cx);
-    console.log(cy)
-    console.log(cr);
-
-    console.log(x);
-    console.log(y)
-    console.log(r);
     // var x = cx - width * 0.5;
     // var y = cy - height * 0.5;
     // //generate rectangles
-    // var elem = appendSVG(items, "rect");
-    // attr(elem, {
-    //     x: x,
-    //     y: y,
-    //     width: width,
-    //     height: height,
-    //     class: className
-    // });
+
     // style(elem, {
     //     "stroke": "black",
     //     "stroke-width": 1,
@@ -204,21 +179,45 @@ function addRect(rectangles, color, cx, cy, className,addPath,cr,NOC) {
 
     var chooseIndex = contientToIndex.get(className);
 
-    // var svg = d3.select("#scatterplot").select("svg");
-    var elem = G.append("rect")
+    // // var svg = d3.select("#scatterplot").select("svg");
+    // var elem = G.append("rect")
+    //     .attr("class", className)
+    //     // .attr("r", function(d) {
+    //     //     return rScale(d["male"] / d["participants"]);
+    //     // })
+    //     .attr("x", x)
+    //     .attr("y", y)
+    //     .attr("width",width)
+    //     .attr("height",height)
+    //     .attr("class", className)
+    //     .attr("fill", color)
+    //     .on("click",function (d) {
+    //         isAddPathList[chooseIndex] = isAddPathList[chooseIndex]==0?1:0;
+    //         drawWithIndex();
+    //     })
+
+
+    var elem = G.append("circle")
         .attr("class", className)
-        // .attr("r", function(d) {
-        //     return rScale(d["male"] / d["participants"]);
-        // })
-        .attr("x", x)
-        .attr("y", y)
-        .attr("width",width)
-        .attr("height",height)
-        .attr("class", className)
+        .attr("r", r)
+        .attr("cx", x)
+        .attr("cy", y)
         .attr("fill", color)
         .on("click",function (d) {
             isAddPathList[chooseIndex] = isAddPathList[chooseIndex]==0?1:0;
             drawWithIndex();
+        })
+        .on('mouseover', (d) => {
+            console.log("contient: " + className);
+            console.log("NOC: " + NOC);
+            console.log("country: " + country);
+            console.log("participants: " + cx);
+            console.log("medals: " + cy)
+            console.log("male: " + cr);
+            console.log("female: " + (cx - cr));
+        })
+        .on('mouseout', function() {
+            console.log("mouseout");
         })
 
     rectangles.push({
@@ -403,7 +402,7 @@ function myBubbleSet(flag){
                 var NOCs = NOCsArray[contientToIndex.get(continent)];
 
                 var len = allLen.get(continent);
-                d3.select("#main").selectAll("rect."+continent).remove();
+                d3.select("#main").selectAll("circle."+continent).remove();
                 d3.select("#main").selectAll("path."+continent).attr("d",'');
 
                 if(continent == "Asia"){

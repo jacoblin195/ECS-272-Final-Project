@@ -185,14 +185,14 @@ d3.csv("./json/data.csv").then((function(data){
         inPos[index+1] = +inData[4];
         if(maxY < inPos[index+1])
           maxY = inPos[index+1];
-        if(maxY > inPos[index+1])
-          maxY = inPos[index+1];
+        if(minY > inPos[index+1])
+          minY = inPos[index+1];
 
         inPos[index+2] = +inData[2];
-        if(maxR < inPos[index+2])
-          maxR = inPos[index+2];
-        if(maxR > inPos[index+2])
-          maxR = inPos[index+2];
+        if(maxR < inPos[index+2]/inPos[index])
+          maxR = inPos[index+2]/inPos[index];
+        if(minR > inPos[index+2]/inPos[index])
+          minR = inPos[index+2]/inPos[index];
 
         inPos[index+3] = NOC;
       }
@@ -211,14 +211,14 @@ d3.csv("./json/data.csv").then((function(data){
         inPos[index+1] = +inData[4];
         if(maxY < inPos[index+1])
           maxY = inPos[index+1];
-        if(maxY > inPos[index+1])
-          maxY = inPos[index+1];
+        if(minY > inPos[index+1])
+          minY = inPos[index+1];
 
         inPos[index+2] = +inData[2];
-        if(maxR < inPos[index+2])
-          maxR = inPos[index+2];
-        if(maxR > inPos[index+2])
-          maxR = inPos[index+2];
+        if(maxR < inPos[index+2]/inPos[index])
+          maxR = inPos[index+2]/inPos[index];
+        if(minR > inPos[index+2]/inPos[index])
+          minR = inPos[index+2]/inPos[index];
 
 
         inPos[index+3] = NOC;
@@ -280,7 +280,7 @@ function drawWithIndex(){
       NOCs[NOCs.length] = inPos[currYearIndex*4+3];
     }
 
-    d3.select("#main").selectAll("rect."+continent).remove();
+    d3.select("#main").selectAll("circle."+continent).remove();
     d3.select("#main").selectAll("path."+continent).attr("d",'');
 
     if(continent == "Asia"){
