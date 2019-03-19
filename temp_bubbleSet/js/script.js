@@ -88,7 +88,23 @@ function setupScatterplot(){
 	// const colorScale = d3.scaleLinear()
 	// 	.domain([0, 1])
 	// 	.range([0, 1]);
+	var tooltip = d3.select("#scatterplot")
+		.append('div')
+		.attr('class', 'tooltip');
 
+	tooltip.append('div')
+		.attr('class', 'country');
+	tooltip.append('div')
+		.attr('class', 'male');
+	tooltip.append('div')
+		.attr('class', 'female');
+	tooltip.append('div')
+		.attr('class', 'total');
+	tooltip.append('div')
+		.attr('class', 'ratio');
+	tooltip.append('div')
+		.attr('class', 'medal');
+		
 	G.append("g")
         .attr("class", "xaxis")
         .attr("transform", "translate(0," + height + ")")

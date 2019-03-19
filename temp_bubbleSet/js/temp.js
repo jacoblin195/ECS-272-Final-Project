@@ -215,10 +215,28 @@ function addRect(rectangles, color, cx, cy, className,addPath,cr,NOC) {
             console.log("medals: " + cy)
             console.log("male: " + cr);
             console.log("female: " + (cx - cr));
+
+
+            var tooltip = d3.select("#scatterplot").select(".tooltip");
+            tooltip.select('.country').html(NOC);
+            tooltip.select('.male').html("M: " + cr);
+            tooltip.select('.female').html("F: " + (cx-cr));
+            tooltip.select(".total").html("Total: " + cx);
+            tooltip.select('.ratio').html("M ratio: " + cr / cx);
+            tooltip.select('.medal').html("Medals: " + cy);
+            tooltip.style('display', 'block');
+            tooltip.style('opacity', 1);
+
+            tooltip.style('top', (y + 15 + margin.top) + 'px')
+                .style('left', (x + 15 + margin.left) + 'px');
         })
         .on('mouseout', function() {
             console.log("mouseout");
-        })
+
+            var tooltip = d3.select("#scatterplot").select(".tooltip");
+            tooltip.style('display', 'none');
+            tooltip.style('opacity', 0);
+        });
 
     rectangles.push({
         x: x - width * 0.5,
