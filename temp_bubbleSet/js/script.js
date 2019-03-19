@@ -145,7 +145,7 @@ function setupScatterplot() {
 			.attr("fill", colors[i]);
 		G.append("text")
 			.attr("x",width*.8+legendSize+gap)
-			.attr("y",20+(i+.5)*(legendSize+gap))
+			.attr("y",20+(i+.6)*(legendSize+gap))
 			.text(continents[i])
 			.style("font-size",legendSize+"px")
 			.style("text-anchor", "start");
