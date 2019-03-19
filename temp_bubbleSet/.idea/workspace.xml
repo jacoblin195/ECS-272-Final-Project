@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b896284-9a96-48c9-961c-80bd7d5d7972" name="Default Changelist" comment="2.50">
+    <list default="true" id="b10a99aa-65b3-4c57-891f-6fa595e4db92" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Xander Fang.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/temp.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/temp.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,23 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="25" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/temp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="153" column="30" selection-start-line="153" selection-start-column="30" selection-end-line="153" selection-end-column="30" />
+            <state relative-caret-position="255">
+              <caret line="68" column="101" selection-start-line="68" selection-start-column="101" selection-end-line="68" selection-end-column="101" />
             </state>
           </provider>
         </entry>
@@ -40,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1230">
-              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="616">
+              <caret line="132" column="68" selection-start-line="132" selection-start-column="68" selection-end-line="132" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -49,79 +41,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="46" column="18" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="18" />
+            <state relative-caret-position="331">
+              <caret line="274" selection-start-line="274" selection-end-line="323" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/play.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/json/data.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state>
-              <caret column="12" selection-start-column="5" selection-end-column="12" />
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>appendSVG</find>
-      <find>style(</find>
-      <find>removeAllChilds</find>
-      <find>attr(</find>
-      <find>drwa</find>
       <find>circle</find>
-      <find>drawWithIndex</find>
-      <find>mouse</find>
-      <find>max</find>
-      <find>-1</find>
-      <find>2</find>
-      <find>setupScatterplot</find>
-      <find>xAxis</find>
-      <find>Scale</find>
       <find>rScale</find>
-      <find>addRect</find>
-      <find>main</find>
-      <find>yScale</find>
-      <find>update</find>
-      <find>dot</find>
-      <find>rect.</find>
-      <find>svg</find>
-      <find>CT</find>
-      <find>r</find>
+      <find>color</find>
       <find>rect</find>
-      <find>rs</find>
-      <find>red</find>
-      <find>sc</find>
-      <find>minR</find>
-      <find>cTc</find>
+      <find>colors</find>
     </findStrings>
-    <replaceStrings>
-      <replace>year</replace>
-      <replace>ascInMap</replace>
-      <replace>NOC</replace>
-      <replace>j</replace>
-      <replace>numToposition[j]</replace>
-      <replace>currYearIndex</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -129,22 +73,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/js/bubblesets.js" />
-        <option value="$PROJECT_DIR$/js/backup.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/script_reference.js" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/js/data.js" />
         <option value="$PROJECT_DIR$/js/temp.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="246" />
-    <option name="y" value="140" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1440" />
+    <option name="y" value="-220" />
+    <option name="width" value="2560" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -163,17 +102,7 @@
             <path>
               <item name="temp_bubbleSet" type="b2602c69:ProjectViewProjectNode" />
               <item name="temp_bubbleSet" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="temp_bubbleSet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="temp_bubbleSet" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="temp_bubbleSet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="temp_bubbleSet" type="462c0819:PsiDirectoryNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -183,15 +112,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/js" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -210,52 +132,26 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8b896284-9a96-48c9-961c-80bd7d5d7972" name="Default Changelist" comment="" />
-      <created>1552090847636</created>
+      <changelist id="b10a99aa-65b3-4c57-891f-6fa595e4db92" name="Default Changelist" comment="" />
+      <created>1552971074706</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1552090847636</updated>
-      <workItem from="1552090849879" duration="2325000" />
-      <workItem from="1552172267015" duration="5529000" />
-      <workItem from="1552178195157" duration="468000" />
-      <workItem from="1552178941658" duration="2349000" />
-      <workItem from="1552272816148" duration="333000" />
-      <workItem from="1552444244850" duration="6277000" />
-      <workItem from="1552456107855" duration="300000" />
-      <workItem from="1552456477974" duration="4822000" />
-      <workItem from="1552469754629" duration="1761000" />
-      <workItem from="1552471577566" duration="32000" />
-      <workItem from="1552519754682" duration="646000" />
-      <workItem from="1552535518066" duration="5455000" />
-      <workItem from="1552602991187" duration="9284000" />
-      <workItem from="1552622681686" duration="844000" />
-      <workItem from="1552623597313" duration="8000" />
-      <workItem from="1552623739580" duration="219000" />
-      <workItem from="1552711216889" duration="4753000" />
-      <workItem from="1552717973478" duration="8044000" />
-      <workItem from="1552757871683" duration="1060000" />
-      <workItem from="1552761243237" duration="10388000" />
-      <workItem from="1552792340409" duration="3496000" />
-      <workItem from="1552801287785" duration="16000" />
-      <workItem from="1552846741258" duration="20000" />
-      <workItem from="1552860443307" duration="735000" />
-      <workItem from="1552861194675" duration="2304000" />
-      <workItem from="1552865371957" duration="2230000" />
-      <workItem from="1552892779838" duration="9717000" />
-      <workItem from="1552951555374" duration="4672000" />
+      <updated>1552971074706</updated>
+      <workItem from="1552971077086" duration="17000" />
+      <workItem from="1552971169556" duration="1324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88087000" />
+    <option name="totallyTimeSpent" value="1341000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="1440" y="-220" width="2560" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.18181819" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24970461" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -271,123 +167,36 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.18181819" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="2.50" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.50" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/student-mat.csv" />
-    <entry file="file://$PROJECT_DIR$/athlete_events.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="731">
-          <caret line="59" column="69" selection-start-line="59" selection-start-column="69" selection-end-line="59" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/Yearly_Data/1896.json" />
-    <entry file="file://$PROJECT_DIR$/js/json/2008.json" />
-    <entry file="file://$PROJECT_DIR$/json/1906.json" />
-    <entry file="file://$PROJECT_DIR$/json/data.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/js/backup.js" />
-    <entry file="file://$PROJECT_DIR$/js/bubblesets.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="1368" column="33" selection-start-line="1368" selection-start-column="33" selection-end-line="1368" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pause.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/play.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/pj1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/nouislider.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script_reference.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="148" column="27" selection-start-line="148" selection-start-column="27" selection-end-line="148" selection-end-column="27" />
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="616">
+          <caret line="132" column="68" selection-start-line="132" selection-start-column="68" selection-end-line="132" selection-end-column="68" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json/data.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="12" selection-start-column="5" selection-end-column="12" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="46" column="18" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="331">
+          <caret line="274" selection-start-line="274" selection-end-line="323" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/temp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="153" column="30" selection-start-line="153" selection-start-column="30" selection-end-line="153" selection-end-column="30" />
+        <state relative-caret-position="255">
+          <caret line="68" column="101" selection-start-line="68" selection-start-column="101" selection-end-line="68" selection-end-column="101" />
         </state>
       </provider>
     </entry>

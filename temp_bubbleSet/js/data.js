@@ -41,6 +41,13 @@ var currYearIndex = 0;
 // current frame
 var currFrame = 0;
 
+var colors = {
+  "Asia": "#f3c132",
+  "Europe":"#1287c4",
+  "Oceania":"#19a24d",
+  "Africa": "#000000",
+  "America":"#dd0e2b"};
+
 d3.csv("./json/data.csv").then((function(data){
   data.forEach(function(d){
     if(NOCToCountry.has(d.NOC) == false)
@@ -242,33 +249,11 @@ d3.csv("./json/data.csv").then((function(data){
 
   setupScatterplot();
 
-  // //TODO: change X and Y sacle
-  // for(key of continents){
-  //   var numToposition = allNumToPosition.get(key);
-  //   for(inPos of numToposition){
-  //     var index = inLen;
-  //     for(var i=0;i<index/4;i++){
-  //       if(inPos[i*4] != -1)
-  //         inPos[i*4] = Math.round(xScale(inPos[i*4]));
-  //       if(inPos[i*4+1] != -1)
-  //         inPos[i*4+1] = Math.round(yScale(inPos[i*4+1]));
-  //       if(inPos[i*4+2] != -1)
-  //         inPos[i*4+2] = Math.round(rScale(inPos[i*4+2]));
-  //     }
-  //   }
-  // }
   // draw the bubble first time
   drawWithIndex();
-
-// //TODO: bubble set funciton
-// isAddPathList.length = 5. value = {0,1}.
-//   myBubbleSet(1);
 }));
 
-
-// TODO: change currYearIndex to redraw bubble set.
 function drawWithIndex(){
-
   for(continent of continents){
     var numToposition = allNumToPosition.get(continent);
     var len = allLen.get(continent);
@@ -284,7 +269,7 @@ function drawWithIndex(){
       NOCs[NOCs.length] = inPos[currYearIndex*4+3];
     }
 
-    d3.select("#main").selectAll("circle."+continent).remove();
+    d3.select("#main").selectAll("rect."+continent).remove();
     d3.select("#main").selectAll("path."+continent).attr("d",'');
 
     if(continent == "Asia"){
@@ -292,9 +277,9 @@ function drawWithIndex(){
       for(var j=0;j<len;j++){
         if(xs[j] != -1 && ys[j] != -1)
           if(isAddPathList[0] == 1)
-            addRect(rectanglesA, "blue", xs[j], ys[j],continent,0,rs[j],NOCs[j]);
+            addRect(rectanglesA, colors["Asia"], xs[j], ys[j],continent,0,rs[j],NOCs[j]);
           else
-            addRect(rectanglesA, "blue", xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
+            addRect(rectanglesA, colors["Asia"], xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
       }
     }
     else if(continent == "Europe"){
@@ -302,9 +287,9 @@ function drawWithIndex(){
       for(var j=0;j<len;j++){
         if(xs[j] != -1 && ys[j] != -1)
           if(isAddPathList[1] == 1)
-            addRect(rectanglesB, "yellow", xs[j], ys[j],continent,1,rs[j],NOCs[j]);
+            addRect(rectanglesB, colors["Europe"], xs[j], ys[j],continent,1,rs[j],NOCs[j]);
           else
-            addRect(rectanglesB, "yellow", xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
+            addRect(rectanglesB, colors["Europe"], xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
       }
     }
     else if(continent == "Oceania"){
@@ -312,9 +297,9 @@ function drawWithIndex(){
       for(var j=0;j<len;j++){
         if(xs[j] != -1 && ys[j] != -1)
           if(isAddPathList[2] == 1)
-            addRect(rectanglesC, "green", xs[j], ys[j],continent,2,rs[j],NOCs[j]);
+            addRect(rectanglesC, colors["Oceania"], xs[j], ys[j],continent,2,rs[j],NOCs[j]);
           else
-            addRect(rectanglesC, "green", xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
+            addRect(rectanglesC, colors["Oceania"], xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
       }
     }
     else if(continent == "Africa"){
@@ -322,9 +307,9 @@ function drawWithIndex(){
       for(var j=0;j<len;j++){
         if(xs[j] != -1 && ys[j] != -1)
           if(isAddPathList[3] == 1)
-            addRect(rectanglesD, "red", xs[j], ys[j],continent,3,rs[j],NOCs[j]);
+            addRect(rectanglesD, colors["Africa"], xs[j], ys[j],continent,3,rs[j],NOCs[j]);
           else
-            addRect(rectanglesD, "red", xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
+            addRect(rectanglesD, colors["Africa"], xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
       }
     }
     else if(continent == "America"){
@@ -332,9 +317,9 @@ function drawWithIndex(){
       for(var j=0;j<len;j++){
         if(xs[j] != -1 && ys[j] != -1)
           if(isAddPathList[4] == 1)
-            addRect(rectanglesE, "black", xs[j], ys[j],continent,4,rs[j],NOCs[j]);
+            addRect(rectanglesE, colors["America"], xs[j], ys[j],continent,4,rs[j],NOCs[j]);
           else
-            addRect(rectanglesE, "black", xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
+            addRect(rectanglesE, colors["America"], xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
       }
     }
   }

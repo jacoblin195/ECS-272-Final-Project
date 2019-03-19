@@ -58,15 +58,15 @@ contientToIndex.set("America",4);
 
 function update(addPath) {
     if(addPath == 0)
-        updateOutline(rectanglesA, rectanglesB, rectanglesC, rectanglesD, rectanglesE,"blue", pathA,"Asia");
+        updateOutline(rectanglesA, rectanglesB, rectanglesC, rectanglesD, rectanglesE,colors["Asia"], pathA,"Asia");
     else if(addPath == 1)
-        updateOutline(rectanglesB, rectanglesA, rectanglesC, rectanglesD, rectanglesE,"red", pathB,"Europe");
+        updateOutline(rectanglesB, rectanglesA, rectanglesC, rectanglesD, rectanglesE,colors["Europe"], pathB,"Europe");
     else if(addPath == 2)
-        updateOutline(rectanglesC, rectanglesB, rectanglesA, rectanglesD, rectanglesE,"green", pathC,"Oceania");
+        updateOutline(rectanglesC, rectanglesB, rectanglesA, rectanglesD, rectanglesE,colors["Oceania"], pathC,"Oceania");
     else if(addPath == 3)
-        updateOutline(rectanglesD, rectanglesB, rectanglesC, rectanglesA, rectanglesE,"yellow", pathD,"Africa");
+        updateOutline(rectanglesD, rectanglesB, rectanglesC, rectanglesA, rectanglesE,colors["Africa"], pathD,"Africa");
     else if(addPath == 4)
-        updateOutline(rectanglesE, rectanglesB, rectanglesC, rectanglesD, rectanglesA,"black", pathE,"America");
+        updateOutline(rectanglesE, rectanglesB, rectanglesC, rectanglesD, rectanglesA,colors["America"], pathE,"America");
 }
 
 function updateOutline(rectangles, otherRectanglesA, otherRectanglesB,otherRectanglesC,otherRectanglesD
@@ -160,16 +160,12 @@ function addRect(rectangles, color, cx, cy, className,addPath,cr,NOC) {
         left: 60
     };
 
-    var width = 20;
-    var height = 20;
+    // var width = 20;
+    // var height = 20;
 
     var r = rScale(cr/cx);
     var x = xScale(cx) - r * 0.5;
     var y = yScale(cy) - r * 0.5;
-
-    // var x = cx - width * 0.5;
-    // var y = cy - height * 0.5;
-    // //generate rectangles
 
     // style(elem, {
     //     "stroke": "black",
@@ -179,52 +175,27 @@ function addRect(rectangles, color, cx, cy, className,addPath,cr,NOC) {
 
     var chooseIndex = contientToIndex.get(className);
 
-    // // var svg = d3.select("#scatterplot").select("svg");
-    // var elem = G.append("rect")
-    //     .attr("class", className)
-    //     // .attr("r", function(d) {
-    //     //     return rScale(d["male"] / d["participants"]);
-    //     // })
-    //     .attr("x", x)
-    //     .attr("y", y)
-    //     .attr("width",width)
-    //     .attr("height",height)
-    //     .attr("class", className)
-    //     .attr("fill", color)
-    //     .on("click",function (d) {
-    //         isAddPathList[chooseIndex] = isAddPathList[chooseIndex]==0?1:0;
-    //         drawWithIndex();
-    //     })
-
-
-    var elem = G.append("circle")
+    //generate rectangles
+    var elem = G.append("rect")
         .attr("class", className)
-        .attr("r", r)
-        .attr("cx", x)
-        .attr("cy", y)
+        .attr("x", x)
+        .attr("y", y)
+        .attr("width",r)
+        .attr("height",r)
+        .attr("class", className)
         .attr("fill", color)
         .on("click",function (d) {
             isAddPathList[chooseIndex] = isAddPathList[chooseIndex]==0?1:0;
             drawWithIndex();
         })
         .on('mouseover', (d) => {
-            console.log("contient: " + className);
-            console.log("NOC: " + NOC);
-            console.log("country: " + country);
-            console.log("participants: " + cx);
-            console.log("medals: " + cy)
-            console.log("male: " + cr);
-            console.log("female: " + (cx - cr));
-
-
             var tooltip = d3.select("#scatterplot").select(".tooltip");
             tooltip.select('.country').html(country);
             tooltip.select('.noc').html(NOC);
-
             tooltip.select('.male').html("M: " + Math.round(cr));
             tooltip.select('.female').html("F: " + Math.round(cx-cr));
             tooltip.select(".total").html("Total: " + Math.round(cx));
-            tooltip.select('.ratio').html("M ratio: " + (cr / cx).toFixed(2));
+            tooltip.select('.ratio').html("Male ratio: " + (cr / cx).toFixed(2));
             tooltip.select('.medal').html("Medals: " + Math.round(cy));
             tooltip.style('display', 'block');
             tooltip.style('opacity', 1);
@@ -233,18 +204,16 @@ function addRect(rectangles, color, cx, cy, className,addPath,cr,NOC) {
                 .style('left', (x + 15 + margin.left) + 'px');
         })
         .on('mouseout', function() {
-            console.log("mouseout");
-
             var tooltip = d3.select("#scatterplot").select(".tooltip");
             tooltip.style('display', 'none');
             tooltip.style('opacity', 0);
         });
 
     rectangles.push({
-        x: x - width * 0.5,
-        y: y - height * 0.5,
-        width: width,
-        height: height,
+        x: x - r * 0.5,
+        y: y - r * 0.5,
+        width: r,
+        height: r,
         elem: elem,
     });
 
@@ -422,17 +391,18 @@ function myBubbleSet(flag){
                 var NOCs = NOCsArray[contientToIndex.get(continent)];
 
                 var len = allLen.get(continent);
-                d3.select("#main").selectAll("circle."+continent).remove();
+                d3.select("#main").selectAll("rect."+continent).remove();
                 d3.select("#main").selectAll("path."+continent).attr("d",'');
+
 
                 if(continent == "Asia"){
                     rectanglesA = [];
                     for(var j=0;j<len;j++){
                         if(xs[j] != -1 && ys[j] != -1)
                             if(isAddPathList[0] == 1)
-                                addRect(rectanglesA, "blue", xs[j], ys[j],continent,0,rs[j],NOCs[j]);
+                                addRect(rectanglesA, colors["Asia"], xs[j], ys[j],continent,0,rs[j],NOCs[j]);
                             else
-                                addRect(rectanglesA, "blue", xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
+                                addRect(rectanglesA, colors["Asia"], xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
                     }
                 }
                 else if(continent == "Europe"){
@@ -440,9 +410,9 @@ function myBubbleSet(flag){
                     for(var j=0;j<len;j++){
                         if(xs[j] != -1 && ys[j] != -1)
                             if(isAddPathList[1] == 1)
-                                addRect(rectanglesB, "yellow", xs[j], ys[j],continent,1,rs[j],NOCs[j]);
+                                addRect(rectanglesB, colors["Europe"], xs[j], ys[j],continent,1,rs[j],NOCs[j]);
                             else
-                                addRect(rectanglesB, "yellow", xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
+                                addRect(rectanglesB, colors["Europe"], xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
                     }
                 }
                 else if(continent == "Oceania"){
@@ -450,9 +420,9 @@ function myBubbleSet(flag){
                     for(var j=0;j<len;j++){
                         if(xs[j] != -1 && ys[j] != -1)
                             if(isAddPathList[2] == 1)
-                                addRect(rectanglesC, "green", xs[j], ys[j],continent,2,rs[j],NOCs[j]);
+                                addRect(rectanglesC, colors["Oceania"], xs[j], ys[j],continent,2,rs[j],NOCs[j]);
                             else
-                                addRect(rectanglesC, "green", xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
+                                addRect(rectanglesC, colors["Oceania"], xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
                     }
                 }
                 else if(continent == "Africa"){
@@ -460,9 +430,9 @@ function myBubbleSet(flag){
                     for(var j=0;j<len;j++){
                         if(xs[j] != -1 && ys[j] != -1)
                             if(isAddPathList[3] == 1)
-                                addRect(rectanglesD, "red", xs[j], ys[j],continent,3,rs[j],NOCs[j]);
+                                addRect(rectanglesD, colors["Africa"], xs[j], ys[j],continent,3,rs[j],NOCs[j]);
                             else
-                                addRect(rectanglesD, "red", xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
+                                addRect(rectanglesD, colors["Africa"], xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
                     }
                 }
                 else if(continent == "America"){
@@ -470,14 +440,12 @@ function myBubbleSet(flag){
                     for(var j=0;j<len;j++){
                         if(xs[j] != -1 && ys[j] != -1)
                             if(isAddPathList[4] == 1)
-                                addRect(rectanglesE, "black", xs[j], ys[j],continent,4,rs[j],NOCs[j]);
+                                addRect(rectanglesE, colors["America"], xs[j], ys[j],continent,4,rs[j],NOCs[j]);
                             else
-                                addRect(rectanglesE, "black", xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
+                                addRect(rectanglesE, colors["America"], xs[j], ys[j],continent,-1,rs[j],NOCs[j]);
                     }
                 }
             }
-            if(currFrame == 0)
-                console.log(years[currYearIndex]);
         }
     }, 1000/60);
     //每一帧花费1000/60微秒。即一秒60帧。

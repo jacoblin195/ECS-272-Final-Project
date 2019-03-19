@@ -43,7 +43,6 @@ function setupSlider() {
 
 	slider.noUiSlider.on('set', function() {
 		// TODO: load static graph after slider is set to new values.
-		// console.log("set");
 	});
 }
 
@@ -83,11 +82,8 @@ function setupScatterplot() {
 
 	rScale = d3.scaleLinear()
 		.domain([minR, maxR])
-		.range([7, 14]);
+		.range([10, 25]);
 
-	// const colorScale = d3.scaleLinear()
-	// 	.domain([0, 1])
-	// 	.range([0, 1]);
 	var tooltip = d3.select("#scatterplot")
 		.append('div')
 		.attr('class', 'tooltip');
@@ -134,7 +130,7 @@ function setupScatterplot() {
 	var legendSize = 14;
 	var gap = 6;
 	var continents = ["Asia","Africa","Europe","America","Oceania"]
-	var colors = [];
+	var colors = ["#f3c132", "#000000","#1287c4","#dd0e2b","#19a24d"];
 
 	for(var i = 0;i<continents.length;i++){
 		G.append("rect")
