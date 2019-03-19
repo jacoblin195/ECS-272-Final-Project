@@ -151,7 +151,7 @@ function updateOutline(rectangles, otherRectanglesA, otherRectanglesB,otherRecta
 //NOC: country/region
 //className: continent
 function addRect(rectangles, color, cx, cy, className,addPath,cr,NOC) {
-    var country = cTc.get(NOC);
+    var country = NOCToCountry.get(NOC);
 
     const margin = {
         top: 40,

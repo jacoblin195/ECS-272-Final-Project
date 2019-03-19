@@ -1,5 +1,6 @@
 // countryToContinent (NOC -> continent)
 var cTc = new Map();
+var NOCToCountry = new Map();
 //keyMap: year -> (Map: NOC: Array())
 //Array[0]:country, Array[1]:num; Array[2]:manNum; Array[3]:womanNum; Array[4]:medal;
 var keyToMap = new Map();
@@ -42,6 +43,9 @@ var currFrame = 0;
 
 d3.csv("./json/data.csv").then((function(data){
   data.forEach(function(d){
+    if(NOCToCountry.has(d.NOC) == false)
+      NOCToCountry.set(d.NOC,d.country);
+
     if(NOCToNumber.has(d.NOC)){
       var number = NOCToNumber.get(d.NOC);
       NOCToNumber.set(d.NOC,number+1);

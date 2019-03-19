@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b896284-9a96-48c9-961c-80bd7d5d7972" name="Default Changelist" comment="2.50">
-      <change afterPath="$PROJECT_DIR$/Final Project Report.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/temp.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/temp.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -33,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/temp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
-              <caret line="238" column="10" selection-start-line="238" selection-start-column="10" selection-end-line="238" selection-end-column="10" />
+            <state relative-caret-position="223">
+              <caret line="153" column="30" selection-start-line="153" selection-start-column="30" selection-end-line="153" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -42,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1062">
+            <state relative-caret-position="1230">
               <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
             </state>
           </provider>
@@ -51,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="39" selection-start-column="30" selection-end-column="39" />
+            <state relative-caret-position="209">
+              <caret line="46" column="18" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -66,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/json/data.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
             <state>
-              <caret column="39" selection-start-column="27" selection-end-column="39" />
+              <caret column="12" selection-start-column="5" selection-end-column="12" />
             </state>
           </provider>
           <provider editor-type-id="csv-table-editor">
@@ -85,7 +83,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>items</find>
       <find>appendSVG</find>
       <find>style(</find>
       <find>removeAllChilds</find>
@@ -115,6 +112,7 @@
       <find>red</find>
       <find>sc</find>
       <find>minR</find>
+      <find>cTc</find>
     </findStrings>
     <replaceStrings>
       <replace>year</replace>
@@ -136,8 +134,8 @@
         <option value="$PROJECT_DIR$/js/backup.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/script_reference.js" />
-        <option value="$PROJECT_DIR$/js/data.js" />
         <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/js/data.js" />
         <option value="$PROJECT_DIR$/js/temp.js" />
       </list>
     </option>
@@ -244,12 +242,12 @@
       <workItem from="1552861194675" duration="2304000" />
       <workItem from="1552865371957" duration="2230000" />
       <workItem from="1552892779838" duration="9717000" />
-      <workItem from="1552951555374" duration="4517000" />
+      <workItem from="1552951555374" duration="4672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87932000" />
+    <option name="totallyTimeSpent" value="88087000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -330,16 +328,6 @@
     <entry file="file://$PROJECT_DIR$/play.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -355,16 +343,6 @@
     <entry file="file://$PROJECT_DIR$/css/nouislider.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/json/data.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="39" selection-start-column="27" selection-end-column="39" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/script_reference.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -374,22 +352,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1062">
+        <state relative-caret-position="1230">
           <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/json/data.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="12" selection-start-column="5" selection-end-column="12" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="30" selection-end-column="39" />
+        <state relative-caret-position="209">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/temp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="238" column="10" selection-start-line="238" selection-start-column="10" selection-end-line="238" selection-end-column="10" />
+        <state relative-caret-position="223">
+          <caret line="153" column="30" selection-start-line="153" selection-start-column="30" selection-end-line="153" selection-end-column="30" />
         </state>
       </provider>
     </entry>
