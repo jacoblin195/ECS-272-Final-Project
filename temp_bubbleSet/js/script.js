@@ -95,6 +95,8 @@ function setupScatterplot(){
 	tooltip.append('div')
 		.attr('class', 'country');
 	tooltip.append('div')
+		.attr('class', 'noc');
+	tooltip.append('div')
 		.attr('class', 'male');
 	tooltip.append('div')
 		.attr('class', 'female');
@@ -104,7 +106,7 @@ function setupScatterplot(){
 		.attr('class', 'ratio');
 	tooltip.append('div')
 		.attr('class', 'medal');
-		
+
 	G.append("g")
         .attr("class", "xaxis")
         .attr("transform", "translate(0," + height + ")")
